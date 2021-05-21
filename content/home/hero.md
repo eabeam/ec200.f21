@@ -8,19 +8,20 @@ weight: 10
 title: "EC200 Econometrics and Applications"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media: econ_hires.png
+# hero_media: econ_hires.png
+hero_media: pexels-flickr-145919
 
 design:
   background:
     # Background gradient
-    gradient_start: '#5e81ac'
-    gradient_end: '#81a1c1'
+    gradient_start: '#876A82'
+    gradient_end: '#77848C'
 
     # Text color (true=light or false=dark).
     text_color_light: true
 
 cta_note:
-  label: EC200 - Fall 2020<br>College of Arts and Sciences<br>University of Vermont
+  label: EC200 - Fall 2021<br>College of Arts and Sciences<br>University of Vermont
 ---
 
 **Use econometric tools and Stata to ask and answer economic questions**
