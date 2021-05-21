@@ -1,0 +1,49 @@
+---
+title: "Problem set 1"
+linktitle: "PS 1"
+date: "2020-08-29"
+due_date: "2020-09-11"
+due_time: "2:20 pm"
+menu:
+  assignment:
+    parent: Problem Sets
+    weight: 1
+type: docs
+weight: 1
+editor_options: 
+  chunk_output_type: console
+---
+    
+   ||||||
+| ----------: |  ----------: | ----------: | ----------: | ----------: |  
+      |    X     |   -1   |  0   |   1    |  4|
+|       $P(X=x)$ |  0.25  | 0.30 |  0.40  | 0.05|
+
+
+
+
+1.  Consider the above random variable, $X$, with its associated
+    probability distribution:
+
+    a.  Draw the probability distribution function and the cumulative
+        distribution function.
+
+    b.  What is the expected value of X? That is, what is $E[X]$?
+
+    c.  What is the variance of X?
+
+2.  Stock and Watson 2.6, 2.10, (note that I originally assigned 2.18, 3.16, but the content is covered in Week 3 - you can submit these now _or_ with PS2) 
+
+3.  For a randomly selected county in the United States, let $X$
+    represent the proportion of adults over age 65 who are employed (the
+    elderly employment rate). Then, $X$ is restricted to a value between
+    zero and one. Suppose that the cumulative distribution function for
+    $X$ is given by $F(x) = 3x^2 - 2x^3$ for $0 \leq x \leq 1$.
+
+    a.  What is the probability that the elderly employment rate is at
+        least 0.5 (50%)?
+
+    b.  What is the probability that the elderly employment rate is
+        between 0.4 (40%) and 0.6 (60%)?
+
+

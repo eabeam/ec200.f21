@@ -1,0 +1,100 @@
+
+
+---
+title: Class Recordings
+sitetitle: Class Recordings
+summary: 
+
+date: "2020-10-17"
+
+
+  
+  # Academic page type (do not modify).
+type: docs
+menu:
+  content:
+    parent: Videos
+    weight: 1
+    
+output:
+  blogdown::html_page:
+    toc: true
+
+
+
+---
+
+Earlier recordings are on Teams.
+
+
+## Week 6 
+### 10/07 Class Recording
+
+`r htmltools::HTML("{{< youtube c8zSRqkS_SA >}}")`
+
+## Week 7 
+### 10/12 Class Recording
+
+<iframe src="https://streaming.uvm.edu/media/embed/LOJbHAa/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+## Week 8
+
+### 10/19 Class Recording
+
+<iframe src="https://streaming.uvm.edu/media/embed/zxqotIA/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+
+### 10/21 Class Recording
+
+<iframe src="https://streaming.uvm.edu/media/embed/rh2LNzE/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+
+## Week 9 
+
+### 10/26 Class Recording
+
+<iframe src="https://streaming.uvm.edu/media/embed/iM9eQzi/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+### 10/28 Class Recording 
+
+
+<iframe src="https://streaming.uvm.edu/media/embed/UIrJ4nU/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+## Week 10 
+
+### 11/02 Class 
+
+This was a day of big internet problems ... 
+
+### 11/02 Class Recording 
+
+<iframe src="https://streaming.uvm.edu/media/embed/OVqieVQ/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+## Week 11
+
+### 11/09 Class Recording
+
+A great tragedy ... the recording didn't work! :sob:
+
+### 11/11 Class Recording
+
+<iframe src="https://streaming.uvm.edu/media/embed/d89ZdcD/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+
+
+## Week 12 
+
+### 11/16 Class Recording 
+
+<iframe src="https://streaming.uvm.edu/media/embed/uYSht54/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+### 11/18 Class Recording 
+
+<iframe src="https://streaming.uvm.edu/media/embed/85lXjkW/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+
+## Week 13 
+
+### 11/23 Class Recording
+
+<iframe src="https://streaming.uvm.edu/media/embed/ypKTzfH/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
