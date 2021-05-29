@@ -17,4 +17,4 @@ design:
 
 {{< courseinfo >}}
 
-<!-- {{< figure src="/img/8141-flowchart.png" alt="Course map" >}}
+<!-- {{< figure src="/media/cheese-bedsheets.png" alt="Course map" >}}
