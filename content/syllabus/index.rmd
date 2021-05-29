@@ -19,13 +19,6 @@ menu: syllabus
 
 ![Correlation and causation](correlation.png)
 
-
-
-
-*Fall 2020 will be a strange semester. My operating principle is that we
-are all trying our best. I will work to accommodate personal
-emergencies, unpredictable schedules, general chaos as best I can.*
-
 # Course description {#course-description .unnumbered}
 
 **Credits: 3**
@@ -49,7 +42,6 @@ out the rest.
 
 # Learning objectives:  {#learning-objectives .unnumbered}
 
-
 -   To understand and apply foundational tools in econometric theory
 
 -   To use econometric tools and statistical packages (Stata) to analyze
@@ -60,20 +52,15 @@ out the rest.
 
 # Required materials  {#required-materials .unnumbered}
 
-
 -   **Textbook:** Stock, James H. and Mark W. Watson. *Introduction to
     Econometrics*, 3rd edition (updated), Pearson. ISBN-13:
     978-0-13-348687-2.
 
-    -   **I recommend buying cheaper used copies online ($\sim$ \$20)**,
-        international is fine. There is a 3rd edition that is "updated"
-        and one that is not. I am using the "updated" edition. If you
-        buy the one that is not "updated," your problem numbers will be
-        off.
+    -   **I recommend buying cheaper used copies online ($\sim$ \$20)** I am using the "updated"         edition. International is fine, but your problems/solutions may differ from mine. For             exercises, I will provide the full text of problems.
 
     -   There is a newer, 4th edition available. Do not purchase this!
 
-    -   We are **not** using any of the digital Pearson tools.
+    -   We are **not** using any digital Pearson tools.
 
 -   **Stata**: We will use Stata extensively in this course, including
     outside of class. It is compatible with Windows/MacOS/Linux. You
@@ -81,64 +68,44 @@ out the rest.
     there is a link to a pdf file that contains the licensing
     information.
 
--   **MS Teams** All class sessions will take place on Teams.
-
 # Course components {#course-components .unnumbered}
 
-## Video lectures {#video-lectures .unnumbered}
+## Embarking on the week {#class-meetings-m .unnumbered}
 
-I will post a series of videos each Friday night, with accompanying
-slides. You can find all these on Blackboard. You should review these
-and take a short quiz on Blackboard before coming to class on Monday.
+If you come into class without preparing, things will feel bad! Before you come to class Monday, you should (1) watch the video lecture (15-30 minutes usually) and (2) earn at least an 80% on that week's lecture quiz. 
 
-After reviewing, you'll take a [**video quiz**](/assignment#video-quizzes) on Blackboard. You need an 80\% for credit, and you can make unlimited attempts. These must be completed before Monday class. 
+## Lectures and practice (M/W/F) {#class-meetings-m .unnumbered}
 
-## Class meetings (M) {#class-meetings-m .unnumbered}
+Our class meetings will be a combination of lecture, practice, and labs. 
 
-Live class meetings. I will review key concepts, we'll work through some
-problems.
+We will not have labs every week, but when we do, they will be on Wednesdays. During labs you should bring a laptop to class. I will demo some concepts and commands and give you time to practice. A final version of your [lab](/assignment#labs) will be due before the next Monday class.
 
 
-## Stata labs (W) {#stata-labs-w .unnumbered}
+# Deadlines  {#deadlines-and-extensions .unnumbered}
 
-Live class meetings. I will demonstrate some Stata techniques and you'll
-have time to practice. A final version of your [lab](/assignment#labs) will be due before the next Monday class.
+-   All deadlines are at 1:10pm, and all assignments are due on Blackboard.
 
-## Q&A (F) {#qa-f .unnumbered}
-
-Live class time (optional) to review lab questions, homework questions,
-any questions!
-
-*All class sessions will be recorded and available on Blackboard/Teams.*
-
-# Deadlines and extensions {#deadlines-and-extensions .unnumbered}
-
--   All deadlines are at 2:20pm.
-
--   As a general rule, problem sets are due on Fridays at 2:20pm. Video
-    quizzes and final labs are due on Mondays at 2:20pm.
+-   As a general rule, problem sets are due on Fridays at 1:10pm. Video
+    quizzes and final labs are due on Mondays at 1:10pm.
 
 -   Please submit all assignments through Blackboard. If you encounter
     technical issues, e-mail is a fine last resort.
 
--   I have an "**extensions for all**" policy for all assignments. If
-    you need an extension, you should request it by e-mail **before**
-    the deadline. Provide (a) your work so far (if applicable)
-    and (b) a proposed new deadline. Some assignments build on previous
-    ones, so be careful when requesting that you don't put yourself in a
-    tricky position. I don't need to know why you need the extension.
+-   Late problem sets and labs will be penalized 10 percentage points per day. 
+
+-   Regarding **research papers elements *only***, I have an *"extensions for all"* policy
+  - If you need an extension, request it by e-mail **before** the deadline and provide proposed     new deadline. 
+  - Some assignments build on previous ones, so be careful when requesting that you don't put       yourself in a tricky position. I don't need to know why you need the extension. 
+  - If you exceed your revised deadline (or you request an extension *after* the due date), then     I will start applying the 10 percentage point deduction per day. 
 
 
-<!---# Class Engagement and Attendance {#class-engagement-and-attendance .unnumbered}
+# Class Engagement and attendance {#class-engagement-and-attendance .unnumbered}
 
 This is a challenging course, and you'll get the most out of it if you
-engage with the material both during and outside of class. I don't take attendance You are
+engage with the material both during and outside of class. You are
 responsible for finding a classmate or checking Blackboard for any
 content you may miss during class. 
 
-I don't take attendance explicitly,
-but note that lab grades can only be submitted if you attend class.
---->
 
 # Grading {#grading .unnumbered}
 
@@ -150,9 +117,9 @@ but note that lab grades can only be submitted if you attend class.
 | Labs                                  |        10%   |
 | Problem sets                           |       10%   |
 | Unit quizzes (3 quizzes at 5%, 15%, 15%)|      35%   |
-|Research paper                           |     40%   |
+| Research paper                           |     40%   |
 
-*I will drop your lowest lecture quiz, lab, and problem set.*
+*I will drop your lowest lecture quiz*
 
 ## Grading distribution {#grading-distribution .unnumbered}
 
@@ -181,10 +148,9 @@ but note that lab grades can only be submitted if you attend class.
 # Quizzes {#quizzes .unnumbered}
 
 
-There are two unit quizzes (15% each) and one stats quiz (5%). All
-quizzes are open book. You should not collaborate. 
-The unit quizzes will have a Stata component and a written component. Quizzes are not
-explicitly cumulative, but you'll need to master skills from earlier
+There are two unit quizzes (15% each) and one stats quiz (5%). All quizzes are in-class and open note, but computers will not be permitted. 
+
+Quizzes are not explicitly cumulative, but you'll need to master skills from earlier
 chapters to tackle the newer material.
 
 # FAQ {#frequently-asked-questions .unnumbered}
@@ -200,7 +166,7 @@ chapters to tackle the newer material.
 
 1.  *I am sick and need to miss class. Will I lose points? Do I need to
     tell you?* You don't need to let me know if you will be missing
-    class. If you need an extension,though, I will need to know that in
+    class. If you need an extension, though, I will need to know that in
     advance of the deadline.
 
 1.  *Do I really need to buy a textbook?* Yes. 3rd (updated edition),
@@ -208,16 +174,19 @@ chapters to tackle the newer material.
     
 1.  Do I need a computer for this class? You will need a computer for any work with Stata. I *think* there is a way to get Stata to run on a Chromebook, but I can provide you with roughly zero technical support for setting that up!
 
-1.  *My computer is broken/missing/on fire and I cannot submit my
+<!-- 1.  *My computer is broken/missing/on fire and I cannot submit my 
     assignment on time!* Give me a heads up prior to the deadline, and
     we can work out an extension.
+    --> 
 
-1.  *Can I use another software program (i.e. Excel, SPSS, EViews, R,
-    Gretl, etc.)?* In special cases, maybe. Talk to me first if you have
-    a compelling reason why you would like to use another program. It needs to be something with replicable code (ie R, not Excel). I
-    won't be able to provide assistance with problem sets or your
-    project if you decide not to use Stata, and you will still be
-    responsible for any Stata-related questions that come up on quizzes.
+1. *Can I use open-source, glorious, R?* Sure. But I have many caveats and warnings. (1) You will need to to be comfortable reading and interpreting Stata output in order to be successful on exams. (2) I will be teaching in Stata exclusively, and the technical support I will be able to provide is limited. 
+
+<!-- 1.  *Can I use another software program (i.e. Excel, SPSS, EViews, R, -->
+<!--     Gretl, etc.)?* In special cases, maybe. Talk to me first if you have -->
+<!--     a compelling reason why you would like to use another program. It needs to be something with replicable code (ie R, not Excel). I -->
+<!--     won't be able to provide assistance with problem sets or your -->
+<!--     project if you decide not to use Stata, and you will still be -->
+<!--     responsible for any Stata-related questions that come up on quizzes. -->
 
 # [I am in college and having some problems]{#i-am-having-some-problems .unnumbered}
 
