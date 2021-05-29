@@ -1,25 +1,14 @@
 // Plasma colors
 // viridisLite::viridis(8, option = "plasma", begin = 0.1, end = 0.9)
-// $colors: (
-//    #0D0887,  /* Blue Trust */
-//    #5601A4,  /* Aubergine Perl */
-//    #900DA4,  /* Violet Eggplant */
-//    #BF3984,  /* Medium Red Violet */
-//    #E16462,  /* Briquette */
-//    #F89441,  /* Chat Orange */
-//    #FCCE25   /* Lemon Punch */
-// );
-
- $colors: (
+$colors: (
     #0D0887,  /* Blue Trust */
     #5601A4,  /* Aubergine Perl */
     #900DA4,  /* Violet Eggplant */
-   #F89441,  /* Chat Orange */
     #BF3984,  /* Medium Red Violet */
     #E16462,  /* Briquette */
+    #F89441,  /* Chat Orange */
     #FCCE25   /* Lemon Punch */
 );
-
 
 body {
     font-size: 1.1rem;
@@ -31,11 +20,11 @@ h2 {
 }
 
 h1 {
-    font-size: 2.0rem;
+    font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-top: 2.75rem;
 }
 
@@ -215,7 +204,7 @@ footer p {
 .article-style #TOC {
     font-size: 0.8rem;
     text-align: left;
-    background: lighten(nth($colors, 4), 30%);
+    background: lighten(nth($colors, 4), 35%);
     padding: 0;
     margin: 4px 0 2rem;
     padding-bottom: 0.5rem;
@@ -347,7 +336,7 @@ td.mid-table-header {
 }
 
 .bg-content {
-    background-color: lighten(nth($colors, 3),0%);
+    background-color: nth($colors, 3);
 }
 
 .bg-assignment {
