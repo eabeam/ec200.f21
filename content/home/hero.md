@@ -8,14 +8,13 @@ weight: 10
 title: "EC200 Econometrics and Applications"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-# hero_media: econ_hires.png
-hero_media: pexels-flickr-145919
+hero_media: econ_hires.png
 
 design:
   background:
     # Background gradient
-    gradient_start: '#876A82'
-    gradient_end: '#77848C'
+    gradient_start: '#e89944'
+    gradient_end: '#b26330'
 
     # Text color (true=light or false=dark).
     text_color_light: true

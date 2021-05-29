@@ -14,7 +14,8 @@
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
 #theme = "minimal"
-theme = "nord"
+#theme = "nord"
+theme = "plasma"
 # Enable users to switch between day and night mode?
 day_night = true
 
@@ -22,7 +23,7 @@ day_night = true
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in font sets in `themes/academic/data/fonts/`
 #   Browse user installed font sets in `data/fonts/`
-font = ""
+font = "fira sans"
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
@@ -324,14 +325,12 @@ plugins_js  = []
 
   [course]
     number = " EC200"
-    semester= "Fall 2020"
+    semester= "Fall 2021"
     days= " Mondays and Wednesdays (Friday asynchronous)"
     time= " 2:20-3:10pm"
-    # location: "Online only (thanks, COVID-19, for ruining everything)"
-    dates= " August 31–December 07, 2020"
-    #github: "andrewheiss/econf20.classes.andrewheiss.com"
-    copyrightYear= " 2020"
-    #slack: "https://gsueconf2020.slack.com"
+    location= "127 Jeffords"
+    dates= " August 30–December 10, 2021"
+    copyrightYear= " 2021"
 
   [university]
     name="University of Vermont"

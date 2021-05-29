@@ -6,7 +6,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Econometrics and Applications"
+title = "EC200: Econometrics and Applications"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -66,7 +66,9 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
     [markup.goldmark.renderer]
       unsafe = true  # Enable user to embed HTML snippets in Markdown content.
   [markup.highlight]
-    codeFences = false  # Disable Hugo's code highlighter as it conflicts with Academic's highligher.
+    codeFences = true  # Disable Hugo's code highlighter as it conflicts with Academic's highligher. (removed following AH)
+    guessSyntax= true   # AH
+    style =  "monokai"    # AH
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 3
@@ -91,8 +93,8 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
     [params]
   google_fonts = [
     ["Fira Code", "400, 700"],
-    ["Open Sans", "400, 400i, 700, 700i"]
+    ["Fira Sans", "400, 400i, 700, 700i"]
   ]
 
   heading_font = "Fira Code"
-  body_font = "Open Sans"
+  body_font = "Fira Sans"
