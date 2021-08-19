@@ -2,7 +2,7 @@
 title: Syllabus
 slug: syllabus
 citeproc: true
-date: 2020-08-26
+date: 2021-08-19
 type: page
 
 #bibliography: ../../static/bib/references.bib
@@ -72,26 +72,26 @@ out the rest.
 
 ## Embarking on the week {#class-meetings-m .unnumbered}
 
-If you come into class without preparing, things will feel bad! Before you come to class Monday, you should (1) watch the video lecture (15-30 minutes usually) and (2) earn at least an 80% on that week's lecture quiz. 
+If you come into class without preparing, things will feel bad! Check the calendar to see what you need to do. Before we start on a new unit, you should always read the associated chapters! There is usually an assigned or optional lecture video to get your prepared. If assigned, you'll also need to earn an 80% on that week's lecture quiz. 
 
 ## Lectures and practice (M/W/F) {#class-meetings-m .unnumbered}
 
 Our class meetings will be a combination of lecture, practice, and labs. 
 
-We will not have labs every week, but when we do, they will be on Wednesdays. During labs you should bring a laptop to class. I will demo some concepts and commands and give you time to practice. A final version of your [lab](/assignment#labs) will be due before the next Monday class.
+We will not have labs every week, but when we do, they will be on Wednesdays. During labs you should bring a laptop to class. I will demo some concepts and commands and give you time to practice. A final version of your [lab](/assignment#labs) will be due before the next **Wednesday** class.
 
 
 # Deadlines  {#deadlines-and-extensions .unnumbered}
 
--   All deadlines are at 1:10pm, and all assignments are due on Blackboard.
+-   All deadlines are at 2:20pm, and all assignments are due on Blackboard.
 
--   As a general rule, problem sets are due on Fridays at 1:10pm. Video
-    quizzes and final labs are due on Mondays at 1:10pm.
+-   As a general rule, problem sets are due on Fridays at 2:20pm. Video
+    quizzes are due  and final labs are due on Mondays at 2:20pm.
 
 -   Please submit all assignments through Blackboard. If you encounter
     technical issues, e-mail is a fine last resort.
 
--   Late problem sets and labs will be penalized 10 percentage points per day. 
+-   Late problem sets and labs will be penalized 10 percentage points per day. Late video quizzes are not accepted
 
 -   Regarding **research papers elements *only***, I have an *"extensions for all"* policy
   - If you need an extension, request it by e-mail **before** the deadline and provide proposed     new deadline. 
@@ -113,10 +113,10 @@ content you may miss during class.
 
 |    Assignment    |   Percent
 | :------------- | :----------: | 
-| Lecture quizzes                    |           5%    |
+| Lecture video quizzes                    |           5%    |
 | Labs                                  |        10%   |
 | Problem sets                           |       10%   |
-| Unit quizzes (3 quizzes at 5%, 15%, 15%)|      35%   |
+| Exams (3 quizzes at 5%, 15%, 15%)       |      35%   |
 | Research paper                           |     40%   |
 
 *I will drop your lowest lecture quiz*
@@ -148,7 +148,7 @@ content you may miss during class.
 # Quizzes {#quizzes .unnumbered}
 
 
-There are two unit quizzes (15% each) and one stats quiz (5%). All quizzes are in-class and open note, but computers will not be permitted. 
+There are two unit exams (15% each) and one stats exam (5%). All quizzes are in-class and open note, but computers/tablets/phones will not be permitted. 
 
 Quizzes are not explicitly cumulative, but you'll need to master skills from earlier
 chapters to tackle the newer material.
