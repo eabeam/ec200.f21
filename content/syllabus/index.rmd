@@ -15,15 +15,16 @@ output:
 menu: syllabus
 ---
 
+
 `r blogdown::shortcode("courseinfo")`
 
-![Correlation and causation](correlation.png)
+![](correlation.png)
 
 # Course description {#course-description .unnumbered}
 
 **Credits: 3**
 
-Thiscourse will provide a theoretical and practical background in basic
+This course will provide a theoretical and practical background in basic
 econometric techniques. We will review probability and statistics before
 covering classical linear regression with two or more variables,
 estimation and hypothesis testing, and violations of classical
@@ -72,9 +73,7 @@ out the rest.
 
 ## Embarking on the week {#class-meetings-m .unnumbered}
 
-If you come into class without preparing, things will feel bad! Check the calendar to see what you need to do. Before we start on a new unit, you should always read the associated chapters! There is usually an assigned or optional lecture video to get your prepared. If assigned, you'll also need to earn an 80% on that week's lecture quiz. 
-
-## Lectures and practice (M/W/F) {#class-meetings-m .unnumbered}
+If you come into class without preparing, things will feel bad! Check the calendar to see what you need to do. Before we start on a new unit, you should always read the associated chapters. There is usually an assigned or optional lecture video to get your prepared. If assigned, you'll also need to earn an 80% on that week's lecture quiz. 
 
 Our class meetings will be a combination of lecture, practice, and labs. 
 
@@ -86,15 +85,15 @@ We will not have labs every week, but when we do, they will be on Wednesdays. Du
 -   All deadlines are at 2:20pm, and all assignments are due on Blackboard.
 
 -   As a general rule, problem sets are due on Fridays at 2:20pm. Video
-    quizzes are due  and final labs are due on Mondays at 2:20pm.
+    quizzes are usually due Mondays, and final labs are due on Wednesdays at 2:20pm.
 
 -   Please submit all assignments through Blackboard. If you encounter
     technical issues, e-mail is a fine last resort.
 
--   Late problem sets and labs will be penalized 10 percentage points per day. Late video quizzes are not accepted
+-   Late problem sets and labs will be penalized 10 percentage points per day. Late video quizzes are not accepted.
 
 -   Regarding **research papers elements *only***, I have an *"extensions for all"* policy
-  - If you need an extension, request it by e-mail **before** the deadline and provide proposed     new deadline. 
+  - If you need an extension, request it by e-mail **before** the deadline and provide a proposed new deadline. 
   - Some assignments build on previous ones, so be careful when requesting that you don't put       yourself in a tricky position. I don't need to know why you need the extension. 
   - If you exceed your revised deadline (or you request an extension *after* the due date), then     I will start applying the 10 percentage point deduction per day. 
 
@@ -148,7 +147,7 @@ content you may miss during class.
 # Quizzes {#quizzes .unnumbered}
 
 
-There are two unit exams (15% each) and one stats exam (5%). All quizzes are in-class and open note, but computers/tablets/phones will not be permitted. 
+There are two unit exams (15% each) and one stats exam (5%). All quizzes are in-class and open note, but computers/tablets/phones are not permitted. 
 
 Quizzes are not explicitly cumulative, but you'll need to master skills from earlier
 chapters to tackle the newer material.

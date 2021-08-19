@@ -3,11 +3,12 @@ title: "Schedule"
 slug: schedule
 ---
 
-{{< figure library="true" src="EC200layout.png" title="" >}}
+<!--{{< figure library="true" src="EC200layout.png" title="" >}}-->
 
-
+##  [Printer-friendly schedule (pdf)](EC200_Schedule_F21.pdf)
 What's the plan?
 <!--
+
 - [**Topic**](/content/) Linked topics take you to the content or lab for that day's session.
 - [**Problem Sets**](/assignment/) (<i class="fas fa-pencil-alt"></i>): Link to problem sets. Usually due at the end of the week, so we can work through any questions in class.
 - [**Lab**](/assignment/) (<i class="fas fa-laptop-code"></i>): Link to labs. Usually due Monday after we do the in-class lab demonstration.
@@ -19,79 +20,82 @@ What's the plan?
 **Research paper assignments are due at 11:59PM on date indicated**
 
 
-|Week|Date| Day|Topic|Video Quiz| Problem Set|Lab|Paper|
-| :------------- | ----------: | :------------- | :------------- | :----------: | :-------------:|:-------------: | :-------------: | :----------: |
-|1 |||**Introductions**   | | | ||
-|  | 31 Aug | M | [Introductions](/syllabus/)  || | |
-|  | 02 Sep | W | [Lab 1: Getting to know Stata](/assignment/01-lab) |  | | | |
-|  | 04 Sep | F | [*CH2 content available*](/content/01-content) |  | | | |
-| ||| | | | |
-|2 |||**Probability Review (CH2)**  | | |||
-|  | 07 Sep | M | Labor Day | | | | |
-|  | 09 Sep | W | [Lab 2: Do-files](/assignment/02-lab) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)| |[<i class="fas fa-laptop-code"></i>](/assignment/01-lab)  | |
-|  | 11 Sep | F | [*CH3 content available*](/content/02-content)| |[<i class="fas fa-pencil-alt"></i>](/assignment/01-ps) | | |
-| ||| | | | ||
-|3 |||**Statistics Review (CH3)**   | | | ||
-|  | 14 Sep | M | [Statistics review](/content/02-content/) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)||[<i class="fas fa-laptop-code"></i>](/assignment/02-lab) |  |
-|  | 16 Sep | W | [<i class="fas fa-dragon"></i> Research paper introduction](/assignment/01-researchpaper) |  ||  | |
-|  | 18 Sep | F |[*CH4 content available*](/content/04-content)   | | [<i class="fas fa-pencil-alt"></i>](/assignment/02-ps)| ||
-| ||| | | | |
+|Week|Date| Day|Topic|Before Class| Submissions|
+| :------------- | ----------: | :------------- | :------------- | :----------: | :-------------:| 
+|1 |||**Probability review (CH2)**   | | | 
+|  | 30 Aug | M | [Introductions](/syllabus/)  || 
+|  | 01 Sep | W | [Lab 1: Getting to know Stata](/assignment/01-lab) | [Download Stata](https://software.uvm.edu/) | | 
+|  | 03 Sep | F | [CH2 Probability Review](/content/01-content) | Read CH2 and watch video|  [<i class="fas fa-tv"></i> VQ1 due](https://bb.uvm.edu) | | | |
+| ||| | | 
+|2 |||**Statistics Review (CH3)**  | | 
+|  | 06 Sep | M | Labor Day | | | 
+|  | 08 Sep | W | Statistics review |Read CH3 and watch video | [<i class="fas fa-tv"></i> VQ2 due](https://bb.uvm.edu) <br>[<i class="fas fa-laptop-code"></i> Lab 1 due](/assignment/01-lab)  |
+|  | 10 Sep | F | Statistics review | | | 
+| ||| | | 
+|3 |||**Probability and Statistics Review (CH2/3)**   | | 
+|  | 13 Sep | M | [<i class="fas fa-dragon"></i> RP: Identifying a research question](/assignment/01-researchpaper)  | | | 
+|  | 15 Sep | W | [Lab 2: Do-files](/assignment/02-lab) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)| |
+|  | 10 Sep | F | Probability/statistics practice| |[<i class="fas fa-pencil-alt"></i> PS1 due](/assignment/01-ps) | | 
+| ||| | | 
 | 4|||**Simple Linear Regression (CH4)**   | | | |
-|  | 21 Sep | M | Exam 1: Probability and statistics review (CH2/3) | | || |  |
-|  | 23 Sep | W |[Simple linear regression](/content/04-content/) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu) ||  | |
-|  | 24 Sep | F |[*CH5 content available*](/content/05-content)  |   | | ||
+|  | 20 Sep | M | Exam 1: CH2, 3 | | |
+|  | 22 Sep | W |[Simple linear regression](/content/04-content/) | Read CH4 and optional video |[<i class="fas fa-laptop-code"></i> Lab 2 due](/assignment/02-lab)
+|  | 24 Sep | F |[Simple linear regression](/content/04-content/) |   | 
 | ||||  | | | |
 | 5|||**SLR: Hypothesis tests (CH5)**   | | | |
-|  | 28 Sep | M | [SLR: Hypothesis tests](/content/05-content) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)|| | |
-|  | 30 Sep | W | [Lab 3: Regression in Stata](/assignment/03-lab) |  | | | [<i class="fas fa-dragon"></i> Ideas](/assignment/idea-proposal)|
-|  | 02 Oct | F |[*CH6 content available*](/content/05-content) || [<i class="fas fa-pencil-alt"></i>](/assignment/03-ps)| | |
+|  | 27 Sep | M | [No in-person meeting](/content/05-content) | Read CH5 and watch video|  [<i class="fas fa-tv"></i> VQ3 due](https://bb.uvm.edu) || | |
+|  | 29 Sep | W | [Lab 3: Regression in Stata](/assignment/03-lab) |  |  [<i class="fas fa-dragon"></i> Idea proposal due](/assignment/idea-proposal)|
+|  | 01 Oct | F |[Hypothesis testing](/content/05-content) || [<i class="fas fa-pencil-alt"></i> PS 2 due](/assignment/02-ps)| | |
 | ||||  | | | |
 | 6|||**Multiple linear regression (CH6)**   | | | |
-|  | 05 Oct | M | [Multiple linear regression](/content/06-content/) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)||[<i class="fas fa-laptop-code"></i>](/assignment/03-lab) |  |
-|  | 07 Oct | W | [Lab 4: Multiple regression](/assignment/04-lab) |  | | | |
-|  | 09 Oct | F |[*CH7 content available*](/content/07-content)|  | | | |
+|  | 04 Oct | M | [Multiple linear regression](/content/06-content/) |Read CH6 and watch video| [<i class="fas fa-tv"></i> VQ4 (CH6)](https://bb.uvm.edu)| |  
+|  | 06 Oct | W | [Lab 4: Multiple regression](/assignment/04-lab) |  | [<i class="fas fa-laptop-code"></i> Lab 3 due](/assignment/03-lab)|
+|  | 08 Oct | F |Fall recess|  | | | |
 | ||||  | | | |
-| 7|||**MLR: Hypothesis tests (CH7)**   | | | |
-|  | 12 Oct | M | [MLR: Hypothesis tests](/content/07-content) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)|| [<i class="fas fa-laptop-code"></i>](/assignment/04-lab) |
-|  | 14 Oct | W | [Lab 5: Merging and hypothesis testing](/assignment/05-lab) |  | | | |
-|  | 16 Oct | F | [*CH8 content available*](/content/08-content) |  |[<i class="fas fa-pencil-alt"></i>](/assignment/04-ps)| | ||
-| ||||  | | | |
+| 7|||**MLR: Hypothesis tests (CH7)**   | | |
+|  | 11 Oct | M | [MLR: Hypothesis tests](/content/07-content) |Read CH7 and optional video|| |
+|  | 13 Oct | W | [Lab 5: Merging and hypothesis testing](/assignment/05-lab) |  |[<i class="fas fa-laptop-code"></i> Lab 4 due](/assignment/04-lab) | 
+|  | 15 Oct | F | [MLR: Hypothesis tests](/content/07-content)  |  |[<i class="fas fa-pencil-alt"></i> PS3 due](/assignment/03-ps)| 
+| ||||  | | 
 | 8|||**Non-linear regressions (CH8)**   | | | |
-|  | 19 Oct | M | [Non-linear regression](/content/08-content) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)| |[<i class="fas fa-laptop-code"></i>](/assignment/05-lab) |
-|  | 21 Oct | W | Exam Review |  | || |
-|  | 23 Oct | F | Quiz 2: CH 3, 4, 5, 6, 7 |  || | |
-|  | 23 Oct | F | [*CH9 content available*](/content/09-content) |  || | |
-| ||||  | | |
+|  | 18 Oct | M | Exam 2: CH 4, 5, 6, 7 |  || | |
+|  | 20 Oct | W | [<i class="fas fa-dragon"></i> RP: Writing an annotated bibliography](/assignment/02-biblio) |  |
+|  | 22 Oct | F | [Non-linear regression](/content/08-content) | Read CH8 and optional video ||
+| ||||  | 
 | 9|||**Assessing regression validity (CH9)**   | | | |
-|  | 26 Oct | M | [Assessing regression validity](/content/09-content/) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)|| | [<i class="fas fa-dragon"></i> Abstract](/assignment/data-abstract) |
-|  | 28 Oct | W | [<i class="fas fa-dragon"></i> Paper proposal discussion](/assignment/research-proposal) |  || | |
-|  | 30 Oct | F |[*CH10 content available*](/content/10-content)  | | [<i class="fas fa-pencil-alt"></i>](/assignment/05-ps)| ||
-| ||||  | | | |
+|  | 25 Oct | M | [Non-linear regression](/content/08-content) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)|| | [<i class="fas fa-dragon"></i> Abstract](/assignment/data-abstract) |
+|  | 27 Oct | W | [<i class="fas fa-dragon"></i> RP: Writing a paper proposal](/assignment/research-proposal) |  | [<i class="fas fa-dragon"></i> Annotated bibliography due](/assignment/02-biblio)
+|  | 29 Oct | F |[No in-person meeting](/content/09-content/) |Read CH9 and watch video| [<i class="fas fa-tv"></i> VQ5 (CH9)](https://bb.uvm.edu)|
+| ||||  | 
 | 10|||**Panel data (CH10)**   | | | |
-|  | 02 Nov | M | [Panel data methods](/content/10-content) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)|| | |
-|  | 04 Nov | W | [Lab 6: Diff-in-diff and panel data](/assignment/06-lab) |  | ||  |
-|  | 06 Nov | F | [*CH10/11 content available*](/content/10-content)  |  | | | |
+|  | 01 Nov | M | [Assessing regression validity](/content/09-content/)  | |
+|  | 03 Nov | W | [Lab 6: Diff-in-diff and panel data](/assignment/06-lab) | Read CH10 and watch video| [<i class="fas fa-tv"></i> VQ6 (CH10)](https://bb.uvm.edu)|
+|  | 05 Nov | F | [Panel data methods](/content/10-content)  |  |[<i class="fas fa-pencil-alt"></i> PS4 due](/assignment/04-ps) |
 | ||||  | | | ||
-| 11|||**Panel data/binary DV (CH10/11)**   | | | |
-|  | 09 Nov | M | [Panel data/binary DV ](/content/11-content) |  [<i class="fas fa-tv"></i>](https://bb.uvm.edu)||[<i class="fas fa-laptop-code"></i>](/assignment/06-lab) |
-|  | 11 Nov | W | [Lab 7: Data problems](/assignment/07-lab) | || | [<i class="fas fa-dragon"></i> Proposal](/assignment/research-proposal)|
-|  | 13 Nov | F |  [*CH13 content available*](/content/12-content) |  |[<i class="fas fa-pencil-alt"></i>](/assignment/06-ps)| | ||
+| 11|||**Panel data methods**   | | | |
+|  | 08 Nov | M | [Panel data methods](/content/10-content)  |  |
+|  | 10 Nov | W | [Lab 7: Data problems](/assignment/07-lab) | |[<i class="fas fa-laptop-code"></i> Lab 6 due](/assignment/06-lab)| 
+|  | 12 Nov | F | [Panel data methods](/content/10-content)  |   | [<i class="fas fa-dragon"></i> Proposal due](/assignment/research-proposal)|
 | ||||  | | | |
-|12 |||**Instrumental variables (CH12)**   | | | |
-|  | 16 Nov | M | [Instrumental variables](/content/12-content) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)| |[<i class="fas fa-laptop-code"></i>](/assignment/07-lab) |
-|  | 18 Nov | W | [Lab 8: Instrumental variables](/assignment/08-lab) |   || | [<i class="fas fa-dragon"></i> Peer review](/assignment/peer-review) |
-|  | 20 Nov | F | Exam review  |  || | |
-| ||||  | | |
-| 13||||  | | |||
-|  | 23 Nov | M | Exam 3: CH 9, 10, (11), 12  |  | |[<i class="fas fa-laptop-code"></i>](/assignment/08-lab) |
-|  | 25 Nov | W | Thanksgiving break |  | || |
-|  | 27 Nov | F | Thanksgiving break |  | || |
+|12 |||**Research Week**   | | | |
+|  | 16 Nov | M | [RP: Peer review](/content/12-content) | |
+|  | 18 Nov | W |  [RP: Presenting and discussing results](/content/12-content)|   |[<i class="fas fa-laptop-code"></i> Lab 7 due](/assignment/06-lab)| 
+|  | 20 Nov | F | [RP: Writing an introduction and conclusion](/content/12-content)  |  
 | ||||  | | | |
+| |||**Thanksgiving Break 22-26 Nov**   | | | |
+| |||| 
+|13 |||**Instrumental variables (CH12)**   | | | |
+|  | 29 Nov | M | [Instrumental variables](/content/12-content) |  Read CH10 and watch video| [<i class="fas fa-tv"></i> VQ7 (1CH12)](https://bb.uvm.edu)
+|  | 01 Dec | W | [Lab 8: Instrumental variables](/assignment/08-lab) | |
+|  | 03 Dec | F | [Instrumental variables](/content/12-content) | |[<i class="fas fa-pencil-alt"></i> PS 5 due](/assignment/05-ps)| |
+| ||||  | | | 
 | 14|||**Paper presentations**   | | | |
-|  | 30 Nov | M | Paper presentations | || |[<i class="fas fa-dragon"></i> Optional Rough draft](/assignment/rough-draft)|
-|  | 02 Dec | W | Paper presentations |  | || |
-|  | 04 Dec | F | Paper presentations  |  || ||
-| ||||  | | |
-| |||**<i class="fas fa-dragon"></i> Research paper due [Tuesday, 08 December](/assignment/final-submission) <i class="fas fa-dragon"></i>**   | | | |
+|  | 06 Dec | M | [Paper presentations](/assignment/06-presentation)  |  | |
+|  | 08 Dec | W | [Paper presentations](/assignment/06-presentation)  |  |[<i class="fas fa-laptop-code"></i>Lab 8 due](/assignment/08-lab) |
+|  | 10 Dec | F | [Paper presentations](/assignment/06-presentation)  |  | || |
+| 15|||**Exam Week**   | | | |
+|  | 13 Dec | M | Exam 3 at 4:30pm: CH 8, 9, 10, 12  |  | |
+|  | 13 Dec | M | <i class="fas fa-dragon"></i> [Research paper due at 11:59pm](/assignment/final-submission) <i class="fas fa-dragon"></i> |  | |
 
-Not going to make it? Make sure to review the [extensions for all](/syllabus/#deadlines-and-extensions) policy!
+
+Not going to make it? For research paper assignments, make sure to review the [extensions for all](/syllabus/#deadlines-and-extensions) policy!

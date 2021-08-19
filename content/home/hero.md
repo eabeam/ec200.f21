@@ -6,7 +6,7 @@ active: true
 weight: 10
 
 # This goes on the main orange part of the home page 
-title: "EC200 Econometrics and Applications"
+title: "Econometrics and Applications"
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
 hero_media: pexels-gyorgy-toth-resize.png

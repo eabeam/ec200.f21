@@ -326,7 +326,7 @@ plugins_js  = []
   [course]
     number = " EC200"
     semester= "Fall 2021"
-    days= " Mondays and Wednesdays (Friday asynchronous)"
+    days= " MWF"
     time= " 2:20-3:10pm"
     location= "127 Jeffords"
     dates= " August 30–December 10, 2021"
