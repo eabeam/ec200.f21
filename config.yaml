@@ -6,7 +6,7 @@ baseurl: "/"
 # ------------------
 permalinks:
   post: "/:year/:month/:day/:slug/"
-buildFuture: True
+buildFuture: False
 
 ignoreFiles:
   - \.ipynb$
