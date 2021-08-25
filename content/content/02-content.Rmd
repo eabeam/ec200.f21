@@ -1,15 +1,12 @@
-
-
 ---
-title: Week 3 - Statistics Review
+title: Week 2 - Probability Review
 sitetitle: Week 2
-summary: "EC200 - Week 3 Statistics Review (SW Chapter 2)"
+summary: "EC200 - Week 2 Probability Review (SW Chapter 2.4)"
 
-date: "2020-09-01"
-start_date: "2020-09-14"
-end_date: "2020-09-18"
+date: "2021-09-01"
+start_date: "2021-09-06"
+end_date: "2021-09-10"
 
-  
   # Academic page type (do not modify).
 type: docs
 menu:
@@ -21,8 +18,8 @@ output:
   blogdown::html_page:
     toc: true
 
-pdf: /slides/ch3-slides.pdf
-thumb: /slides/ch3-slides.png
+pdf: /slides/ch2-04-slides.pdf
+thumb: /slides/ch2-04-slides.png
 
 
 
@@ -30,77 +27,19 @@ thumb: /slides/ch3-slides.png
 
 ## Overview
 
-Welcome to Week 2! Statistical review continues apace. 
-
-As before, what you should do this week and the next week depends on your background:
-
-### I took EC170/STAT141 recently and remember some stuff
-1. Read through SW, and dig deeper into anything that doesn't look familiar. 
-2. Watch the class videos. 
-3. Use the Khan Academy to clarify anything you feel a bit fuzzy on. 
-4. Make sure you can do the practice problems. 
-
-
-### Everyone else
-1. Start by reviewing the Khan Academy videos 
-2. Work through *all* the Khan Academy practice problems. 
-3. Watch the class videos 
-4. Head into the practice problems, and review concepts where you are still stuck.
+This is a short week, so we'll just focus on normal distributions and friends from sectoin 2.4 of SW. 
 
 
 ## Reading Guide
 
-**Chapter 3: Review of Statistics**
+**Chapter 2: Review of Probability**
 
-This is the material you should know,  along with supports from [Khan Academy (<i class="fas fa-tv"> </i>)](https://www.khanacademy.org/math/ap-statistics/). Remember that you don't need to memorize formulas! 
-
-
-
-- SW 3.1	Estimation of the population mean 
-  - Don’t worry too much about BLUE, we’ll come back to it. But make sure you get bias, consistency, and efficiency
-   - [<i class="fas fa-tv"> </i> Discrete random variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap#discrete-random-variables)
-- SW 3.2	Hypothesis tests concerning the population mean
-  - [<i class="fas fa-tv"> </i> Testing hypotheses about a mean](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap#one-sample-t-test-mean)
-
-- SW 3.3	Confidence intervals for the population mean
-  -  [<i class="fas fa-tv"> </i> Introduction to confidence intervals](https://www.khanacademy.org/math/ap-statistics/estimating-confidence-ap#introduction-confidence-intervals)
-   - [<i class="fas fa-tv"> </i> Confidence intervals for means](https://www.khanacademy.org/math/ap-statistics/estimating-confidence-ap#one-sample-t-interval-mean)
-  - Note that I expect you can
-- SW 3.4 Comparing means from different populations 
-  - Only the type of two-sample test we've been practicing - look at difference between two means where the standard deviation is unknown and   you do not assume that they come from the same underlying population distribution. Make sure you can use foruma 3.19 and 3.20
-- **Skip SW 3.5/3.6**
-- SW 3.7	Scatterplots, the sample covariance, and the sample correlation
-  - [<i class="fas fa-tv"> </i> Correlation coefficients](https://www.khanacademy.org/math/ap-statistics/bivariate-data-ap#correlation-coefficient-r)
+- SW 2.4 The Normal, Chi-Squared, Student t, and F distributions 
+  - Normal distribution ~~and t-distribution~~ only. We won’t use chi-squared, and we’ll come back to F-distributions later. For any work we'll be doing, our sample sizes will be greater than 100, so $t \rightarrow z$. 
+  - [<i class="fas fa-tv"> </i> Normal distributions and the empirical rule](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap#stats-normal-distributions)
+  - [ <i class="fas fa-tv"> </i> Normal distribution calculations](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap#normal-distributions-calculations)
 
 ## Slides
 
 `r blogdown::shortcode("slides")`
-
-## Videos
-
-- [Statistics Review](https://youtu.be/dMFQw0DcOgU)
-Estimators/estimates, confidence intervals, and hypothesis testing
-`r htmltools::HTML("{{< youtube dMFQw0DcOgU >}}")`
-
-## Practice Problems (for class)
-
-You can download them as a word doc [here](../EC200-03-01practice.docx). 
-
-1. Consider the random variable X, a person’s height, drawn from a population where the X is distributed normally with mean of 66 and variance of 20. 
-    a. What is P(X>66.5)? 
-    b. Suppose we randomly select 125 individuals from that population. What is the probability that the mean height is at least 66.5 inches? Does it matter whether X is distributed normally? 
-1. For a class project, a student wants to check whether ﬁnal exam stress raises blood pressure of the students in her class. When they are not under any stress, college students have an average systolic blood pressure of 120mm Hg. For the 50 students in her class, the average blood pressure on the day of the ﬁnal exam is 125.2 mm Hg with a standard deviation of 12mm Hg.
-    a. What is the p-value of her test?  
-    b. What should the student conclude about whether ﬁnal exam stress is associated with higher blood pressure?
-1. Another student wants to check whether ﬁnal exams raise students’ blood pressure more for chemistry or economics classes. For the 50 students in her economics class, the average blood pressure on the day of the ﬁnal exam is 125.2 mm Hg with a standard deviation of 12mm Hg. For the 100 students in her chemistry class, the average blood pressure is 120 mm Hg with a standard deviation of 24mm Hg. 
-    a. Conduct the hypothesis test at the 10% level for whether final exams raise students’ blood pressure more for chemistry or economics students. Set up a null and alternative hypothesis, report your t-statistic, and your conclusion. Use a standard normal distribution table.  
-    b. *[Side note] Does this mean that economics exams are  more stressful than chemistry?  Why or why not?*
-
-
-Solutions [here](../EC200-03-01practice_solutions.pdf)
-
-Video-walkthrough 
-
-
-`r htmltools::HTML("{{< youtube q_NbBSDWcpI >}}")`
 

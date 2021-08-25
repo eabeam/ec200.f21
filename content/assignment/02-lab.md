@@ -1,8 +1,8 @@
 ---
 title: "Lab 2: Do-files"
 linktitle: "Lab 2"
-date: "2020-09-01"
-due_date: "2020-09-14"
+date: "2021-09-15"
+due_date: "2021-09-22"
 due_time: "2:20 pm"
 toc: true
 menu:
@@ -101,7 +101,7 @@ analysis. One thing that makes Stata different from a program like Excel
 is that you can create do-files, essentially small programs that will
 run your analysis again and again, in exactly the same way. For
 econometric analysis this is CRUCIAL.
- 
+
 A do-file can be written in any text file and then saved with the
 extension `.do`, but we'll use the do-file editor. You can start a new do-file by
 clicking on the do-file button. Or, you can open the do-file template. 
@@ -206,7 +206,7 @@ something in a way we haven't covered.
    -  Your written up answers to exercise questions (1) - (12). This can be typed or written out then scanned (or photographed), in any reasonable format.
    - The do-file you've created that runs this analysis 
    - A log file that contains the results from this exercise.
-   
+
 ### Questions
 
 1.  Download [`acs2014_all.dta`](https://www.dropbox.com/s/q7w8uz0f9vm0ghe/acs2014_all.dta?dl=0) and [`labtemplate.do`](https://www.dropbox.com/s/s71vxnktcrfd14q/labtemplate_f20.do?dl=0) by clicking the links or from Teams.
@@ -250,7 +250,7 @@ something in a way we haven't covered.
         higher-educated workers. For those without post-secondary
         education, what is the average wage gap? For those with
         post-secondary education, what is the average wage gap?
-        
+    
 1.  Name **two** additional reasons that may explain why men's
         income is higher than women's income on average. How would you
         test each one? _You do not have to actually do this test, just

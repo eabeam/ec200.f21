@@ -1,25 +1,24 @@
-
 ---
 title: "Problem set 3"
 linktitle: "PS 3"
-date: "2020-09-24"
-due_date: "2020-10-02"
-due_time: "02:20 PM"
+date: "2021-10-04"
+due_date: "2021-10-15"
+due_time: "2:20 PM"
 menu:
   assignment:
     parent: Problem Sets
     weight: 3
 type: docs
-weight: 2
+weight: 3
 editor_options: 
   chunk_output_type: console
 ---
 
 ## Welcome 
 
-We've got the hang of things now. Make sure you submit your assignment on Blackboard by the deadline :point_up: :point_up:
+We've been so busy with labs and research ideas that we have *three* chapters of coverage to work through! Note that this is your last problem set before the next quiz.
 
-See the exercises below, or you can [download them as a pdf](../03-ps.pdf). You can download the data file you need for question 4 [here](../collegedistance.dta).
+See the exercises below, or you can [download them as a pdf](../04-ps.pdf). You can download the data file you need for question 6 [here](../materials/growth.dta), along with information on the variable definitions [here](https://www.princeton.edu/~mwatson/Stock-Watson_3u/Students/EE_Datasets/Growth_Description.pdf)
 
 ## What do I submit?
 
@@ -30,72 +29,68 @@ See the exercises below, or you can [download them as a pdf](../03-ps.pdf). You 
 
 ## Exercises
 
-1.  The following table shows, for eight vintages of delicious
-    wine, purchases per buyer ($y$) and the wine buyer's rating ($x$) in
-    a given year:
+<!-- % Wooldridge 6.8 -->
 
-      $x$    3.6   3.3   2.8   2.6   2.7   2.9   2.0   2.6
-      ----- ----- ----- ----- ----- ----- ----- ----- -----
-      $y$    24    21    22    22    18    13     9     6
+1. Suppose that we want to estimate the effects of alcohol consumption ($alcohol$) on college grade point average ($colGPA$). In addition to collecting information on alcohol consumption and grade point averages, we also obtain attendance information (say, percentage of lectures attended, $attend$). A standardized test score (say, $SAT$) and high school GPA ($hsGPA$) are also available. 
+    a. Should we include $attend$ along with alcohol as explanatory variables in a multiple regression model? What would be the interpretation of $\beta_{alcohol}$ if we did? 
+    a. Should $SAT$ and $hsGPA$ be included as explanatory variables? Explain.
+<!-- SW 6.6 -->
 
-    a.  Estimate *by hand* the regression of purchases per buyer on the
-        buyer's rating.\
 
-    b.  Interpret the slope of the estimated regression line.\
-
-    c.  Interpret the intercept of the estimated regression line .\
+2. A research plans to study the casual effect of police on crime, using data from a random sample of U.S. counties. She plans to regress the county's crime rate on the (per capita) size of the county's police force. 
+    a. Explain why this regression is likely to suffer from omitted variable bias. Which variables would you add to the regression to control for important omitted variables? 
     
-2.  (SW4.2) Suppose that a random sample of 200
-    20-year-old men is selected from a population and that these men's
-    height and weight are recorded. A regression of weight (measured in
-    pounds) on height (measured in inches) yields
+    
+    
+    a. Use your answer to (a) and the expression for omitted variable bias (from the slides or textbook) to determine whether the regression will likely over- or underestimate the effect of police on the crime rate. (That is, is $\hat{\beta_1}>\beta_1$, or that $\hat{\beta_1} < \beta_1$?)
+    
+    
+    
+    
+    
+<!-- SW additional emirical exercise 7.2 -->
 
-    $$\widehat{Weight}=-99.41 + 3.94 Height$$
 
-    $R^2 = 0.81$; $SER = 10.2$
+3.  Critique each of the following proposed research plans. Your critique should explain any problems with the proposed research and describe how the research plan might be improved. Include discussion of any additional data that needs to be collected, and the appropriate statistical techniques for analyzing those data.
 
-    a.  What is the predicted weight for someone who is 70 inches tall?
-        65 inches tall?
+    a. A researcher is interested in determining whether a large aerospace firm is guilty of gender bias in setting wages. To determine potential bias, the researcher collects salary and gender information for all of the firm's engineers. The researcher then plans to conduct a "difference in means" test to determine whether the average salary for women is significantly less than the average salary for men
+ <!-- SW 6.7 -->
+    a. A researcher is interested in determining whether time in prison has a permanent effect on a person's wage rate. He collects data on a random sample of people who have been out of prison for at least 15 years. He collects similar data on a random sample of people who have never served time in prison. The data set includes information on each person's current wage, education, age, ethnicity, gender, tenure (time in current job), occupation, and union status, as well as whether the person has ever been incarcerated. The researcher plans to estimated the effect of incarceration on wages by regressing wages on an indicator variable for incarceration, including in the regression the other potential determinants of wages such as education, tenure, union status, and so on.
+   
+   
+4.  Consider a dataset that contains information on 4700 full-time full-year workers. The highest educational achievement for each worker was either a high school diploma or a bachelor's degree. The worker's ages ranged from 25 to 45 years. The data set also contains information on the region of the country where the person lived, marital status, and number of children. See below for variable definitions. 
+    a. Is the college-high school earnings difference estimated from this regression statistically significant at the 5% level? Construct a 95% confidence interval of the difference. 
+    b. Do there appear to be important regional differences in hourly wearnings? Use an appropriate hypothesis test to explain your answer. 
+    
 
-    b.  One 20-year-old man has a late growth spurt and grows 1.5 inches
-        over the course of the year. What is the regression's prediction
-        for the increase in his weight?
-
-    c.  Suppose that you want to translate the results of this equation
-        into centimeters and kilograms. What are the regression
-        estimates from this new regression? Give all results, including
-        estimated coefficients, $R^2$, and $SER$.
-
-    a.  Interpret the $R^2$ value. Does it indicate anything about
-        whether these estimates are likely to be biased? Explain.
-
-3.  Consider the savings function: 
-
-  $$sav =  \beta_0 + \beta_1 inc + u, u = e\sqrt{inc}$$ 
+| Variable|Definition
+|----|---|
+  |AHE |average hourly earnings (in 2005 dollars)
+  | College|  1 if college, 0 if high school
+  | Female | 1 if female, 0 if male
+  | Age | age (in years)
+  | Ntheast | 1 if Region = Northeast, 0 otherwise
+  | Midwest | 1 if Region = Midwest, 0 otherwise
+  | South | 1 if Region = South, 0 otherwise
+  | West |  1 if Region = West, 0 otherwise
   
-  where $e$ is a random variable with $E(e) = 0$ and $Var(e) = \sigma^2_e$. Assume that $e$ is independent of $inc$. 
+  <img src = "../materials/sw7-3.png">
   
-  a. Show that $E(u|inc)=0$, so that the key zero conditional mean assumptionis satisfied. [Hint: If $e$ is independent of $inc$, then $E(e|inc) = E(e)$]
-  a. Show that $Var(u|inc) = \sigma^2_einc$, so that the homoskedasticity assumption is violated. In
-particular, the variance of $sav$ increases with $inc$. [Hint: $Var(e|inc) = Var(e)$ if $inc$ and $e$ are independent!] 
-  a. Why might it be reasonable to assume that the variance of savings increases with family income?
 
 
-4. The data file [`collegedistance.dta`](../collegedistance.dta) contains data from a random sample of high school seniors interviewed in 1980 and re-interviewed in 1986^[These data were provided by Professor Cecilia Rouse of Princeton University and were used in her paper “Democratization or Diversion? The Effect of Community Colleges on Educational Attainment,” Journal of Business and Economic Statistics, April 1995, 12(2): 217–224.] Use these data to investigate the relationship between the number of completed years of education for young adults and the distance from each student’s high school to the nearest four-year college. (Proximity to college lowers the cost of education, so that students who live closer to a four-year college should, on average, complete more years of higher education.) 
+    
+<!-- S@ 7.8 -->
+5. Consider the  regression results below and do the following: 
+    a. Construct the $R^2$ for each of the regressions 
+    b. Construct the homoskedasticity-only $F$-statistic for testing $\beta_3 = \beta_4 = 0$ shown in column (5). Is the statistic significant at the 5% level? 
+    c. Construct a 99% confidence interval for $\beta_1$ for the regression in column (5) 
 
-  a. Run a regression of years of completed education ($ED$) on distance to the nearest college ($Dist$), where $Dist$ is measured in tens of miles. (For example, $Dist=2$ means that the distance is 20 miles.)^[Though we haven't covered regressions in our stata labs, I talk thorugh interpreting regression output in the [Chapter 5 Video](https://youtu.be/DZo5m5q3bmA). You can regress a dependent variable `y` on an independent variable `x` with the command `regress y x`]. Write the equation you estimated in the form $\widehat{ED} = \beta_0 + \beta_1 Dist$
-  a. How does the average value of years of completed schooling change when colleges are built close to where students go to high school? 
-  a. Bob’s high school was 20 miles from the nearest college. Predict Bob’s years of completed education using the estimated regression. How would the prediction change if Bob lived 10 miles from the nearest college?
+  <img src = "../materials/sw7-1.png">
 
-  a. Does distance to college explain a large fraction of the variance in educational attainment across individuals? Explain.
-  
-  a. Provide an example of a factor that might cause this model to violate the zero conditional mean assumption. Explain your reasoning.
 
-  a. What is the value of the standard error of the regression?^[There are a few ways to find it in Stata's output. The easiest is to note that "root MSE" is the square root of the SER ] What are the units for the standard error (meters, grams, years, dollars, cents, or something else)?
 
-  a. Is the estimated regression slope coefficient statistically significant at the 5% level?  What is the p-value associated with coefficient’s t-statistic?
-
-  a. Construct    a    95%    confidence    interval    for    the    slope    coefficient.
-
-  a. Estimate a regression that restricts the sample to men, and calculate a 95% confidence interval for the slope. Do the same, restricting the sample to women. Does it look like the effect of distance on completed years of education is different?^[Note that we cannot make claims about whether they are statistically different because the estimates come from two different samples! A hypothesis test here would be awesome, but we need to build a few more skills to do this.]
-
+6. Download the dataset [growth.dta](../materials/growth.dta), which  contains data on average growth rates from 1960 through 1995 for 65 countries, along with variables that are potentially related to growth. You can download a detailed description of all variable names is available [here](https://www.princeton.edu/~mwatson/Stock-Watson_3u/Students/EE_Datasets/Growth_Description.pdf). For all questions, exclude Malta, which has an extremely high trade share. Estimate  a regression of `growth` on `tradeshare`, `yearsschool`, `rev_coups`, `assassinations`, and `rgdp60`, with heteroskedasticity-robust standard errors.
+    a.  What is the value of the coefficient on `rev_coups`? Interpret the value of this coefficient. Is it large or small in a real-world sense? 
+    b. Use the regression to predict the average annual growth rate for a country has average valeus for all regressors. 
+    c. Construct a 90% confidence interval for the coefficient on `tradeshare`. Is the coefficient statistically significant at the 10% level?
+    d.Test whether the political variables `rev_coups` and `assassinations`, taken as a group, can be omitted from the regression. What is the p-value of the F-statistic?

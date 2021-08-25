@@ -5,9 +5,9 @@ title: Week 5 - Inference with One Regressor
 sitetitle: Week 5
 summary: "EC200 - Week 5 Inference (CH5)"
 
-date: "2020-09-16"
-start_date: "2020-09-28"
-end_date: "2020-10-02"
+date: "2021-09-22"
+start_date: "2021-09-27"
+end_date: "2021-10-01"
 
   
   # Academic page type (do not modify).
@@ -47,6 +47,12 @@ This is very important stuff. Again, don’t worry about calculating the varianc
 We are going to use this ALL THE TIME. 
 
 **SW 5.4**	Heteroskedasticity and homoskedasticity 
+
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1316528345224343552')
+```
+
 
 Drop "heteroskedasticity" into any conversation and you're sure to delight. Just one more benefit of EC200. 
 The examples and implications of heteroskedasticity are important. 

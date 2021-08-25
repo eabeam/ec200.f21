@@ -1,15 +1,15 @@
 ---
 title: "Problem set 3"
 linktitle: "PS 3"
-date: "2020-09-24"
-due_date: "2020-10-02"
-due_time: "02:20 PM"
+date: "2021-10-04"
+due_date: "2021-10-15"
+due_time: "2:20 PM"
 menu:
   assignment:
     parent: Problem Sets
     weight: 3
 type: docs
-weight: 2
+weight: 3
 editor_options: 
   chunk_output_type: console
 ---
@@ -19,8 +19,8 @@ editor_options:
 
 <div id="welcome" class="section level2">
 <h2>Welcome</h2>
-<p>We’ve got the hang of things now. Make sure you submit your assignment on Blackboard by the deadline :point_up: :point_up:</p>
-<p>See the exercises below, or you can <a href="../03-ps.pdf">download them as a pdf</a>. You can download the data file you need for question 4 <a href="../collegedistance.dta">here</a>.</p>
+<p>We’ve been so busy with labs and research ideas that we have <em>three</em> chapters of coverage to work through! Note that this is your last problem set before the next quiz.</p>
+<p>See the exercises below, or you can <a href="../04-ps.pdf">download them as a pdf</a>. You can download the data file you need for question 6 <a href="../materials/growth.dta">here</a>, along with information on the variable definitions <a href="https://www.princeton.edu/~mwatson/Stock-Watson_3u/Students/EE_Datasets/Growth_Description.pdf">here</a></p>
 </div>
 <div id="what-do-i-submit" class="section level2">
 <h2>What do I submit?</h2>
@@ -32,97 +32,94 @@ editor_options:
 </div>
 <div id="exercises" class="section level2">
 <h2>Exercises</h2>
+<!-- % Wooldridge 6.8 -->
 <ol style="list-style-type: decimal">
-<li><p>The following table shows, for eight vintages of delicious
-wine, purchases per buyer (<span class="math inline">\(y\)</span>) and the wine buyer’s rating (<span class="math inline">\(x\)</span>) in
-a given year:</p>
+<li>Suppose that we want to estimate the effects of alcohol consumption (<span class="math inline">\(alcohol\)</span>) on college grade point average (<span class="math inline">\(colGPA\)</span>). In addition to collecting information on alcohol consumption and grade point averages, we also obtain attendance information (say, percentage of lectures attended, <span class="math inline">\(attend\)</span>). A standardized test score (say, <span class="math inline">\(SAT\)</span>) and high school GPA (<span class="math inline">\(hsGPA\)</span>) are also available.
+<ol style="list-style-type: lower-alpha">
+<li>Should we include <span class="math inline">\(attend\)</span> along with alcohol as explanatory variables in a multiple regression model? What would be the interpretation of <span class="math inline">\(\beta_{alcohol}\)</span> if we did?</li>
+<li>Should <span class="math inline">\(SAT\)</span> and <span class="math inline">\(hsGPA\)</span> be included as explanatory variables? Explain.
+<!-- SW 6.6 --></li>
+</ol></li>
+<li>A research plans to study the casual effect of police on crime, using data from a random sample of U.S. counties. She plans to regress the county’s crime rate on the (per capita) size of the county’s police force.
+<ol style="list-style-type: lower-alpha">
+<li><p>Explain why this regression is likely to suffer from omitted variable bias. Which variables would you add to the regression to control for important omitted variables?</p></li>
+<li><p>Use your answer to (a) and the expression for omitted variable bias (from the slides or textbook) to determine whether the regression will likely over- or underestimate the effect of police on the crime rate. (That is, is <span class="math inline">\(\hat{\beta_1}&gt;\beta_1\)</span>, or that <span class="math inline">\(\hat{\beta_1} &lt; \beta_1\)</span>?)</p></li>
+</ol></li>
+</ol>
+<!-- SW additional emirical exercise 7.2 -->
+<ol start="3" style="list-style-type: decimal">
+<li><p>Critique each of the following proposed research plans. Your critique should explain any problems with the proposed research and describe how the research plan might be improved. Include discussion of any additional data that needs to be collected, and the appropriate statistical techniques for analyzing those data.</p>
+<ol style="list-style-type: lower-alpha">
+<li>A researcher is interested in determining whether a large aerospace firm is guilty of gender bias in setting wages. To determine potential bias, the researcher collects salary and gender information for all of the firm’s engineers. The researcher then plans to conduct a “difference in means” test to determine whether the average salary for women is significantly less than the average salary for men
+<!-- SW 6.7 --></li>
+<li>A researcher is interested in determining whether time in prison has a permanent effect on a person’s wage rate. He collects data on a random sample of people who have been out of prison for at least 15 years. He collects similar data on a random sample of people who have never served time in prison. The data set includes information on each person’s current wage, education, age, ethnicity, gender, tenure (time in current job), occupation, and union status, as well as whether the person has ever been incarcerated. The researcher plans to estimated the effect of incarceration on wages by regressing wages on an indicator variable for incarceration, including in the regression the other potential determinants of wages such as education, tenure, union status, and so on.</li>
+</ol></li>
+<li><p>Consider a dataset that contains information on 4700 full-time full-year workers. The highest educational achievement for each worker was either a high school diploma or a bachelor’s degree. The worker’s ages ranged from 25 to 45 years. The data set also contains information on the region of the country where the person lived, marital status, and number of children. See below for variable definitions.</p>
+<ol style="list-style-type: lower-alpha">
+<li>Is the college-high school earnings difference estimated from this regression statistically significant at the 5% level? Construct a 95% confidence interval of the difference.</li>
+<li>Do there appear to be important regional differences in hourly wearnings? Use an appropriate hypothesis test to explain your answer.</li>
+</ol></li>
+</ol>
 <table>
 <thead>
 <tr class="header">
-<th align="left"><span class="math inline">\(x\)</span></th>
-<th align="center">3.6</th>
-<th align="center">3.3</th>
-<th align="center">2.8</th>
-<th align="center">2.6</th>
-<th align="center">2.7</th>
-<th align="center">2.9</th>
-<th align="center">2.0</th>
-<th align="center">2.6</th>
+<th>Variable</th>
+<th>Definition</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><span class="math inline">\(y\)</span></td>
-<td align="center">24</td>
-<td align="center">21</td>
-<td align="center">22</td>
-<td align="center">22</td>
-<td align="center">18</td>
-<td align="center">13</td>
-<td align="center">9</td>
-<td align="center">6</td>
+<td>AHE</td>
+<td>average hourly earnings (in 2005 dollars)</td>
+</tr>
+<tr class="even">
+<td>College</td>
+<td>1 if college, 0 if high school</td>
+</tr>
+<tr class="odd">
+<td>Female</td>
+<td>1 if female, 0 if male</td>
+</tr>
+<tr class="even">
+<td>Age</td>
+<td>age (in years)</td>
+</tr>
+<tr class="odd">
+<td>Ntheast</td>
+<td>1 if Region = Northeast, 0 otherwise</td>
+</tr>
+<tr class="even">
+<td>Midwest</td>
+<td>1 if Region = Midwest, 0 otherwise</td>
+</tr>
+<tr class="odd">
+<td>South</td>
+<td>1 if Region = South, 0 otherwise</td>
+</tr>
+<tr class="even">
+<td>West</td>
+<td>1 if Region = West, 0 otherwise</td>
 </tr>
 </tbody>
 </table>
+<p><img src = "../materials/sw7-3.png"></p>
+<!-- S@ 7.8 -->
+<ol start="5" style="list-style-type: decimal">
+<li>Consider the regression results below and do the following:
 <ol style="list-style-type: lower-alpha">
-<li><p>Estimate <em>by hand</em> the regression of purchases per buyer on the
-buyer’s rating.<br />
-</p></li>
-<li><p>Interpret the slope of the estimated regression line.<br />
-</p></li>
-<li><p>Interpret the intercept of the estimated regression line .<br />
-</p></li>
+<li>Construct the <span class="math inline">\(R^2\)</span> for each of the regressions</li>
+<li>Construct the homoskedasticity-only <span class="math inline">\(F\)</span>-statistic for testing <span class="math inline">\(\beta_3 = \beta_4 = 0\)</span> shown in column (5). Is the statistic significant at the 5% level?</li>
+<li>Construct a 99% confidence interval for <span class="math inline">\(\beta_1\)</span> for the regression in column (5)</li>
 </ol></li>
-<li><p>(SW4.2) Suppose that a random sample of 200
-20-year-old men is selected from a population and that these men’s
-height and weight are recorded. A regression of weight (measured in
-pounds) on height (measured in inches) yields</p>
-<p><span class="math display">\[\widehat{Weight}=-99.41 + 3.94 Height\]</span></p>
-<p><span class="math inline">\(R^2 = 0.81\)</span>; <span class="math inline">\(SER = 10.2\)</span></p>
+</ol>
+<p><img src = "../materials/sw7-1.png"></p>
+<ol start="6" style="list-style-type: decimal">
+<li>Download the dataset <a href="../materials/growth.dta">growth.dta</a>, which contains data on average growth rates from 1960 through 1995 for 65 countries, along with variables that are potentially related to growth. You can download a detailed description of all variable names is available <a href="https://www.princeton.edu/~mwatson/Stock-Watson_3u/Students/EE_Datasets/Growth_Description.pdf">here</a>. For all questions, exclude Malta, which has an extremely high trade share. Estimate a regression of <code>growth</code> on <code>tradeshare</code>, <code>yearsschool</code>, <code>rev_coups</code>, <code>assassinations</code>, and <code>rgdp60</code>, with heteroskedasticity-robust standard errors.
 <ol style="list-style-type: lower-alpha">
-<li><p>What is the predicted weight for someone who is 70 inches tall?
-65 inches tall?</p></li>
-<li><p>One 20-year-old man has a late growth spurt and grows 1.5 inches
-over the course of the year. What is the regression’s prediction
-for the increase in his weight?</p></li>
-<li><p>Suppose that you want to translate the results of this equation
-into centimeters and kilograms. What are the regression
-estimates from this new regression? Give all results, including
-estimated coefficients, <span class="math inline">\(R^2\)</span>, and <span class="math inline">\(SER\)</span>.</p></li>
-<li><p>Interpret the <span class="math inline">\(R^2\)</span> value. Does it indicate anything about
-whether these estimates are likely to be biased? Explain.</p></li>
+<li>What is the value of the coefficient on <code>rev_coups</code>? Interpret the value of this coefficient. Is it large or small in a real-world sense?</li>
+<li>Use the regression to predict the average annual growth rate for a country has average valeus for all regressors.</li>
+<li>Construct a 90% confidence interval for the coefficient on <code>tradeshare</code>. Is the coefficient statistically significant at the 10% level?
+d.Test whether the political variables <code>rev_coups</code> and <code>assassinations</code>, taken as a group, can be omitted from the regression. What is the p-value of the F-statistic?</li>
 </ol></li>
-<li><p>Consider the savings function:</p></li>
-</ol>
-<p><span class="math display">\[sav =  \beta_0 + \beta_1 inc + u, u = e\sqrt{inc}\]</span></p>
-<p>where <span class="math inline">\(e\)</span> is a random variable with <span class="math inline">\(E(e) = 0\)</span> and <span class="math inline">\(Var(e) = \sigma^2_e\)</span>. Assume that <span class="math inline">\(e\)</span> is independent of <span class="math inline">\(inc\)</span>.</p>
-<ol style="list-style-type: lower-alpha">
-<li>Show that <span class="math inline">\(E(u|inc)=0\)</span>, so that the key zero conditional mean assumptionis satisfied. [Hint: If <span class="math inline">\(e\)</span> is independent of <span class="math inline">\(inc\)</span>, then <span class="math inline">\(E(e|inc) = E(e)\)</span>]</li>
-<li>Show that <span class="math inline">\(Var(u|inc) = \sigma^2_einc\)</span>, so that the homoskedasticity assumption is violated. In
-particular, the variance of <span class="math inline">\(sav\)</span> increases with <span class="math inline">\(inc\)</span>. [Hint: <span class="math inline">\(Var(e|inc) = Var(e)\)</span> if <span class="math inline">\(inc\)</span> and <span class="math inline">\(e\)</span> are independent!]</li>
-<li>Why might it be reasonable to assume that the variance of savings increases with family income?</li>
-</ol>
-<ol start="4" style="list-style-type: decimal">
-<li>The data file <a href="../collegedistance.dta"><code>collegedistance.dta</code></a> contains data from a random sample of high school seniors interviewed in 1980 and re-interviewed in 1986<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> Use these data to investigate the relationship between the number of completed years of education for young adults and the distance from each student’s high school to the nearest four-year college. (Proximity to college lowers the cost of education, so that students who live closer to a four-year college should, on average, complete more years of higher education.)</li>
-</ol>
-<ol style="list-style-type: lower-alpha">
-<li><p>Run a regression of years of completed education (<span class="math inline">\(ED\)</span>) on distance to the nearest college (<span class="math inline">\(Dist\)</span>), where <span class="math inline">\(Dist\)</span> is measured in tens of miles. (For example, <span class="math inline">\(Dist=2\)</span> means that the distance is 20 miles.)<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. Write the equation you estimated in the form <span class="math inline">\(\widehat{ED} = \beta_0 + \beta_1 Dist\)</span></p></li>
-<li><p>How does the average value of years of completed schooling change when colleges are built close to where students go to high school?</p></li>
-<li><p>Bob’s high school was 20 miles from the nearest college. Predict Bob’s years of completed education using the estimated regression. How would the prediction change if Bob lived 10 miles from the nearest college?</p></li>
-<li><p>Does distance to college explain a large fraction of the variance in educational attainment across individuals? Explain.</p></li>
-<li><p>Provide an example of a factor that might cause this model to violate the zero conditional mean assumption. Explain your reasoning.</p></li>
-<li><p>What is the value of the standard error of the regression?<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> What are the units for the standard error (meters, grams, years, dollars, cents, or something else)?</p></li>
-<li><p>Is the estimated regression slope coefficient statistically significant at the 5% level? What is the p-value associated with coefficient’s t-statistic?</p></li>
-<li><p>Construct a 95% confidence interval for the slope coefficient.</p></li>
-<li><p>Estimate a regression that restricts the sample to men, and calculate a 95% confidence interval for the slope. Do the same, restricting the sample to women. Does it look like the effect of distance on completed years of education is different?<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p></li>
-</ol>
-</div>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>These data were provided by Professor Cecilia Rouse of Princeton University and were used in her paper “Democratization or Diversion? The Effect of Community Colleges on Educational Attainment,” Journal of Business and Economic Statistics, April 1995, 12(2): 217–224.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
-<li id="fn2"><p>Though we haven’t covered regressions in our stata labs, I talk thorugh interpreting regression output in the <a href="https://youtu.be/DZo5m5q3bmA">Chapter 5 Video</a>. You can regress a dependent variable <code>y</code> on an independent variable <code>x</code> with the command <code>regress y x</code><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
-<li id="fn3"><p>There are a few ways to find it in Stata’s output. The easiest is to note that “root MSE” is the square root of the SER <a href="#fnref3" class="footnote-back">↩︎</a></p></li>
-<li id="fn4"><p>Note that we cannot make claims about whether they are statistically different because the estimates come from two different samples! A hypothesis test here would be awesome, but we need to build a few more skills to do this.<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>

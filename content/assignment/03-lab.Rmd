@@ -1,8 +1,8 @@
 ---
 title: "Lab 3: Regression"
 linktitle: "Lab 3"
-date: "2020-09-28"
-due_date: "2020-10-05"
+date: "2021-09-29"
+due_date: "2021-10-06"
 due_time: "2:20 PM"
 menu:
   assignment:

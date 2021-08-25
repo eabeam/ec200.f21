@@ -1,13 +1,13 @@
 ---
 title: "Problem set 2"
 linktitle: "PS 2"
-date: "2020-09-12"
-due_date: "2020-09-18"
-due_time: "02:20 PM"
+date: "2021-09-20"
+due_date: "2021-10-01"
+due_time: "2:20 PM"
 menu:
   assignment:
     parent: Problem Sets
-    weight: 2
+    weight: 3
 type: docs
 weight: 2
 editor_options: 
@@ -15,98 +15,122 @@ editor_options:
 ---
 
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
-<link href="/rmarkdown-libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
 
 
 <div id="welcome" class="section level2">
 <h2>Welcome</h2>
-<p>Welcome to Problem Set 2! There are two “problem” exercises and one extended Stata exercise. Please note that you’ll need to submit a problem set, log file, and do-file on Blackboard. Note that there are superscripted numbers<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> throughout the page that provide additional information/suggestions to help you out.</p>
+<p>Make sure you submit your assignment on Blackboard by the deadline :point_up: :point_up:</p>
+<p>See the exercises below, or you can <a href="../03-ps.pdf">download them as a pdf</a>. You can download the data file you need for question 4 <a href="../collegedistance.dta">here</a>.</p>
+</div>
+<div id="what-do-i-submit" class="section level2">
+<h2>What do I submit?</h2>
+<ul>
+<li>Your written up answers to exercise questions. If you work on a piece of paper, please scan using some sort of phone software (like Microsoft Lens or Adobe Scan) rather than just taking a picture.</li>
+<li>A do-file that runs your Stata analysis (for question 4).</li>
+<li>A log file that includes the output from running your do-file (for question 4).</li>
+</ul>
 </div>
 <div id="exercises" class="section level2">
 <h2>Exercises</h2>
 <ol style="list-style-type: decimal">
-<li><p>(2.18) In any year, the weather can inflict storm damage to a home. From year to year, the damage is random. Let <span class="math inline">\(Y\)</span> denote the dollar value of damange in any given year. Suppose that in 95% of the years, there is no damage (<span class="math inline">\(Y=0\)</span>), but in 5% of the years, <span class="math inline">\(Y = 20000\)</span>.</p>
+<li><p>The following table shows, for eight vintages of delicious
+wine, purchases per buyer (<span class="math inline">\(y\)</span>) and the wine buyer’s rating (<span class="math inline">\(x\)</span>) in
+a given year:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><span class="math inline">\(x\)</span></th>
+<th align="center">3.6</th>
+<th align="center">3.3</th>
+<th align="center">2.8</th>
+<th align="center">2.6</th>
+<th align="center">2.7</th>
+<th align="center">2.9</th>
+<th align="center">2.0</th>
+<th align="center">2.6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><span class="math inline">\(y\)</span></td>
+<td align="center">24</td>
+<td align="center">21</td>
+<td align="center">22</td>
+<td align="center">22</td>
+<td align="center">18</td>
+<td align="center">13</td>
+<td align="center">9</td>
+<td align="center">6</td>
+</tr>
+</tbody>
+</table>
 <ol style="list-style-type: lower-alpha">
-<li><p>What are the mean and standard deviation of the damage in any year?</p></li>
-<li><p>Consider an “insurance pool” of 100 people whose homes are sufficiently dispersed so that, in any year, the damange to different homes can be viewed as inddependently distributed random variables. Let <span class="math inline">\(\bar{Y}\)</span> denote the average damage to these 100 homes in a year (i) What is <span class="math inline">\(E[\bar{Y}]\)</span>? (i) What is the probability that <span class="math inline">\(\bar{Y}\)</span> exceeds $2000?</p></li>
-</ol></li>
-<li><p>(3.16) Grades on a standardized test are known to have a mean of 1000 for students in the United States. The test is administered to 453 randomly selected students in Florida; in this sample, the mean is 1013 and the standard deviation (<span class="math inline">\(s\)</span>) is 108.</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Construct a 95% confidence interval for the average test score for Florida students</p></li>
-<li><p>Is there statistically significant evidence that Florida students perform differently than other students in the United States? How do you know?</p></li>
-<li><p>Another 503 students are selected at random from Florida. They are given a 3-hour preparation course before the test is administered Their average test scores is 1019 with a standard deviation of 95.</p></li>
-</ol>
-<ol style="list-style-type: lower-roman">
-<li><p>First, construct a 95% confidence interval for the <strong>change</strong> in the average test score associated with the prep course.</p></li>
-<li><p>Is there statistically significant evidence that the prep course helped?</p></li>
+<li><p>Estimate <em>by hand</em> the regression of purchases per buyer on the
+buyer’s rating.<br />
+</p></li>
+<li><p>Interpret the slope of the estimated regression line.<br />
+</p></li>
+<li><p>Interpret the intercept of the estimated regression line .<br />
+</p></li>
 </ol></li>
 </ol>
-<p><strong>For the following question, make sure you submit your do-file and log-file alongside your answers!</strong></p>
+<p><!-- (SW4.2) --></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Suppose that a random sample of 200
+20-year-old men is selected from a population and that these men’s
+height and weight are recorded. A regression of weight (measured in
+pounds) on height (measured in inches) yields</li>
+</ol>
+<pre><code>$$\widehat{Weight}=-99.41 + 3.94 Height$$
+
+$R^2 = 0.81$; $SER = 10.2$
+
+a.  What is the predicted weight for someone who is 70 inches tall?
+    65 inches tall?
+
+b.  One 20-year-old man has a late growth spurt and grows 1.5 inches
+    over the course of the year. What is the regression&#39;s prediction
+    for the increase in his weight?
+
+c.  Suppose that you want to translate the results of this equation
+    into centimeters and kilograms. What are the regression
+    estimates from this new regression? Give all results, including
+    estimated coefficients, $R^2$, and $SER$.
+
+a.  Interpret the $R^2$ value. Does it indicate anything about
+    whether these estimates are likely to be biased? Explain.</code></pre>
 <ol start="3" style="list-style-type: decimal">
-<li><p>Download <a href="../countymurders.dta"><code>countymurders.dta</code></a> to answer this question. The variable
-<span class="math inline">\(murders\)</span> is the number of murders reported in the county. The
-variable <span class="math inline">\(execs\)</span> is the number of executions that took place of
-people sentenced to death in the given country. Most states in the
-United States have the death penalty, but several do not.</p>
-<ol style="list-style-type: decimal">
-<li><p>Keep only data from the year 1996. How many counties are
-there in the data set? Of these, how many have zero murders.
-What percentage of countries have zero executions?</p></li>
-<li><p>What is the largest number of murders in a county? What is the
-largest number of executions in a county?</p></li>
-<li><p>Compute the correlation coefficient <span class="math inline">\(r\)</span> between <code>murders</code> and
-<code>execs</code> and describe what you find. <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> Estimate the correlation coefficient between <code>murdrate</code> and <code>execrate</code>.
-Why do the two coefficients differ so much?</p></li>
-<li><p>What are two characteristics in the data that are highly
-correlated with county murder rates?<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> What are their correlation
-coefficients?</p></li>
-<li><p>What is median real per-capita income?<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p></li>
-<li><p>Generate a variable, <code>highinc</code> that is equal to 1 if a county
-has above-median real per capita income, and 0 otherwise. What
-is <span class="math inline">\(E[rpcpersinc | highinc =0]\)</span>? What is <span class="math inline">\(E[rpcpersinc | highinc =1]\)</span>?</p></li>
-<li><p>Consider a two-sided hypothesis test of whether murder
-rates are different between counties with high (above median) vs
-low (below median) real per-capita personal income. Assume the
-two samples are independent, with equal variances.</p>
-<ol style="list-style-type: lower-alpha">
-<li>First, write a null and alternative hypothesis</li>
-<li>Use Stata to conduct the hypothesis test. What is the relevant t-statistic?<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></li>
-<li>Can you reject the null hypothesis at the 5% level?</li>
-</ol></li>
-<li><p>Generate a variable, <code>perc1029</code>, that is equal to the share of
-the population between the ages of 10 and 29. What is the median
-share of the population by county that is ages <strong>10-29</strong>?</p></li>
-<li><p>Generate a variable, <code>young</code>, that is equal to 1 if a county has
-an above-median share of the population that is age 10-29, and 0
-otherwise. What is <span class="math inline">\(E[perc1029| young = 0]\)</span>? What is
-<span class="math inline">\(E[perc1029| young =1]\)</span>?</p></li>
-<li><p>Consider a two-sided hypothesis test of whether murder rates are
-different between states with a high (above-median) share of the
-population ages <strong>10-29</strong> versus a low share. Assume the two
-samples are independent, with equal variances.</p>
-<ol style="list-style-type: lower-alpha">
-<li>First, write a null and alternative hypothesis</li>
-<li>Use Stata to conduct the hypothesis test. What is the relevant t-statistic?</li>
-<li>Can you reject the null hypothesis at the 5% level?</li>
-</ol></li>
-</ol></li>
+<li>Consider the savings function:</li>
 </ol>
-</div>
-<div id="sources" class="section level2 unnumbered">
-<h2>Sources</h2>
-<p><a href="../countymurders.dta"><code>countymurders.dta</code></a></p>
-<p><em>Source: Compiled by J. Monroe Gamble for a Summer Research Opportunities
-Program (SROP) at Michigan State University, Summer 2014. Monroe
-obtained data from the U.S. Census Bureau, the FBI Uniform Crime
-Reports, and the Death Penalty Information Center.</em></p>
+<p><span class="math display">\[sav =  \beta_0 + \beta_1 inc + u, u = e\sqrt{inc}\]</span></p>
+<p>where <span class="math inline">\(e\)</span> is a random variable with <span class="math inline">\(E(e) = 0\)</span> and <span class="math inline">\(Var(e) = \sigma^2_e\)</span>. Assume that <span class="math inline">\(e\)</span> is independent of <span class="math inline">\(inc\)</span>.</p>
+<ol style="list-style-type: lower-alpha">
+<li>Show that <span class="math inline">\(E(u|inc)=0\)</span>, so that the key zero conditional mean assumptionis satisfied. [Hint: If <span class="math inline">\(e\)</span> is independent of <span class="math inline">\(inc\)</span>, then <span class="math inline">\(E(e|inc) = E(e)\)</span>]</li>
+<li>Show that <span class="math inline">\(Var(u|inc) = \sigma^2_einc\)</span>, so that the homoskedasticity assumption is violated. In
+particular, the variance of <span class="math inline">\(sav\)</span> increases with <span class="math inline">\(inc\)</span>. [Hint: <span class="math inline">\(Var(e|inc) = Var(e)\)</span> if <span class="math inline">\(inc\)</span> and <span class="math inline">\(e\)</span> are independent!]</li>
+<li>Why might it be reasonable to assume that the variance of savings increases with family income?</li>
+</ol>
+<ol start="4" style="list-style-type: decimal">
+<li>The data file <a href="../collegedistance.dta"><code>collegedistance.dta</code></a> contains data from a random sample of high school seniors interviewed in 1980 and re-interviewed in 1986<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> Use these data to investigate the relationship between the number of completed years of education for young adults and the distance from each student’s high school to the nearest four-year college. (Proximity to college lowers the cost of education, so that students who live closer to a four-year college should, on average, complete more years of higher education.)</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><p>Run a regression of years of completed education (<span class="math inline">\(ED\)</span>) on distance to the nearest college (<span class="math inline">\(Dist\)</span>), where <span class="math inline">\(Dist\)</span> is measured in tens of miles. (For example, <span class="math inline">\(Dist=2\)</span> means that the distance is 20 miles.)<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. Write the equation you estimated in the form <span class="math inline">\(\widehat{ED} = \beta_0 + \beta_1 Dist\)</span></p></li>
+<li><p>How does the average value of years of completed schooling change when colleges are built close to where students go to high school?</p></li>
+<li><p>Bob’s high school was 20 miles from the nearest college. Predict Bob’s years of completed education using the estimated regression. How would the prediction change if Bob lived 10 miles from the nearest college?</p></li>
+<li><p>Does distance to college explain a large fraction of the variance in educational attainment across individuals? Explain.</p></li>
+<li><p>Provide an example of a factor that might cause this model to violate the zero conditional mean assumption. Explain your reasoning.</p></li>
+<li><p>What is the value of the standard error of the regression?<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> What are the units for the standard error (meters, grams, years, dollars, cents, or something else)?</p></li>
+<li><p>Is the estimated regression slope coefficient statistically significant at the 5% level? What is the p-value associated with coefficient’s t-statistic?</p></li>
+<li><p>Construct a 95% confidence interval for the slope coefficient.</p></li>
+<li><p>Estimate a regression that restricts the sample to men, and calculate a 95% confidence interval for the slope. Do the same, restricting the sample to women. Does it look like the effect of distance on completed years of education is different?<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p></li>
+</ol>
 </div>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>See?! Neat! :) <i class="fas  fa-rocket fa-spin "></i> <i class="fas  fa-rocket fa-spin "></i> <i class="fas  fa-rocket fa-spin "></i> <a href="#fnref1" class="footnote-back">↩︎</a></p></li>
-<li id="fn2"><p>Remember, you can use <code>correlate var1 var2</code> to look at the correlation between two variables.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
-<li id="fn3"><p>If you want to look at the correlation between lots of variables, you can use <code>correlate var1 var2 ... var99</code>. If you want to refer to a lot of variables, an asterisk (*) can act as a “wild.” So if you use <code>correlate var*</code>, it you’ll receive a correlation matrix of every variable with a name that starts with “var.” If you use <code>correlate *var*</code>, it will give you a correlation matrix of every variable with the letters “var” somewhere in the name.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
-<li id="fn4"><p><code>tabstat</code> is your friend!<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
-<li id="fn5"><p>The help file for <code>ttest</code> will be useful. Here we are conducting a two-sample t-test using groups. You will want to use the <code>highinc</code> variable you generated earlier.<a href="#fnref5" class="footnote-back">↩︎</a></p></li>
+<li id="fn1"><p>These data were provided by Professor Cecilia Rouse of Princeton University and were used in her paper “Democratization or Diversion? The Effect of Community Colleges on Educational Attainment,” Journal of Business and Economic Statistics, April 1995, 12(2): 217–224.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Though we haven’t covered regressions in our stata labs, I talk thorugh interpreting regression output in the <a href="https://youtu.be/DZo5m5q3bmA">Chapter 5 Video</a>. You can regress a dependent variable <code>y</code> on an independent variable <code>x</code> with the command <code>regress y x</code><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>There are a few ways to find it in Stata’s output. The easiest is to note that “root MSE” is the square root of the SER <a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>Note that we cannot make claims about whether they are statistically different because the estimates come from two different samples! A hypothesis test here would be awesome, but we need to build a few more skills to do this.<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>

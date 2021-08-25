@@ -1,11 +1,11 @@
 
 
 ---
-title: Stats Quiz
-sitetitle: Stats Quiz
-summary: "EC200 - Stats Quiz Prep (EC200) "
+title: Exam 1 (Stats)
+sitetitle: Exam 1 (Stats)
+summary: "EC200 - Exam 1 Prep (Statistics)"
 
-date: "2020-09-13"
+date: "2021-09-13"
 
 
   
@@ -39,17 +39,31 @@ I recommend the following resources:
 
  - Odd-numbered problems from Stock and Watson - solutions are available [here](../../bonus/general-resources)
  - [Practice exam](#practice-exam)
- - [In-class practice (#inclass-practice)]
+ - [In-class practice](#inclass-practice)
 
 ## What is the structure of the exam? 
 
-The exam will "go live" during our scheduled class time at **2:20pm on Monday, September 21**.  We will not meet :cry:.  It will be "due" at **3:20pm the same day.** I've added an extra 10 minutes for scanning/deep breaths, but I didn't add more to avoid conflicts with those who have class at 3:30pm. 
+The exam will be a lot like a math exam - solving some problems and showing your work. I would expect about 3 multi-part questions. There may be some questions that involve definitions and/or true-false.
 
-**If you have a scheduling issue, please let me know ASAP.**
 
-You will be asked to work through about 3-4 multi-part questions worth 30 points total. There are multiple versions of the exam. 
 
-### How do I submit? 
+The exam is open book with a calculator allowed. 
+
+What is allowed?
+
+  - Paper notes
+  - Textbook
+  - Calculator (basic, scientific, graphing)
+  
+What is not allowed?
+
+  - ~~Phone~~ 
+  - ~~Tablet~~
+  - ~~Laptop~~
+
+
+
+<!---### How do I submit? 
 Work through on paper, then scan a copy and upload it onto Blackboard. Please use something like [Adobe Scan](https://acrobat.adobe.com/us/en/mobile/scanner-app.html) so that you can submit **just one file in pdf form**. In the past, I've found that uploading photos yields huge files that are difficult to grade.
 
 #### Details: 
@@ -61,19 +75,20 @@ What should you make sure you include?
  - Make sure your answers are numbered, but you don't need to write out the questions
  - Please make sure pages are in order
  - **YOU MUST SHOW YOUR WORK** for full credit. 
+--->
 
 ### In-class practice 
 
-[Here are the problems](../EC200-03-01practice.docx) we covered/attempted to cover on Monday, September 14.
+[Here are the problems](../practice/EC200-03-01practice.pdf) we covered in class.
 
 
 And a video with solutions! I recommend working through the problems on your own **first**. 
 
 `r htmltools::HTML("{{< youtube q_NbBSDWcpI >}}")`
 
-Or, download a [pdf of the solutions](../EC200-03-01practice_solutions.pdf)
+Or, download a [pdf of the solutions](../practice/EC200-03-01practice_solutions.pdf)
 
-
+<!---
 ### Practice exam! (For logisitics)
 
 Just to make sure we're feeling good about logistics, I'll post a "practice exam" on Blackboard that will go live at **3:30pm on Friday, September 18** (after our optional meet up) with one question. You can download it, work through the problem, scan it and upload your exam.  It will be available until **11:59 pm Sunday.**
@@ -82,29 +97,13 @@ I'll review your submission and make sure there aren't any problems with viewing
 
 Completion of the practice exam will be worth 2 points toward the exam (regardless of the accuracy of your answer).
 
-<!---
-Following department policy, you will be required to use the Respondus lock-down browser with no back-tracking. 
-
-I will ask you to 
-## Responu--what? 
-
- all exams for the course require you to use the Respondus lock-down browser. This means you must use a Mac/PC for the exam, not a Chromebook or iPad. If this creates any problems for you, reach out to me and we can discuss options. 
-
-From UVM: 
-  > The LockDown Browser is like a normal browser, except that once you click “Begin” on your test, it prevents you from opening Word documents, instant messages, or email, and it blocks you from visiting other websites or accessing other parts of the course.
-> 
-> Important: You must download the browser from the URL below. Even if you have used the LockDown Browser at another school, it won’t work at UVM unless you use this version: [http://www.respondus.com/lockdown/download.php?id=488814272](http://www.respondus.com/lockdown/download.php?id=488814272).
->
-> You only need to install it once for all tests in your UVM Bb courses.
-> Note that you will need to use the LockDown Browser to see your grades and feedback, as well.
-> 
-
  
 
 ## Practice 
 
 On Friday, I'll release an optional "practice" lock-down exam. It will have one practice questions, so we can all experience the glory of online testing. If you complete the pratice lock-down exam, you will earn 2 points toward the exam.
 --> 
+
 ## Helpful materials {#helpful-materials}
 
 Two things that may be useful to you: 
