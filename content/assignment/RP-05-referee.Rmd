@@ -1,8 +1,8 @@
 ---
 title: "Research Paper: Referee Report"
 linktitle: "05 Referee Report"
-date: "2020-08-28"
-due_date: "2020-11-18"
+date: "2021-10-28"
+due_date: "2021-11-15"
 due_time: "11:59 PM"
 menu:
   assignment:
@@ -15,7 +15,7 @@ editor_options:
 ## Purpose:
 
 - To practice generating constructive criticism for imperfect work
-- To link what we’ve learned in class to an original analysis
+- To link what we've learned in class to an original analysis
 - To generate useful feedback for your peers
 
 ## Key Elements 

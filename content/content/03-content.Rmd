@@ -1,5 +1,3 @@
-
-
 ---
 title: Week 3 - Statistics Review
 sitetitle: Week 3

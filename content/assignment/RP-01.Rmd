@@ -1,7 +1,7 @@
 ---
 title: "Research Paper: Overview"
 linktitle: "01 Overview"
-date: "2021-08-25"
+date: "2021-08-30"
 
 menu:
   assignment:
@@ -138,6 +138,7 @@ See [course schedule](../../schedule) for deadlines. Submit materials by **11:59
 the deadline. Submit all assignments via Blackboard. (Late assignments without an extenson
 will be penalized 10\% per day, and they may not receive detailed
 feedback.) 
+
 ### Grading {#grading .unnumbered}
 
 I will provide formal or informal grading rubrics for each component, so

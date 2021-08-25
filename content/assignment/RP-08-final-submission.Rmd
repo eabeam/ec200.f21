@@ -1,8 +1,8 @@
 ---
 title: "Research Paper: Final Submission"
 linktitle: "08 Final"
-date: "2020-06-22"
-due_date: "2020-12-08"
+date: "2021-10-29"
+due_date: "2021-12-13"
 due_time: "11:59 PM"
 menu:
   assignment:

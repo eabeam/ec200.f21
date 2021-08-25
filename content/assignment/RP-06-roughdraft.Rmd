@@ -1,13 +1,13 @@
 ---
 title: "Research Paper: Rough Draft"
-linktitle: "07 Paper Draft"
-date: "2020-08-28"
-due_date: "2020-11-30"
+linktitle: "06 Paper Draft"
+date: "2021-10-28"
+due_date: "2021-12-01"
 due_time: "11:59 PM"
 menu:
   assignment:
     parent: Research Paper
-    weight: 10
+    weight: 6
 type: docs
 editor_options: 
   chunk_output_type: console
