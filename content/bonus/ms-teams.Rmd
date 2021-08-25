@@ -2,7 +2,7 @@
 title: "MS Teams Resources"
 sitetitle: MS Teams
 summary: MS Teams etiquette and resources
-date: "2020-08-20"
+date: "2022-08-20"
 
 menu:
   resources:
