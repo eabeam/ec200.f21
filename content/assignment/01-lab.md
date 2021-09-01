@@ -1,5 +1,5 @@
 ---
-title: "Lab 1: Do-files"
+title: "Lab 1: Introduction to Stata"
 linktitle: "Lab 1"
 date: "2021-08-25"
 due_date: "2021-09-08"
@@ -14,9 +14,11 @@ editor_options:
   chunk_output_type: console
 ---
 
+[**Download print-friendly version (pdf)**](../01-lab.pdf)
+
 ## Materials {#materials .unnumbered}
 
- - `driving_2004.dta`
+ - [`driving_2004.dta`](../materials/driving_2004.dta)
 
 ## Objectives[^2] {#objectives .unnumbered}
 
