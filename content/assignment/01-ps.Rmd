@@ -28,19 +28,41 @@ Note that there are superscripted numbers^[See?! Neat! :)  ] throughout the page
 |       $P(X=x)$ |  0.25  | 0.30 |  0.40  | 0.05|
 
 
-
-
 1.  Consider the above random variable, $X$, with its associated
     probability distribution:
 
-    a.  Draw the probability distribution function and the cumulative
+    a.  *Draw* the probability distribution function and the cumulative
         distribution function.
 
     b.  What is the expected value of X? That is, what is $E[X]$?
 
     c.  What is the variance of X?
+  <!-- 2.6 -->
+  
+2.  The following table gives the joint probability distribution between employment status and college graduation among those either employed or looking for work (unemployed) in the working-age U.S. population for 2012: 
 
-2.  Stock and Watson 2.6, 2.10, (note that I originally assigned 2.18, 3.16, but the content is covered in Week 3 - you can submit these now _or_ with PS2) 
+|                             | Unemployed ($Y=0$) | Employed ($Y=1$) | Total |
+| --------------------------- | ------------------ | --------------- | ----- |
+| Non-college grads ($X = 0$) | 0.053              | 0.586           | 0.639 |
+| College grads ($X = 1$)     | 0.015              | 0.346           | 0.361 |
+| **Total**                   | 0.068              | 0.932           | 1.000 |
+
+  a. Compute $E[Y]$. 
+  b. The unemployment rate is the fraction of the labor force that is unemployed. Show that the unemployment rate is given by $1 - E[Y]$.
+  c. Calculate $E[Y|X=1]$ and $E[Y|X=0]$.
+  d. Calculate the unemployment rate for college graduates and for non-college graduates
+  e. A randomly selected member of this population reports beign unemployed. What is the probability that this worker is a college graduate? A non-college graduate? 
+    f. Are educational achievement and employment status independent? Explain. 
+    
+    <!-- 2.10 -->
+
+3. Compute the following probabilities^[Remember that  we conventionally $N(\mu,\sigma^2)$, so the second term is the *variance*, not the standard deviation]: 
+
+  a.  If $Y$ is distributed $N(1,4)$, find $Pr(Y \leq 3)$
+  b. If $Y$ is distributed $N(3,9)$, find $Pr(Y >0 )$
+  c. If $Y$ is distributed $N(50,25)$, find $Pr(40 \leq Y \leq 52)$
+  d. If $Y$ is distributed $N(5,2)$, find $Pr(6 \leq Y \leq 8)$
+  
 
 3.  For a randomly selected county in the United States, let $X$
     represent the proportion of adults over age 65 who are employed (the
@@ -55,24 +77,24 @@ Note that there are superscripted numbers^[See?! Neat! :)  ] throughout the page
         between 0.4 (40%) and 0.6 (60%)?
 
   <!-- 2.18 -->
-4. In any year, the weather can inflict storm damage to a home. From year to year, the damage is random. Let $Y$ denote the dollar value of damange in any given year. Suppose that in 95% of the years, there is no damage ($Y=0$), but in 5% of the years, $Y = 20000$.
+4. In any year, the weather can inflict storm damage to a home. From year to year, the damage is random. Let $Y$ denote the dollar value of damage in any given year. Suppose that in 95% of the years, there is no damage ($Y=0$), but that in 5% of the years, $Y = 20000$.
 
-    a. What are the mean and standard deviation of the damage in any year? 
+  a. What are the mean and standard deviation of the damage in any year? 
   
-    b. Consider an "insurance pool" of 100 people whose homes are sufficiently dispersed so that, in any year, the damange to different homes can be viewed as inddependently distributed random variables. Let $\bar{Y}$ denote the average damage to these 100 homes in a year (i) What is $E[\bar{Y}]$? (i) What is the probability that $\bar{Y}$ exceeds $2000? 
+  b. Consider an "insurance pool" of 100 people whose homes are sufficiently dispersed so that, in any year, the damange to different homes can be viewed as inddependently distributed random variables. Let $\bar{Y}$ denote the average damage to these 100 homes in a year (i) What is $E[\bar{Y}]$? (i) What is the probability that $\bar{Y}$ exceeds $2000? 
   
   <!--3.16 -->
 5. Grades on a standardized test are known to have a mean of 1000 for students in the United States. The test is administered to 453 randomly selected students in Florida; in this sample, the mean is 1013 and the standard deviation ($s$) is 108. 
     
-    a. Construct a 95% confidence interval for the average test score for Florida students 
+  a. Construct a 95% confidence interval for the average test score for Florida students 
     
-    b. Is there statistically significant evidence that Florida students perform differently than other students in the United States? How do you know? 
+  b. Is there statistically significant evidence that Florida students perform differently than other students in the United States? How do you know? 
     
-    c. Another 503 students are selected at random from Florida. They are given a 3-hour preparation course before the test is administered Their average test scores is 1019 with a standard deviation of 95. 
+  c. Another 503 students are selected at random from Florida. They are given a 3-hour preparation course before the test is administered Their average test scores is 1019 with a standard deviation of 95. 
     
-    (i) First, construct a 95% confidence interval for the **change** in the average test score associated with the prep course.  
+  (i) First, construct a 95% confidence interval for the **change** in the average test score associated with the prep course.  
     
-    (ii) Is there statistically significant evidence that the prep course helped? 
+  (ii) Is there statistically significant evidence that the prep course helped? 
       
 
 **For the following question, make sure you submit your do-file and log-file alongside your answers!**
@@ -83,28 +105,27 @@ Note that there are superscripted numbers^[See?! Neat! :)  ] throughout the page
     people sentenced to death in the given country. Most states in the
     United States have the death penalty, but several do not.
 
-    1.  Keep only data from the year 1996. How many counties are
+    a.  Keep only data from the year 1996. How many counties are
         there in the data set? Of these, how many have zero murders.
         What percentage of countries have zero executions?
 
-    2.  What is the largest number of murders in a county? What is the
+    b.  What is the largest number of murders in a county? What is the
         largest number of executions in a county? 
 
-    3.  Compute the correlation coefficient $r$ between `murders` and
-        `execs` and describe what you find. ^[Remember, you can use `correlate var1 var2` to look at the correlation between two variables.] Estimate the correlation coefficient between `murdrate` and `execrate`.
-        Why do the two coefficients differ so much?
+    c.  Compute the correlation coefficient $r$ between `murders` and
+        `execs` and describe what you find. ^[Remember, you can use `correlate var1 var2` to look at the correlation between two variables.] Estimate the correlation coefficient between `murdrate` and `execrate`. Why do the two coefficients differ so much?
 
-    4.  What are two characteristics in the data that are highly
+    d.  What are two characteristics in the data that are highly
         correlated with county murder rates?^[If you want to look at the correlation between lots of variables, you can use `correlate var1 var2 ... var99`. If you want to refer to a lot of variables, an asterisk (*) can act as a "wild." So if you use `correlate var*`, it you'll receive a correlation matrix of every variable with a name that starts with "var." If you use `correlate *var*`, it will give you a correlation matrix of every variable with the letters "var" somewhere in the name.] What are their correlation
         coefficients?
 
-    5.  What is median real per-capita income?^[`tabstat` is your friend!]
+    e.  What is median real per-capita income?^[`tabstat` is your friend!]
 
-    6.  Generate a variable, `highinc` that is equal to 1 if a county
+    f.  Generate a variable, `highinc` that is equal to 1 if a county
         has above-median real per capita income, and 0 otherwise. What
-        is $E[rpcpersinc  | highinc =0]$? What is     $E[rpcpersinc | highinc =1]$?
+        is $E[rpcpersinc  | highinc =0]$? What is    $E[rpcpersinc | highinc =1]$?
 
-    7.  Consider a two-sided hypothesis test of whether murder
+    g.  Consider a two-sided hypothesis test of whether murder
         rates are different between counties with high (above median) vs
         low (below median) real per-capita personal income. Assume the
         two samples are independent, with equal variances. 
@@ -112,16 +133,16 @@ Note that there are superscripted numbers^[See?! Neat! :)  ] throughout the page
           b. Use Stata to conduct the hypothesis test. What is the relevant t-statistic?^[The help file for `ttest` will be useful. Here we are conducting a two-sample t-test using groups. You will want to use the `highinc` variable you generated earlier.]
           c. Can you reject the null hypothesis at the 5% level?
 
-    8.  Generate a variable, `perc1029`, that is equal to the share of
+    h.  Generate a variable, `perc1029`, that is equal to the share of
         the population between the ages of 10 and 29. What is the median
         share of the population by county that is ages **10-29**?
 
-    9.  Generate a variable, `young`, that is equal to 1 if a county has
+    i.  Generate a variable, `young`, that is equal to 1 if a county has
         an above-median share of the population that is age 10-29, and 0
         otherwise. What is $E[perc1029| young = 0]$? What is
         $E[perc1029| young =1]$?
 
-    10. Consider a two-sided hypothesis test of whether murder rates are
+    j. Consider a two-sided hypothesis test of whether murder rates are
         different between states with a high (above-median) share of the
         population ages **10-29** versus a low share. Assume the two
         samples are independent, with equal variances.

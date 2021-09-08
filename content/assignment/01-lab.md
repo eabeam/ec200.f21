@@ -96,6 +96,18 @@ If you need more help, check out [Stata Resources](/bonus/stata-resources).
 
 
 
+**Also:** you can use parentheses to group terms appropriately. For example, if you want to tabulate states where the speed limit is 55 or 65 AND the blood alcohol limit is 0.10, then this is wrong: 
+
+`tab state if sl55 == 1 | sl65 == 1 & bac10 == 1`
+
+But this is correct! 
+
+`tab state if (sl55 == 1 | sl65 == 1) & bac10 == 1`
+
+Thanks, parentheses! 
+
+
+
 ## Hey, Stata. It's nice to meet you
 
 Start by opening Stata. You should have a window that looks something
@@ -165,7 +177,7 @@ There are three ways to open a data file:
 
 3.  Type `use filename.dta, clear` into the command window within Stata
 
-Download `driving_2004.dta`, from Teams and open it. This is a data
+Download [`driving_2004.dta`](../materials/driving_2004.dta) and open it. It is a
 file of driving laws, vehicle accidents, and fatalities in the United
 States in 2004.
 
@@ -256,7 +268,7 @@ _First, work through the above steps. Then, work through the 7 questions below._
     limit)?
 
 2.  What percentage of states with GDLs *and* with low speed limits
-    (below 70 mph) have blood-alcohol limits of 0.10 (the more lenient
+    (*below* 70 mph) have blood-alcohol limits of 0.10 (the more lenient
     level)? *Note that some states have blood-alcohol limit for a
     fraction of a year. If so, consider having a limit of 0.10 in place
     for part of the year as having a limit*

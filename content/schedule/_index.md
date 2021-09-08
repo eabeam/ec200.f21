@@ -34,7 +34,7 @@ What's the plan?
 |3 |||**Probability/Statistics Review (CH2/3)**   | ||
 |  | 13 Sep | M | [Statistics review (2.5-2.6, 3)](/content/04-content)|[Read CH3 and watch video](/content/04-content) | [<i class="fas fa-tv"></i> VQ2 due](https://bb.uvm.edu)   |
 |  | 15 Sep | W | [Lab 2: Do-files](/assignment/02-lab) || |
-|  | 10 Sep | F | [Exam prep](/content/03-statsquiz)| |[<i class="fas fa-pencil-alt"></i> PS1 due](/assignment/01-ps) |
+|  | 17 Sep | F | [Exam prep](/content/03-statsquiz)| |[<i class="fas fa-pencil-alt"></i> PS1 due](/assignment/01-ps) |
 | ||| | ||
 | 4|||**Simple Linear Regression (CH4)**   | | |
 |  | 20 Sep | M | [Exam 1: CH2, 3](/content/03-statsquiz) | | |
