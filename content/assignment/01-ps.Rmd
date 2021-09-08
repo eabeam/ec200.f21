@@ -54,7 +54,7 @@ Note that there are superscripted numbers^[See?! Neat! :)  ] throughout the page
   e. A randomly selected member of this population reports beign unemployed. What is the probability that this worker is a college graduate? A non-college graduate? 
     f. Are educational achievement and employment status independent? Explain. 
     
-    <!-- 2.10 -->
+   <!-- 2.10 -->
 
 3. Compute the following probabilities^[Remember that  we conventionally $N(\mu,\sigma^2)$, so the second term is the *variance*, not the standard deviation]: 
 
