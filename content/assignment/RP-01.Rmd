@@ -328,7 +328,7 @@ You may also include figures, but they would not substitute for the required tab
 
 -   You'll use outside sources in your introduction and background/literature review, at a minimum. Make sure that you have (1) at least *5 academic sources* (published academic journals), and (2) at least *8 sources total* (could also include working papers, newspaper articles, policy papers, etc.)
 
--     Make sure to cite your data (does not count for totals above) 
+-   Make sure to cite your data (does not count for totals above) 
 
 -   Use footnotes, not endnotes
 

@@ -39,7 +39,7 @@ So here's some advice.
 1. Open up [IPUMS](https://www.ipums.org/) and start digging through variables and datasets. What looks interesting? 
 
 
-2. Read Nick Huntington-Klein's [excellent chapter on research questions](https://nickchk.com/book/huntington-klein_causality_chapter2_research_questions.pdf)^[The [rest](https://nickchk.com/causalitybook.html) of it is great, too!]
+2. Read Nick Huntington-Klein's [excellent chapter on research questions](https://theeffectbook.net/ch-ResearchQuestions.html)^[The [rest](https://theeffectbook.net/) of it is great, too!]
 
 2. Jot down every question you can think of. If you need inspiration, open up a newspaper of your choice. I highly recommend the [NYTimes Upshot](https://www.nytimes.com/section/upshot), which has lots of data-driven, economics-linked questions. 
 
