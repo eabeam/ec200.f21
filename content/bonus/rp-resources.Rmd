@@ -16,6 +16,24 @@ output:
     toc: true
 ---
 
+## Getting started with IPUMS 
+
+You will need an account to use IPUMS, and there can be some wait time for approval. So it's a good idea to set up your account *before* you need your data, so you don't get slowed down.
+
+
+`r htmltools::HTML("{{< youtube Dp8t3M6H9F0 >}}")`
+
+### Other resources
+
+IPUMS has also put together extensive set of [tutorials](https://www.youtube.com/user/MPCIPUMS)! 
+
+Here are some particularly handy ones: 
+
+ - [Data extract tutorial](https://youtu.be/tZR0aDwr91s)
+ - [Navigating variable descriptions](https://youtu.be/WmjNN2mbWoU)
+ - [Opening your data in Stata](https://youtu.be/Orif_kvhkMY)
+
+
 
 ## Writing a research paper 
 
