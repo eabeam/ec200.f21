@@ -1,7 +1,7 @@
 ---
 title: "Lab 2: Do-files"
 linktitle: "Lab 2"
-date: "2021-09-15"
+date: "2021-09-12"
 due_date: "2021-09-22"
 due_time: "2:20 pm"
 toc: true
@@ -14,14 +14,14 @@ editor_options:
   chunk_output_type: console
 ---
 
-
-## Materials {#materials .unnumbered}
+## Lab Content
+### Materials {#materials .unnumbered}
 
 - [`acs2014_all.dta`](../materials/acs2014_all.dta)
 - Do-file template [`labtemplate.do`](../materials/labtemplate_f20.do) 
 
 
-## Objectives {#objectives .unnumbered}
+### Objectives {#objectives .unnumbered}
 
 
 By the end of this tutorial you should be able to complete the following
@@ -34,7 +34,7 @@ tasks in Stata:
 -   Be able to find help with Stata issues - find new commands, check
     and debug your work, etc.
 
-## Key commands  {#key-commands .unnumbered}
+### Key commands  {#key-commands .unnumbered}
 
 |command|description|
 | :------------- | ----------: |  
@@ -73,7 +73,7 @@ comfortable with do-files will save you lots of time, make collaboration
 easier, and reduce errors!
 
 
-## Aside:  Bad documentation, big problems
+### Aside:  Bad documentation, big problems
 > For an economist, the ﬁve most terrifying words in the English language are: I can’t replicate your results.But for economists Carmen Reinhart and Ken Rogoﬀ of Harvard, there are seven even more terrifying ones: I think you made an Excel error.
 >
 > – [Matthew O’Brien, The Atlantic (18 April 2013)](https://www.theatlantic.com/business/archive/2013/04/forget-excel-this-was-reinhart-and-rogoffs-biggest-mistake/275088/)
@@ -90,10 +90,10 @@ A summary from [The Conversation, (22 April, 2013)](https://theconversation.com/
 >
 > So the key conclusion of a seminal paper, which has been widely quoted in political debates in North America, Europe Australia and elsewhere, was invalid. 
 
-`{{< figure library="true" src="reinhart-rogoff-error.png" title="[Excel error (Business Insider)](https://www.businessinsider.com/thomas-herndon-michael-ash-and-robert-pollin-on-reinhart-and-rogoff-2013-4)" >}}`
+`{{< figure library="true" src="reinhart-rogoff-error.png" width=400 title="[Excel error (Business Insider)](https://www.businessinsider.com/thomas-herndon-michael-ash-and-robert-pollin-on-reinhart-and-rogoff-2013-4)" >}}`
 
 
-## Do-files and the do-file editor
+### Do-files and the do-file editor
 
 You can get pretty far in Stata relying on the Command and Review
 window, but we may want a record of the commands we want to run for our
@@ -114,7 +114,7 @@ commands they're satisfied with to the do-file, while others will prefer
 to work entirely in the do-file. It's your call, though the second one
 is a little less risky.
 
-### Comment, comment, comment
+#### Comment, comment, comment
 
 
 Do-files are used to record your past work and possibly to share your
@@ -129,13 +129,13 @@ using comments. There are three ways to comment
 3.   Use slash-asterisk to open (`/*`) and close (`*/`) a comment section
 
 
-`{{< figure library="true" src="stata-comment.png" title="" >}}`
+`{{< figure library="true" src="stata-comment.png" width=400 title="" >}}`
 
 The do-file editor will turn all your comments green so you don't get
 confused.
 
 
-## Programming tips
+### Programming tips
 
 
 -   **Put everything in a do-file!** An important feature of any good
@@ -178,7 +178,7 @@ confused.
 -   **Comment, comment, comment!** Clear commenting is essential to help
     others understand your code and to remember what you did.
 
-## Finding new commands
+### Finding new commands
 
 
 One of the strengths of Stata is that complicated processes can be
@@ -209,11 +209,11 @@ something in a way we haven't covered.
 
 ### Questions
 
-1.  Download [`acs2014_all.dta`](https://www.dropbox.com/s/q7w8uz0f9vm0ghe/acs2014_all.dta?dl=0) and [`labtemplate.do`](https://www.dropbox.com/s/s71vxnktcrfd14q/labtemplate_f20.do?dl=0) by clicking the links or from Teams.
+1.  Download [`acs2014_all.dta`](materials/acs2014_all.dta) and [`labtemplate.do`](materials/labtemplate_f21.do) by clicking the links.
 
-2.  Move these files to wherever you store your files.
+2.  Move these files to wherever you store your class materials.
 
-3.  Open `labtemplate.do` and run it. Does it work? Probably not! Fix it. 
+3.  Open `labtemplate_f21.do` and run it. Does it work? Probably not! Fix it. 
 
 4.  Drop some variables we don't need right now: `gq`, `serial`, and `hhwt`. How
     many variables remain?
@@ -229,15 +229,12 @@ something in a way we haven't covered.
 7.  Generate a new variable, `lt35` that is equal to one if a person is
     less than 35 years old and 0 otherwise. What is the mean of `lt35,` and what is its interpretation?
 
-8.  Using the `tabstat` command, find the average income and wages for
-    those under age 35 and those at least age 35. How does it compare to median income and wages for each group?
+8.  Using the `tabstat` command, find the average income and wages for  those under age 35 and those at least age 35. How does it compare to median income and wages for each group?
 
-9.  Using the `tabstat` command, find the average income and wages for
-    men and women.
+9.  Using the `tabstat` command, find the average income and wages for  men and women.
 
 10. There are several reasons why men might earn more than women. Suppose you hypothesized that
-      that men have completed more education than women; and workers
-    with higher education levels earn more. We will test this in two ways.
+      that men have completed more education than women; and workers  with higher education levels earn more. We will test this in two ways.
 
     1.  First, generate a variable equal to one if a person has
         completed at least some post-secondary education, and zero
@@ -257,7 +254,7 @@ something in a way we haven't covered.
         describe in as much detail as possible. You can assume you have
         additional data beyond what is provided here._
 
-2.  Make a two histograms, one of the income distribution for men
+2.  Make two histograms, one of the income distribution for men
         and one of the income distribution for women. Make sure the
         y-axis indicates the "fraction" of individuals, not the density.
        Copy and paste it into your responses. 
