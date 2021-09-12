@@ -43,7 +43,7 @@ What's the plan?
 | ||||  | |
 | 5|||**SLR: Hypothesis tests (CH5)**   | | |
 |  | 27 Sep | M | [No in-person meeting](/content/05-content) | [Read CH5 and watch video](/content/04-content/) |  [<i class="fas fa-tv"></i> VQ3 due](https://bb.uvm.edu) |
-|  | 29 Sep | W | [Lab 3: Regression in Stata](/assignment/03-lab) |  |  [<i class="fas fa-dragon"></i> Idea proposal due](/assignment/idea-proposal)|
+|  | 29 Sep | W | [Lab 3: Regression in Stata](/assignment/03-lab) |  |  [<i class="fas fa-dragon"></i> Idea proposal due](/assignment/rp-02-ideas)|
 |  | 01 Oct | F |[Hypothesis testing](/content/05-content) || [<i class="fas fa-pencil-alt"></i> PS 2 due](/assignment/02-ps)|
 | ||||  | |
 | 6|||**Multiple linear regression (CH6)**   | | |
@@ -58,12 +58,12 @@ What's the plan?
 | ||||  | |
 | 8|||**Non-linear regressions (CH8)**   | | |
 |  | 18 Oct | M | Exam 2: CH 4, 5, 6, 7 |  ||
-|  | 20 Oct | W | [<i class="fas fa-dragon"></i> RP: Writing an annotated bibliography](/assignment/02-biblio) |  ||
+|  | 20 Oct | W | [<i class="fas fa-dragon"></i> RP: Writing an annotated bibliography](/assignment/rp-03-annotated) |  ||
 |  | 22 Oct | F | [Non-linear regression](/content/08-content) | [Read CH8 and optional video](/content/08-content/)  ||
 | ||||  ||
 | 9|||**Assessing regression validity (CH9)**   | | |
 |  | 25 Oct | M | [Non-linear regression](/content/08-content) |||
-|  | 27 Oct | W | [<i class="fas fa-dragon"></i> RP: Writing a paper proposal](/assignment/research-proposal) |  | [<i class="fas fa-dragon"></i> Annotated bibliography due](/assignment/02-biblio)|
+|  | 27 Oct | W | [<i class="fas fa-dragon"></i> RP: Writing a paper proposal](/assignment/rp-04-proposal) |  | [<i class="fas fa-dragon"></i> Annotated bibliography due](/assignment/rp-03-annotated)|
 |  | 29 Oct | F |[No in-person meeting](/content/09-content/) |[Read CH9 and watch video](/content/09-content/) | [<i class="fas fa-tv"></i> VQ5 (CH9)](https://bb.uvm.edu)|
 | ||||  ||
 | 10|||**Panel data (CH10)**   | | |
@@ -74,10 +74,10 @@ What's the plan?
 | 11|||**Panel data methods**   | | |
 |  | 08 Nov | M | [Panel data methods](/content/10-content)  |  ||
 |  | 10 Nov | W | [Lab 7: Data problems](/assignment/07-lab) | |[<i class="fas fa-laptop-code"></i> Lab 6 due](/assignment/06-lab)|
-|  | 12 Nov | F | [Panel data methods](/content/10-content)  |   | [<i class="fas fa-dragon"></i> Proposal due](/assignment/research-proposal)|
+|  | 12 Nov | F | [Panel data methods](/content/10-content)  |   | [<i class="fas fa-dragon"></i> Proposal due](/assignment/rp-04-proposal)|
 | ||||  | |
 |12 |||**Research Week**   | | |
-|  | 16 Nov | M | [RP: Peer review](/content/11-content) | ||
+|  | 16 Nov | M | [RP: Peer review](/assignment/rp-05-referee) | ||
 |  | 18 Nov | W |  [RP: Presenting and discussing results](/content/11-content)|   |[<i class="fas fa-laptop-code"></i> Lab 7 due](/assignment/06-lab)|
 |  | 20 Nov | F | [RP: Writing an introduction and conclusion](/content/11-content)  |||
 | ||||  | |
@@ -85,16 +85,16 @@ What's the plan?
 | ||||||
 |13 |||**Instrumental variables (CH12)**   | | |
 |  | 29 Nov | M | [Instrumental variables](/content/12-content) |  [Read CH12 and watch video](/content/12-content)| [<i class="fas fa-tv"></i> VQ7 (1CH12)](https://bb.uvm.edu)|
-|  | 01 Dec | W | [Lab 8: Instrumental variables](/assignment/08-lab) | ||
+|  | 01 Dec | W | [Lab 8: Instrumental variables](/assignment/08-lab) | |[(Optional) Rough draft due](/assignment/rp-06-roughdraft)|
 |  | 03 Dec | F | [Instrumental variables](/content/12-content) | |[<i class="fas fa-pencil-alt"></i> PS 5 due](/assignment/05-ps)|
 | ||||  | |
 | 14|||**Paper presentations**   | | |
-|  | 06 Dec | M | [Paper presentations](/assignment/06-presentation)  |  | |
-|  | 08 Dec | W | [Paper presentations](/assignment/06-presentation)  |  |[<i class="fas fa-laptop-code"></i>Lab 8 due](/assignment/08-lab) |
-|  | 10 Dec | F | [Paper presentations](/assignment/06-presentation)  |  | |
+|  | 06 Dec | M | [Paper presentations](/assignment/rp-07-presentation)  |  | |
+|  | 08 Dec | W | [Paper presentations](/assignment/rp-07-presentation)  |  |[<i class="fas fa-laptop-code"></i>Lab 8 due](/assignment/08-lab) |
+|  | 10 Dec | F | [Paper presentations](/assignment/rp-07-presentation)  |  | |
 | 15|||**Exam Week**   | | |
 |  | 13 Dec | M | Exam 3 at 4:30pm: CH 8, 9, 10, 12  |  | |
-|  | 13 Dec | M | <i class="fas fa-dragon"></i> [Research paper due at 11:59pm](/assignment/final-submission) <i class="fas fa-dragon"></i> |  | |
+|  | 13 Dec | M | <i class="fas fa-dragon"></i> [Research paper due at 11:59pm](/assignment/rp-08-final-submission) <i class="fas fa-dragon"></i> |  | |
 
 
 Not going to make it? For research paper assignments, make sure to review the [extensions for all](/syllabus/#deadlines-and-extensions) policy!
