@@ -32,7 +32,7 @@ What's the plan?
 |  | 08 Sep | W | [Normal distributions (2.4)](/content/02-content)  |Read CH2.4 |[<i class="fas fa-laptop-code"></i> Lab 1 due](/assignment/01-lab)| 
 |  | 10 Sep | F | [<i class="fas fa-dragon"></i> RP: Identifying a research question](/assignment/rp-01)  | | |
 |3 |||**Probability/Statistics Review (CH2/3)**   | ||
-|  | 13 Sep | M | [Statistics review (2.5-2.6, 3)](/content/04-content)|[Read CH3 and watch video](/content/03-content) | [<i class="fas fa-tv"></i> VQ2 due](https://bb.uvm.edu)   |
+|  | 13 Sep | M | [Statistics review (2.5-2.6, 3)](/content/03-content)|[Read CH3 and watch video](/content/03-content) | [<i class="fas fa-tv"></i> VQ2 due](https://bb.uvm.edu)   |
 |  | 15 Sep | W | [Lab 2: Do-files](/assignment/02-lab) || |
 |  | 17 Sep | F | [Exam prep](/content/03-statsquiz)| |[<i class="fas fa-pencil-alt"></i> PS1 due](/assignment/01-ps) |
 | ||| | ||
