@@ -15,6 +15,9 @@ editor_options:
 ---
 
 ## Lab Content
+
+**[Print-friendly pdf](../02-lab.pdf)**
+
 ### Materials {#materials .unnumbered}
 
 - [`acs2014_all.dta`](../materials/acs2014_all.dta)

@@ -1,7 +1,7 @@
 ---
 title: "Lab 3: Regression"
 linktitle: "Lab 3"
-date: "2021-09-29"
+date: "2021-09-27"
 due_date: "2021-10-06"
 due_time: "2:20 PM"
 menu:
@@ -15,13 +15,17 @@ output:
 editor_options: 
   chunk_output_type: console
 ---
-## Materials {#materials .unnumbered}
+
+
+## Lab Content
+
+### Materials {#materials .unnumbered}
 
 - [`graduation.dta`](../materials/graduation.dta)
-- Do-file template [`labtemplate.do`](../materials/labtemplate_f20.do) 
+- Do-file template [`labtemplate_f21.do`](../materials/labtemplate_f21.do) 
 
 
-## Objectives {#objectives .unnumbered}
+### Objectives {#objectives .unnumbered}
 
 By the end of this tutorial you should be able to complete the following
 tasks in Stata:
@@ -36,7 +40,7 @@ tasks in Stata:
 
 -   Estimate a multivariate linear regression
 
-## Key commands  {#key-commands .unnumbered}
+### Key commands  {#key-commands .unnumbered}
 
 
 |command|description|
@@ -55,10 +59,19 @@ tasks in Stata:
 | `drop if missing(var1)` | drop all observations where `var1` is missing| 
 | `tab var1, missing` | Include missing values in tabulation| 
 
-## Reading regression tables 
-<img src="../regression-label.png" alt="labelled Stata output">
+### Reading regression tables 
+<img src="../regression-label.png" width=500 alt="labelled Stata output">
 
-## Lab 3 Worksheet {#lab-3-worksheet .unnumbered}
+## Lab 3 Exercise {#lab-3-worksheet .unnumbered}
+
+
+### What do I submit?
+
+   -  Your written up answers to exercise questions (1) - (13). This can be typed or written out then scanned (or photographed), in any reasonable format.
+   - The do-file you've created that runs this analysis 
+   - A log file that contains the results from this exercise.
+
+### Questions
 
 Today, we're going to look around at the graduation data set that we discussed in class, [`graduation.dta`](../materials/graduation.dta). 
 

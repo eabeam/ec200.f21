@@ -1,7 +1,7 @@
 ---
 title: "Lab 3: Regression"
 linktitle: "Lab 3"
-date: "2021-09-29"
+date: "2021-09-27"
 due_date: "2021-10-06"
 due_time: "2:20 PM"
 menu:
@@ -20,23 +20,32 @@ editor_options:
 
 <div id="TOC">
 <ul>
+<li><a href="#lab-content">Lab Content</a>
+<ul>
 <li><a href="#materials">Materials</a></li>
 <li><a href="#objectives">Objectives</a></li>
 <li><a href="#key-commands">Key commands</a></li>
 <li><a href="#reading-regression-tables">Reading regression tables</a></li>
-<li><a href="#lab-3-worksheet">Lab 3 Worksheet</a></li>
+</ul></li>
+<li><a href="#lab-3-worksheet">Lab 3 Exercise</a>
+<ul>
+<li><a href="#what-do-i-submit">What do I submit?</a></li>
+<li><a href="#questions">Questions</a></li>
+</ul></li>
 </ul>
 </div>
 
-<div id="materials" class="section level2 unnumbered">
-<h2>Materials</h2>
+<div id="lab-content" class="section level2">
+<h2>Lab Content</h2>
+<div id="materials" class="section level3 unnumbered">
+<h3>Materials</h3>
 <ul>
 <li><a href="../materials/graduation.dta"><code>graduation.dta</code></a></li>
-<li>Do-file template <a href="../materials/labtemplate_f20.do"><code>labtemplate.do</code></a></li>
+<li>Do-file template <a href="../materials/labtemplate_f21.do"><code>labtemplate_f21.do</code></a></li>
 </ul>
 </div>
-<div id="objectives" class="section level2 unnumbered">
-<h2>Objectives</h2>
+<div id="objectives" class="section level3 unnumbered">
+<h3>Objectives</h3>
 <p>By the end of this tutorial you should be able to complete the following
 tasks in Stata:</p>
 <ul>
@@ -47,8 +56,8 @@ tasks in Stata:</p>
 <li><p>Estimate a multivariate linear regression</p></li>
 </ul>
 </div>
-<div id="key-commands" class="section level2 unnumbered">
-<h2>Key commands</h2>
+<div id="key-commands" class="section level3 unnumbered">
+<h3>Key commands</h3>
 <table>
 <colgroup>
 <col width="56%" />
@@ -116,12 +125,23 @@ tasks in Stata:</p>
 </tbody>
 </table>
 </div>
-<div id="reading-regression-tables" class="section level2">
-<h2>Reading regression tables</h2>
-<p><img src="../regression-label.png" alt="labelled Stata output"></p>
+<div id="reading-regression-tables" class="section level3">
+<h3>Reading regression tables</h3>
+<p><img src="../regression-label.png" width=500 alt="labelled Stata output"></p>
+</div>
 </div>
 <div id="lab-3-worksheet" class="section level2 unnumbered">
-<h2>Lab 3 Worksheet</h2>
+<h2>Lab 3 Exercise</h2>
+<div id="what-do-i-submit" class="section level3">
+<h3>What do I submit?</h3>
+<ul>
+<li>Your written up answers to exercise questions (1) - (13). This can be typed or written out then scanned (or photographed), in any reasonable format.</li>
+<li>The do-file you’ve created that runs this analysis</li>
+<li>A log file that contains the results from this exercise.</li>
+</ul>
+</div>
+<div id="questions" class="section level3">
+<h3>Questions</h3>
 <p>Today, we’re going to look around at the graduation data set that we discussed in class, <a href="../materials/graduation.dta"><code>graduation.dta</code></a>.</p>
 <ol style="list-style-type: decimal">
 <li><p>Download the do-file template and data files. Personalize the file paths so that you can run it and open your <code>graduation.dta</code> file. You can also work with a blank data file if you’re more comfortable - just make sure you remember to include commands to start and close your log file.</p></li>
@@ -202,6 +222,7 @@ There are three characteristics of "well-behaved" residuals:
 
 We don't want to overweight the importance of this, but it can be a helpful diagnostic to look for outliers, strange patterns. 
 --></p>
+</div>
 </div>
 <div class="footnotes">
 <hr />

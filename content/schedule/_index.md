@@ -32,7 +32,7 @@ What's the plan?
 |  | 08 Sep | W | [Normal distributions (2.4)](/content/02-content)  |Read CH2.4 |[<i class="fas fa-laptop-code"></i> Lab 1 due](/assignment/01-lab)| 
 |  | 10 Sep | F | [<i class="fas fa-dragon"></i> RP: Identifying a research question](/assignment/rp-01)  | | |
 |3 |||**Probability/Statistics Review (CH2/3)**   | ||
-|  | 13 Sep | M | [Statistics review (2.5-2.6, 3)](/content/04-content)|[Read CH3 and watch video](/content/04-content) | [<i class="fas fa-tv"></i> VQ2 due](https://bb.uvm.edu)   |
+|  | 13 Sep | M | [Statistics review (2.5-2.6, 3)](/content/04-content)|[Read CH3 and watch video](/content/03-content) | [<i class="fas fa-tv"></i> VQ2 due](https://bb.uvm.edu)   |
 |  | 15 Sep | W | [Lab 2: Do-files](/assignment/02-lab) || |
 |  | 17 Sep | F | [Exam prep](/content/03-statsquiz)| |[<i class="fas fa-pencil-alt"></i> PS1 due](/assignment/01-ps) |
 | ||| | ||
@@ -58,7 +58,7 @@ What's the plan?
 | ||||  | |
 | 8|||**Non-linear regressions (CH8)**   | | |
 |  | 18 Oct | M | Exam 2: CH 4, 5, 6, 7 |  ||
-|  | 20 Oct | W | [<i class="fas fa-dragon"></i> RP: Writing an annotated bibliography](/assignment/rp-03-annotated) |  ||
+|  | 20 Oct | W | [<i class="fas fa-dragon"></i> RP: Writing an annotated bibliography](/assignment/rp-03-annotated) |  |[<i class="fas fa-laptop-code"></i> Lab 5 due](/assignment/05-lab)|
 |  | 22 Oct | F | [Non-linear regression](/content/08-content) | [Read CH8 and optional video](/content/08-content/)  ||
 | ||||  ||
 | 9|||**Assessing regression validity (CH9)**   | | |
