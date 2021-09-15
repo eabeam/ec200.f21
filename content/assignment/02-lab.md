@@ -21,7 +21,7 @@ editor_options:
 ### Materials {#materials .unnumbered}
 
 - [`acs2014_all.dta`](../materials/acs2014_all.dta)
-- Do-file template [`labtemplate.do`](../materials/labtemplate_f20.do) 
+- Do-file template [`labtemplate_f21.do`](../materials/labtemplate_f21.do) 
 
 
 ### Objectives {#objectives .unnumbered}
