@@ -1,7 +1,7 @@
 ---
 title: "Lab 2: Do-files"
 linktitle: "Lab 2"
-date: "2021-09-12"
+date: "2021-09-13"
 due_date: "2021-09-22"
 due_time: "2:20 pm"
 toc: true
@@ -130,7 +130,6 @@ using comments. There are three ways to comment
 2. Comment the whole line or part of a line with two forward slashes (`//`)
 
 3.   Use slash-asterisk to open (`/*`) and close (`*/`) a comment section
-
 
 `{{< figure library="true" src="stata-comment.png" width=400 title="" >}}`
 
@@ -261,4 +260,9 @@ something in a way we haven't covered.
         and one of the income distribution for women. Make sure the
         y-axis indicates the "fraction" of individuals, not the density.
        Copy and paste it into your responses. 
+
+
+## Video Recording 
+
+{{< youtube ssCWM4IE6i8 >}}
 
