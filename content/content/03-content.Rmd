@@ -73,8 +73,8 @@ This is the material you should know,  along with supports from [Khan Academy (<
   -  [<i class="fas fa-tv"> </i> Introduction to confidence intervals](https://www.khanacademy.org/math/ap-statistics/estimating-confidence-ap#introduction-confidence-intervals)
    - [<i class="fas fa-tv"> </i> Confidence intervals for means](https://www.khanacademy.org/math/ap-statistics/estimating-confidence-ap#one-sample-t-interval-mean)
 
-- SW 3.4 Comparing means from different populations 
-  - Only the type of two-sample test we've been practicing - look at difference between two means where the standard deviation is unknown and   you do not assume that they come from the same underlying population distribution. Make sure you can use foruma 3.19 and 3.20
+- SW 3.4 Comparing means from different populations (This is covered in updated slides and class, but *not* in the lecture video below)
+  - Only the type of two-sample test we've been practicing - look at difference between two means where the standard deviation is unknown and   you do not assume that they come from the same underlying population distribution. **Make sure you can use formulas 3.19 and 3.20** 
 - **Skip SW 3.5/3.6**
 - SW 3.7	Scatterplots, the sample covariance, and the sample correlation
   - [<i class="fas fa-tv"> </i> Correlation coefficients](https://www.khanacademy.org/math/ap-statistics/bivariate-data-ap#correlation-coefficient-r)
