@@ -1,8 +1,8 @@
 
 
 ---
-title: Exam 1 (Stats)
-sitetitle: Exam 1 (Stats)
+title: Exam 1 - Stats
+sitetitle: Exam 1 - Stats
 summary: "EC200 - Exam 1 Prep (Statistics)"
 
 date: "2021-09-13"
@@ -29,7 +29,7 @@ thumb: /slides/ch3-slides.png
 
 ## What should I know? 
 
-Make sure you are comfortable with the material chapter guides from [Week 2](../01-content) and [Week 3](../02-content). What does comfortable mean? That you're familiar with definitions and terminology, and that you can work through problems at the level of PS1 and PS2^[If you haven't noticed already, PS1 solutions are available on Blackboard already. PS2 solutions will be available by the end of day Friday on Blackboard].
+Make sure you are comfortable with the material chapter guides from [Week 1](../01-content), [Week 2](../02-content), and [Week 3](../03-content). What does comfortable mean? That you're familiar with definitions and terminology, and that you can work through problems at the level of PS1 (solutions on [Blackboard](http://bb.uvm.edu)).
 
 There will not be a Stata component to the exam. 
 

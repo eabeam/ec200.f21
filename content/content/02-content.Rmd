@@ -36,6 +36,7 @@ This is a short week, so we'll just focus on normal distributions and friends fr
 
 - SW 2.4 The Normal, Chi-Squared, Student t, and F distributions 
   - Normal distribution ~~and t-distribution~~ only. We won’t use chi-squared, and we’ll come back to F-distributions later. For any work we'll be doing, our sample sizes will be greater than 100, so $t \rightarrow z$. 
+  - [<i class="fas fa-tv"> </i> Z-scores](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/measuring-position/v/z-score-introduction) 
   - [<i class="fas fa-tv"> </i> Normal distributions and the empirical rule](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap#stats-normal-distributions)
   - [ <i class="fas fa-tv"> </i> Normal distribution calculations](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap#normal-distributions-calculations)
 
