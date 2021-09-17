@@ -19,4 +19,4 @@ output:
 [Stock and Watson Student Resources](https://www.princeton.edu/~mwatson/Stock-Watson_3u/Students/Stock-Watson-Student-Resources.htm) (note that some links are bad)
   - [Solutions to odd-numbered exercises](https://www.princeton.edu/~mwatson/Stock-Watson_3u/Students/ExerciseSolutions/)
 
-[Standard Normal Distribution Probability Table](../bonus/AppendixTable1_rev.pdf)
+[Standard Normal Distribution Probability Table](../AppendixTable1_rev.pdf)
