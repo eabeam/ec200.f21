@@ -18,7 +18,7 @@ editor_options:
 
 Make sure you submit your assignment on Blackboard by the deadline :point_up: :point_up:
 
-See the exercises below, or you can [download them as a pdf](../03-ps.pdf). You can download the data file you need for question 4 [here](../collegedistance.dta).
+See the exercises below, or you can [download them as a pdf](../02-ps.pdf). You can download the data file you need for question 4 [here](../collegedistance.dta).
 
 ## What do I submit?
 
