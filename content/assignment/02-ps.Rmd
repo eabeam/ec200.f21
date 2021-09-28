@@ -51,23 +51,23 @@ See the exercises below, or you can [download them as a pdf](../02-ps.pdf). You 
     height and weight are recorded. A regression of weight (measured in
     pounds) on height (measured in inches) yields
 
-    $$\widehat{Weight}=-99.41 + 3.94 Height$$
+  $$\widehat{Weight}=-99.41 + 3.94 Height$$
 
-    $R^2 = 0.81$; $SER = 10.2$
+  $R^2 = 0.81$; $SER = 10.2$
 
-    a.  What is the predicted weight for someone who is 70 inches tall?
+  a.  What is the predicted weight for someone who is 70 inches tall?
         65 inches tall?
 
-    b.  One 20-year-old man has a late growth spurt and grows 1.5 inches
+  b.  One 20-year-old man has a late growth spurt and grows 1.5 inches
         over the course of the year. What is the regression's prediction
         for the increase in his weight?
 
-    c.  Suppose that you want to translate the results of this equation
+  c.  Suppose that you want to translate the results of this equation
         into centimeters and kilograms. What are the regression
         estimates from this new regression? Give all results, including
         estimated coefficients, $R^2$, and $SER$.
 
-    a.  Interpret the $R^2$ value. Does it indicate anything about
+  a.  Interpret the $R^2$ value. Does it indicate anything about
         whether these estimates are likely to be biased? Explain.
 
 3.  Consider the savings function: 

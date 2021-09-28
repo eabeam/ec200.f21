@@ -33,7 +33,7 @@ Here are some particularly handy ones:
  - [Navigating variable descriptions](https://youtu.be/WmjNN2mbWoU)
  - [Opening your data in Stata](https://youtu.be/Orif_kvhkMY)
 
-
+If you plan on doing your research paper in R, then I strongly recommend [`ipumsr`](https://tech.popdata.org/ipumsr/).
 
 ## Writing a research paper 
 
