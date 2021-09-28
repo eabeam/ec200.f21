@@ -19,6 +19,8 @@ editor_options:
 
 ## Lab Content
 
+**[Print-friendly pdf](../03-lab.pdf)**
+
 ### Materials {#materials .unnumbered}
 
 - [`graduation.dta`](../materials/graduation.dta)
