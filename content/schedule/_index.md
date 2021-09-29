@@ -29,7 +29,7 @@ What's the plan?
 | ||| | ||
 |2 |||**Probability Review (CH2)**  | ||
 |  | 06 Sep | M | Labor Day | | |
-|  | 08 Sep | W | [Normal distributions (2.4)](/content/02-content)  |Read CH2.4 |[<i class="fas fa-laptop-code"></i> Lab 1 due](/assignment/01-lab)| 
+|  | 08 Sep | W | [Normal distributions (2.4)](/content/02-content)  |Read CH2.4 |[<i class="fas fa-laptop-code"></i> Lab 1 due](/assignment/01-lab)|
 |  | 10 Sep | F | [<i class="fas fa-dragon"></i> RP: Identifying a research question](/assignment/rp-01)  | | |
 |3 |||**Probability/Statistics Review (CH2/3)**   | ||
 |  | 13 Sep | M | [Statistics review (2.5-2.6, 3)](/content/03-content)|[Read CH3 and watch video](/content/03-content) | [<i class="fas fa-tv"></i> VQ2 due](https://bb.uvm.edu)   |
@@ -42,7 +42,7 @@ What's the plan?
 |  | 24 Sep | F |[Simple linear regression](/content/04-content/) |   ||
 | ||||  | |
 | 5|||**SLR: Hypothesis tests (CH5)**   | | |
-|  | 27 Sep | M | [No in-person meeting](/content/05-content) | [Read CH5 and watch video](/content/04-content/) |  [<i class="fas fa-tv"></i> VQ3 due](https://bb.uvm.edu) |
+|  | 27 Sep | M | [No in-person meeting](/content/05-content) | [Read CH5 and watch video](/content/05-content/) |  [<i class="fas fa-tv"></i> VQ3 due](https://bb.uvm.edu) |
 |  | 29 Sep | W | [Lab 3: Regression in Stata](/assignment/03-lab) |  |  [<i class="fas fa-dragon"></i> Idea proposal due](/assignment/rp-02-ideas)|
 |  | 01 Oct | F |[Hypothesis testing](/content/05-content) || [<i class="fas fa-pencil-alt"></i> PS 2 due](/assignment/02-ps)|
 | ||||  | |
