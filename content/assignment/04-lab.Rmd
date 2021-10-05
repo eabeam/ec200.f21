@@ -15,6 +15,10 @@ output:
 editor_options: 
   chunk_output_type: console
 ---
+
+**[Print-friendly pdf](../04-lab.pdf)**
+
+
 ## Materials {#materials .unnumbered}
 
 - [`cps_2016.dta`](../materials/cps_2016.dta)
@@ -288,7 +292,7 @@ When we include a dummy variable for every value of a categorical variable, like
     do the inclusion of these factors affect your estimates of the
     relationship between $Y$ and $X$?
     
-13. Now, add "birth-year fixed effects" to your regression that you generated earlier. Because there is a set of  binary 0/1 variables, one for each year of birth, they will essentially pull out any mean differences in your dependent variable at the birth-year level - so if your outcome variable is different for people born in 1971 vs 1971  on average, these variables will take care of it. How
+13. Now, add "birth-year fixed effects" to your regression that you generated earlier. Because there is a set of  binary 0/1 variables, one for each year of birth, they will essentially pull out any mean differences in your dependent variable at the birth-year level - so if your outcome variable is different for people born in 1971 vs 1971  on average, these variables will take care of it. What is the omitted birth year?  How
     do the inclusion of these factors affect your estimates of the
     relationship between $Y$ and $X$?
     
