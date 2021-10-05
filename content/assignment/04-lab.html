@@ -127,7 +127,7 @@ two lines of code:<br />
 <pre><code>forval i = 0/2{
 gen labfor`i&#39; = labforce == `i&#39;
 }</code></pre>
-<p>What does this do? It creates a loop for which local variable `<code>i'</code> is first 0, then 1, then 2. Within the loop, it generates <code>labfor0</code>, which is equal to 1 if <code>labforce</code> equals 0 (not in unierse), it generates <code>labfor1</code>, which is equal to 1 if <code>labforce</code> equals 1 (not in labor force), and it generates <code>labfor2</code>, which is equal to 1 if <code>labforce</code> equals 2 (in labor force).</p>
+<p>What does this do? It creates a loop for which local variable `<code>i'</code> is first 0, then 1, then 2. Within the loop, it generates <code>labfor0</code>, which is equal to 1 if <code>labforce</code> equals 0 (not in universe), it generates <code>labfor1</code>, which is equal to 1 if <code>labforce</code> equals 1 (not in labor force), and it generates <code>labfor2</code>, which is equal to 1 if <code>labforce</code> equals 2 (in labor force).</p>
 <p>The choice of ranges can be done in other ways:</p>
 <ul>
 <li><code>forval i = 0/10</code>: hits every integer between 0 and 10 - 0, 1, 2, … 10</li>
@@ -177,7 +177,7 @@ regress incwage black_nh hisp other</code></pre>
 <pre><code>regress incwage i.statefip</code></pre>
 <p>Note that this will work only if your categorical variable is numeric. If it’s a string you’ll get an error. You can fix it by adding a <code>xi:</code> prefix, like so:</p>
 <pre><code>xi: regress incwage i.statefip</code></pre>
-<p>When we include a dummy variable for every value of a categorical variable, like above, we call those “fixed effects”. We’ll talk about these more soon.</p>
+<p>When we include a dummy variable for every value of a categorical variable, like above, we call those “fixed effects.” We’ll talk about these more soon.</p>
 </div>
 </div>
 <div id="reading-regression-tables-reminder" class="section level2">
@@ -190,7 +190,13 @@ regress incwage black_nh hisp other</code></pre>
 <p><em>Use robust standard errors in all regressions</em></p>
 <ol style="list-style-type: decimal">
 <li><p>Let’s practice with loops! Download <a href="../materials/loop_example.do">loop_example.do</a> and paste the code into your sample. Run it and look at the output. In your do-file, write comments that describe what each loop is going.</p></li>
-<li><p>Now, go back to your <code>cps_2016.dta</code> file. Write a loop to generate a dummy variable for each possible value of public housing, <code>pubhous</code>. That is, you would have <code>_pubhous0</code>, a binary variable for whether <code>pubhouse == 0</code>, <code>_pubhous1</code>, a binary variable for whether <code>pubhouse == 1</code>, etc.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p></li>
+<li><p>Now, go back to your <code>cps_2016.dta</code> file and do-file template. Adjust your do-file template so that it loads <code>cps_2016.dta</code> and starts a log.</p></li>
+<li><p>Restrict your sample to individuals ages 25-54.</p></li>
+<li><p>Create a new variable, <code>birthyr</code>, equal to each individual’s year of birth. Is there any potential imprecision or error in this variable?</p></li>
+<li><p>Then, write a loop to generate a dummy variable for each possible value of birth year.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p></li>
+</ol>
+<!-- Write a loop to generate a dummy variable for each possible value of public housing, `pubhous`. That is, you would have `_pubhous0`, a binary variable for whether `pubhouse == 0`, `_pubhous1`, a binary variable for whether `pubhouse == 1`, etc.^[There is a faster way to do this, using `xi i.pubhouse`, but we're learning about loops, so just go with it.] -->
+<ol start="6" style="list-style-type: decimal">
 <li><p>Look through the available list of data (note, <a href="https://cps.ipums.org/cps/">IPUMS</a> has full
 documentation of all variables). Based on this data, think of a
 research question for your lab of the form, “What is the
@@ -257,7 +263,7 @@ earlier, but include the race/ethnicity variables that you created
 in the previous part. How
 do the inclusion of these factors affect your estimates of the
 relationship between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>?</p></li>
-<li><p>Now, add “state fixed effects” to your regression. This is a set of binary 0/1 variables, one for each state, which essentially pull out any mean differences in your dependent variable at the state level - so if your outcome variable is different for people in Oregon vs. New York on average, these variables will take care of it. How
+<li><p>Now, add “birth-year fixed effects” to your regression that you generated earlier. Because there is a set of binary 0/1 variables, one for each year of birth, they will essentially pull out any mean differences in your dependent variable at the birth-year level - so if your outcome variable is different for people born in 1971 vs 1971 on average, these variables will take care of it. How
 do the inclusion of these factors affect your estimates of the
 relationship between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>?</p></li>
 </ol>
@@ -284,6 +290,6 @@ We don't want to overweight the importance of this, but it can be a helpful diag
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>There is a faster way to do this, using <code>xi i.pubhouse</code>, but we’re learning about loops, so just go with it.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn1"><p>There is a faster way to do this, using <code>xi i.birthyr</code>, but we’re learning about loops, so just go with it.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>

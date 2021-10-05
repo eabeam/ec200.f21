@@ -101,7 +101,7 @@ gen labfor`i' = labforce == `i'
 }
 ```
 
-What does this do? It creates a loop for which local variable ``i'` is first 0, then 1, then 2. Within the loop, it generates `labfor0`, which is equal to 1 if `labforce` equals 0 (not in unierse), it generates `labfor1`, which is equal to 1 if `labforce` equals 1 (not in labor force), and it generates `labfor2`, which is equal to 1 if `labforce` equals 2 (in labor force).
+What does this do? It creates a loop for which local variable ``i'` is first 0, then 1, then 2. Within the loop, it generates `labfor0`, which is equal to 1 if `labforce` equals 0 (not in universe), it generates `labfor1`, which is equal to 1 if `labforce` equals 1 (not in labor force), and it generates `labfor2`, which is equal to 1 if `labforce` equals 2 (in labor force).
 
 The choice of ranges can be done in other ways: 
 
@@ -178,7 +178,7 @@ When you are representing a categorical variable with a set of binary variables,
  xi: regress incwage i.statefip
  ``` 
  
-When we include a dummy variable for every value of a categorical variable, like above, we call those "fixed effects". We'll talk about these more soon.  
+When we include a dummy variable for every value of a categorical variable, like above, we call those "fixed effects." We'll talk about these more soon.  
 
 
 
@@ -195,9 +195,17 @@ When we include a dummy variable for every value of a categorical variable, like
 
 1.  Let's practice with loops! Download [loop_example.do](../materials/loop_example.do) and paste the code into your sample. Run it and look at the output. In your do-file, write comments that describe what each loop is going. 
 
-2. Now, go back to your `cps_2016.dta` file. Write a loop to generate a dummy variable for each possible value of public housing, `pubhous`. That is, you would have `_pubhous0`, a binary variable for whether `pubhouse == 0`, `_pubhous1`, a binary variable for whether `pubhouse == 1`, etc.^[There is a faster way to do this, using `xi i.pubhouse`, but we're learning about loops, so just go with it.]
+2. Now, go back to your `cps_2016.dta` file and do-file template. Adjust your do-file template so that it loads `cps_2016.dta` and starts a log. 
 
-1. Look through the available list of data (note, [IPUMS](https://cps.ipums.org/cps/) has full
+3. Restrict your sample to individuals ages 25-54. 
+
+4. Create a new variable, `birthyr`, equal to each individual's year of birth. Is there any potential imprecision or error in this variable? 
+
+5. Then, write a loop to generate a dummy variable for each possible value of birth year.^[There is a faster way to do this, using `xi i.birthyr`, but we're learning about loops, so just go with it.]  
+
+<!-- Write a loop to generate a dummy variable for each possible value of public housing, `pubhous`. That is, you would have `_pubhous0`, a binary variable for whether `pubhouse == 0`, `_pubhous1`, a binary variable for whether `pubhouse == 1`, etc.^[There is a faster way to do this, using `xi i.pubhouse`, but we're learning about loops, so just go with it.] --> 
+
+6. Look through the available list of data (note, [IPUMS](https://cps.ipums.org/cps/) has full
     documentation of all variables). Based on this data, think of a
     research question for your lab of the form, "What is the
     relationship between \.... and \...?". Pick a dependent variable
@@ -280,7 +288,7 @@ When we include a dummy variable for every value of a categorical variable, like
     do the inclusion of these factors affect your estimates of the
     relationship between $Y$ and $X$?
     
-13. Now, add "state fixed effects" to your regression. This is a set of binary 0/1 variables, one for each state, which essentially pull out any mean differences in your dependent variable at the state level - so if your outcome variable is different for people in Oregon vs. New York on average, these variables will take care of it. How
+13. Now, add "birth-year fixed effects" to your regression that you generated earlier. Because there is a set of  binary 0/1 variables, one for each year of birth, they will essentially pull out any mean differences in your dependent variable at the birth-year level - so if your outcome variable is different for people born in 1971 vs 1971  on average, these variables will take care of it. How
     do the inclusion of these factors affect your estimates of the
     relationship between $Y$ and $X$?
     
