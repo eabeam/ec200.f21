@@ -1,25 +1,25 @@
-% Options for packages loaded elsewhere
-\PassOptionsToPackage{unicode}{hyperref}
-\PassOptionsToPackage{hyphens}{url}
-%
-\documentclass[
-]{article}
-\usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
+\documentclass[11pt]{article}
 
 
-\usepackage{longtable,booktabs}
-\usepackage[french,english]{babel}
+
+
+\usepackage[sfdefault]{FiraSans} %% option 'sfdefault' activates Fira Sans as the default text font
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
+
 \usepackage{natbib}
+\usepackage[french,english]{babel}
 \usepackage{numprint}
 \usepackage{multirow}
 \usepackage{rotating}
 \usepackage{fancyhdr}
-\usepackage{multicol}\usepackage{amsmath,amssymb,amsfonts,textcomp}
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{hyperref}\hypersetup{colorlinks=true}
+
+\usepackage{amsmath,amssymb,amsfonts,textcomp}
 \usepackage{color}
 \usepackage{calc}
-\usepackage[normalem]{ulem}
  \setlength{\tabcolsep}{8pt}
 \usepackage{setspace}
 \onehalfspacing
@@ -32,162 +32,262 @@
 \usepackage{titlesec}
 \usepackage{lipsum}
 \usepackage{cancel}
-\usepackage{hyperref}
+\usepackage{multicol}
 
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
 
-\title{EC200: Problem Set 3}
-\author{}
-\date{2020-09-25}
+\titleformat{\section}
+  {\normalfont\Large\scshape\bfseries}{\thesection}{1em}{}
+  \titlespacing{\section}{0pt}{10pt}{0pt}
+\titleformat{\subsection}
+  {\normalfont\bfseries}{\thesection}{1em}{}
+  \titlespacing{\subsection}{0pt}{6pt}{0pt}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\newenvironment{itemize*}%
 
+  
+\lhead{EC200 - Econometrics and Applications}
+\rhead{Version: \today}
+\setlength\parskip{0.10in}
 \begin{document}
-\maketitle
+\thispagestyle{plain}
+\singlespacing
+
+
+Version: \today \hfill Fall 2021\\
+EC200: Econometrics and Applications
+%\vspace{1.5cm}
+\begin{center}
+\Large{\textbf{Problem Set 3}}\\
+\end{center}
+\bigskip
+
+
+%{
+%\setcounter{tocdepth}{3}
+%\tableofcontents
+%}
+
+
+\hypertarget{welcome}{%
+\section*{Welcome}\label{welcome}}
+
+We've been so busy with labs and research ideas that we have
+\emph{three} chapters of coverage to work through! Note that this is
+your last problem set before the next exam
+
+You can download the data file you need for question 6
+\href{https://ec200f21.netlify.app/assignment/materials/growth.dta}{here}, along with information on the
+variable definitions
+\href{https://www.princeton.edu/~mwatson/Stock-Watson_3u/Students/EE_Datasets/Growth_Description.pdf}{here}
+
+\hypertarget{what-do-i-submit}{%
+\section*{What do I submit?}\label{what-do-i-submit}}
+
+\begin{itemize}
+\tightlist
+\item
+  Your written up answers to exercise questions. If you work on a piece
+  of paper, please scan using some sort of phone software (like
+  Microsoft Lens or Adobe Scan) rather than just taking a picture.
+\item
+  A do-file that runs your Stata analysis (for question 4).
+\item
+  A log file that includes the output from running your do-file (for
+  question 4).
+\end{itemize}
 
 \hypertarget{exercises}{%
-\subsection*{Exercises}\label{exercises}}
+\section*{Exercises}\label{exercises}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
-  The following table shows, for eight vintages of delicious wine,
-  purchases per buyer (\(y\)) and the wine buyer's rating (\(x\)) in a
-  given year:
+  Suppose that we want to estimate the effects of alcohol consumption
+  (\(alcohol\)) on college grade point average (\(colGPA\)). In addition
+  to collecting information on alcohol consumption and grade point
+  averages, we also obtain attendance information (say, percentage of
+  lectures attended, \(attend\)). A standardized test score (say,
+  \(SAT\)) and high school GPA (\(hsGPA\)) are also available.
 
-  \begin{longtable}[]{@{}lcccccccc@{}}
-  \toprule
-  \(x\) & 3.6 & 3.3 & 2.8 & 2.6 & 2.7 & 2.9 & 2.0 & 2.6\tabularnewline
-  \midrule
-  \endhead
-  \(y\) & 24 & 21 & 22 & 22 & 18 & 13 & 9 & 6\tabularnewline
-  \bottomrule
-  \end{longtable}
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Should we include \(attend\) along with alcohol as explanatory
+    variables in a multiple regression model? What would be the
+    interpretation of \(\beta_{alcohol}\) if we did?
+  \item
+    Should \(SAT\) and \(hsGPA\) be included as explanatory variables?
+    Explain.
+  \end{enumerate}
+\item
+  A research plans to study the casual effect of police on crime, using
+  data from a random sample of U.S. counties. She plans to regress the
+  county's crime rate on the (per capita) size of the county's police
+  force.
 
   \begin{enumerate}
   \def\labelenumii{\alph{enumii}.}
   \item
-    Estimate \emph{by hand} the regression of purchases per buyer on the
-    buyer's rating.\\
+    Explain why this regression is likely to suffer from omitted
+    variable bias. Which variables would you add to the regression to
+    control for important omitted variables?
   \item
-    Interpret the slope of the estimated regression line.\\
-  \item
-    Interpret the intercept of the estimated regression line .\\
+    Use your answer to (a) and the expression for omitted variable bias
+    (from the slides or textbook) to determine whether the regression
+    will likely over- or underestimate the effect of police on the crime
+    rate. (That is, is \(\hat{\beta_1}>\beta_1\), or that
+    \(\hat{\beta_1} < \beta_1\)?)
   \end{enumerate}
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
 \item
-  (SW4.2) Suppose that a random sample of 200 20-year-old men is
-  selected from a population and that these men's height and weight are
-  recorded. A regression of weight (measured in pounds) on height
-  (measured in inches) yields
-
-  \[\widehat{Weight}=-99.41 + 3.94 Height\]
-
-  \(R^2 = 0.81\); \(SER = 10.2\)
+  Critique each of the following proposed research plans. Your critique
+  should explain any problems with the proposed research and describe
+  how the research plan might be improved. Include discussion of any
+  additional data that needs to be collected, and the appropriate
+  statistical techniques for analyzing those data.
 
   \begin{enumerate}
   \def\labelenumii{\alph{enumii}.}
+  \tightlist
   \item
-    What is the predicted weight for someone who is 70 inches tall? 65
-    inches tall?
+    A researcher is interested in determining whether a large aerospace
+    firm is guilty of gender bias in setting wages. To determine
+    potential bias, the researcher collects salary and gender
+    information for all of the firm's engineers. The researcher then
+    plans to conduct a ``difference in means'' test to determine whether
+    the average salary for women is significantly less than the average
+    salary for men
   \item
-    One 20-year-old man has a late growth spurt and grows 1.5 inches
-    over the course of the year. What is the regression's prediction for
-    the increase in his weight?
-  \item
-    Suppose that you want to translate the results of this equation into
-    centimeters and kilograms. What are the regression estimates from
-    this new regression? Give all results, including estimated
-    coefficients, \(R^2\), and \(SER\).
-  \item
-    Interpret the \(R^2\) value. Does it indicate anything about whether
-    these estimates are likely to be biased? Explain.
+    A researcher is interested in determining whether time in prison has
+    a permanent effect on a person's wage rate. He collects data on a
+    random sample of people who have been out of prison for at least 15
+    years. He collects similar data on a random sample of people who
+    have never served time in prison. The data set includes information
+    on each person's current wage, education, age, ethnicity, gender,
+    tenure (time in current job), occupation, and union status, as well
+    as whether the person has ever been incarcerated. The researcher
+    plans to estimated the effect of incarceration on wages by
+    regressing wages on an indicator variable for incarceration,
+    including in the regression the other potential determinants of
+    wages such as education, tenure, union status, and so on.
   \end{enumerate}
-  \clearpage
 \item
-  Consider the savings function:
+  Consider a dataset that contains information on 4700 full-time
+  full-year workers. The highest educational achievement for each worker
+  was either a high school diploma or a bachelor's degree. The worker's
+  ages ranged from 25 to 45 years. The data set also contains
+  information on the region of the country where the person lived,
+  marital status, and number of children. See below for variable
+  definitions.
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Is the college-high school earnings difference estimated from this
+    regression statistically significant at the 5\% level? Construct a
+    95\% confidence interval of the difference.
+  \item
+    Do there appear to be important regional differences in hourly
+    wearnings? Use an appropriate hypothesis test to explain your
+    answer.
+  \end{enumerate}
+\end{enumerate}
+\centering\includegraphics[scale=0.5]{materials/sw7-3.png}
 
 
-\[sav =  \beta_0 + \beta_1 inc + u, u = e\sqrt{inc}\]
-
-where \(e\) is a random variable with \(E(e) = 0\) and
-\(Var(e) = \sigma^2_e\). Assume that \(e\) is independent of \(inc\).
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Variable & Definition \\
+\midrule
+\endhead
+AHE & average hourly earnings (in 2005 dollars) \\
+College & 1 if college, 0 if high school \\
+Female & 1 if female, 0 if male \\
+Age & age (in years) \\
+Ntheast & 1 if Region = Northeast, 0 otherwise \\
+Midwest & 1 if Region = Midwest, 0 otherwise \\
+South & 1 if Region = South, 0 otherwise \\
+West & 1 if Region = West, 0 otherwise \\
+\bottomrule
+\end{longtable}
 
 \begin{enumerate}
-\def\labelenumi{\alph{enumi}.}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Consider the regression results below and do the following:
+\centering\includegraphics[scale=0.5]{materials/sw7-1.png}
 
-\item
-  Show that \(E(u|inc)=0\), so that the key zero conditional mean
-  assumptionis satisfied. {[}Hint: If \(e\) is independent of \(inc\),
-  then \(E(e|inc) = E(e)\){]}
-\item
-  Show that \(Var(u|inc) = \sigma^2_einc\), so that the homoskedasticity
-  assumption is violated. In particular, the variance of \(sav\)
-  increases with \(inc\). {[}Hint: \(Var(e|inc) = Var(e)\) if \(inc\)
-  and \(e\) are independent!{]}
-\item
-  Why might it be reasonable to assume that the variance of savings
-  increases with family income?
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Construct the \(R^2\) for each of the regressions
+  \item
+    Construct the homoskedasticity-only \(F\)-statistic for testing
+    \(\beta_3 = \beta_4 = 0\) shown in column (5). Is the statistic
+    significant at the 5\% level?
+  \item
+    Construct a 99\% confidence interval for \(\beta_1\) for the
+    regression in column (5)
+  \end{enumerate}
 \end{enumerate}
-
-
-\item
-  The data file \href{../collegedistance.dta}{CollegeDistance} contains
-  data from a random sample of high school seniors interviewed in 1980
-  and re-interviewed in 1986\footnote{These data were provided by
-    Professor Cecilia Rouse of Princeton University and were used in her
-    paper ``Democratization or Diversion? The Effect of Community
-    Colleges on Educational Attainment,'' Journal of Business and
-    Economic Statistics, April 1995, 12(2): 217--224.} Use these data to
-  investigate the relationship between the number of completed years of
-  education for young adults and the distance from each student's high
-  school to the nearest four-year college. (Proximity to college lowers
-  the cost of education, so that students who live closer to a four-year
-  college should, on average, complete more years of higher education.)
-
 
 \begin{enumerate}
-\def\labelenumi{\alph{enumi}.}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
 \item
-  Run a regression of years of completed education (\(ED\)) on distance
-  to the nearest college (\(Dist\)), where \(Dist\) is measured in tens
-  of miles. (For example, \(Dist=2\) means that the distance is 20
-  miles.)\footnote{Though we haven't covered regressions in our stata
-    labs, I talk thorugh interpreting regression output in the
-    \href{https://youtu.be/DZo5m5q3bmA}{Chapter 5 Video}. You can
-    regress a dependent variable \texttt{y} on an independent variable
-    \texttt{x} with the command \texttt{regress\ y\ x}}. Write the
-  equation you estimated in the form
-  \(\widehat{ED} = \beta_0 + \beta_1 Dist\)
-\item
-  How does the average value of years of completed schooling change when
-  colleges are built close to where students go to high school?
-\item
-  Bob's high school was 20 miles from the nearest college. Predict Bob's
-  years of completed education using the estimated regression. How would
-  the prediction change if Bob lived 10 miles from the nearest college?
-\item
-  Does distance to college explain a large fraction of the variance in
-  educational attainment across individuals? Explain.
-\item
-  Provide an example of a factor that might cause this model to violate
-  the zero conditional mean assumption. Explain your reasoning.
-\item
-  What is the value of the standard error of the regression?\footnote{There
-    are a few ways to find it in Stata's output. The easiest is to note
-    that ``root MSE'' is the square root of the SER} What are the units
-  for the standard error (meters, grams, years, dollars, cents, or
-  something else)?
-\item
-  Is the estimated regression slope coefficient statistically
-  significant at the 5\% level? What is the p-value associated with
-  coefficient's t-statistic?
-\item
-  Construct a 95\% confidence interval for the slope coefficient.
-\item
-  Estimate a regression that restricts the sample to men, and calculate
-  a 95\% confidence interval for the slope. Do the same, restricting the
-  sample to women. Does it look like the effect of distance on completed
-  years of education is different?\footnote{Note that we cannot make
-    claims about whether they are statistically different because the
-    estimates come from two different samples! A hypothesis test here
-    would be awesome, but we need to build a few more skills to do this.}
+  Download the dataset \href{https://ec200f21.netlify.app/assignment/materials/growth.dta}, which
+  contains data on average growth rates from 1960 through 1995 for 65
+  countries, along with variables that are potentially related to
+  growth. You can download a detailed description of all variable names
+  is available
+  \href{https://www.princeton.edu/~mwatson/Stock-Watson_3u/Students/EE_Datasets/Growth_Description.pdf}{here}.
+  For all questions, exclude Malta, which has an extremely high trade
+  share. Estimate a regression of \texttt{growth} on
+  \texttt{tradeshare}, \texttt{yearsschool}, \texttt{rev\_coups},
+  \texttt{assassinations}, and \texttt{rgdp60}, with
+  heteroskedasticity-robust standard errors.
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    What is the value of the coefficient on \texttt{rev\_coups}?
+    Interpret the value of this coefficient. Is it large or small in a
+    real-world sense?
+  \item
+    Use the regression to predict the average annual growth rate for a
+    country has average valeus for all regressors.
+  \item
+    Construct a 90\% confidence interval for the coefficient on
+    \texttt{tradeshare}. Is the coefficient statistically significant at
+    the 10\% level? d.Test whether the political variables
+    \texttt{rev\_coups} and \texttt{assassinations}, taken as a group,
+    can be omitted from the regression. What is the p-value of the
+    F-statistic?
+  \end{enumerate}
 \end{enumerate}
-\end{enumerate}
+
 \end{document}

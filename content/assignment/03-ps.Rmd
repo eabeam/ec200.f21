@@ -16,9 +16,9 @@ editor_options:
 
 ## Welcome 
 
-We've been so busy with labs and research ideas that we have *three* chapters of coverage to work through! Note that this is your last problem set before the next quiz.
+We've been so busy with labs and research ideas that we have *three* chapters of coverage to work through! Note that this is your last problem set before the next exam
 
-See the exercises below, or you can [download them as a pdf](../04-ps.pdf). You can download the data file you need for question 6 [here](../materials/growth.dta), along with information on the variable definitions [here](https://www.princeton.edu/~mwatson/Stock-Watson_3u/Students/EE_Datasets/Growth_Description.pdf)
+See the exercises below, or you can [download them as a pdf](../03-ps.pdf). You can download the data file you need for question 6 [here](../materials/growth.dta), along with information on the variable definitions [here](https://www.princeton.edu/~mwatson/Stock-Watson_3u/Students/EE_Datasets/Growth_Description.pdf)
 
 ## What do I submit?
 
