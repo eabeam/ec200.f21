@@ -1,7 +1,7 @@
 ---
 title: "Lab 4: Multivariate Regression"
 linktitle: "Lab 4"
-date: "2021-10-06"
+date: "2021-10-05"
 due_date: "2021-10-13"
 due_time: "2:20 PM"
 menu:
@@ -18,9 +18,9 @@ editor_options:
 ## Materials {#materials .unnumbered}
 
 - [`cps_2016.dta`](../materials/cps_2016.dta)
-- Do-file template [`labtemplate.do`](../materials/labtemplate_f20.do) 
+- Do-file template [`labtemplate.do`](../materials/labtemplate_f21.do) 
 - Looping exercise [`loop_example.do`](../materials/loop_example.do) 
-- Sample from class [`lab4_sample.do`](../materials/lab4_sample.do)
+<!-- - Sample from class [`lab4_sample.do`](../materials/lab4_sample.do) -->
 
 ## Objectives {#objectives .unnumbered}
 
@@ -183,7 +183,7 @@ When we include a dummy variable for every value of a categorical variable, like
 
 
 ## Reading regression tables (reminder!) 
-<img src="../regression-label.png" alt="labelled Stata output">
+<img src="../regression-label.png" alt="labeled Stata output">
 
 
 
@@ -285,14 +285,14 @@ When we include a dummy variable for every value of a categorical variable, like
     relationship between $Y$ and $X$?
     
     
-    
+<!--
 ## Video 
     
 
 ### [Video: Class Recording 07 October 2020](https://youtu.be/c8zSRqkS_SA)
 `r htmltools::HTML("{{< youtube c8zSRqkS_SA >}}")`
 
-  <!--
+
    
 ### A note on "well-behaved"" residuals {#residuals .unnumbered} 
 

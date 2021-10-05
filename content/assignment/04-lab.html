@@ -1,7 +1,7 @@
 ---
 title: "Lab 4: Multivariate Regression"
 linktitle: "Lab 4"
-date: "2021-10-06"
+date: "2021-10-05"
 due_date: "2021-10-13"
 due_time: "2:20 PM"
 menu:
@@ -30,10 +30,6 @@ editor_options:
 </ul></li>
 <li><a href="#reading-regression-tables-reminder">Reading regression tables (reminder!)</a></li>
 <li><a href="#lab-4-worksheet">Lab 4 Worksheet</a></li>
-<li><a href="#video">Video</a>
-<ul>
-<li><a href="#video-class-recording-07-october-2020"><span>Video: Class Recording 07 October 2020</span></a></li>
-</ul></li>
 </ul>
 </div>
 
@@ -41,9 +37,9 @@ editor_options:
 <h2>Materials</h2>
 <ul>
 <li><a href="../materials/cps_2016.dta"><code>cps_2016.dta</code></a></li>
-<li>Do-file template <a href="../materials/labtemplate_f20.do"><code>labtemplate.do</code></a></li>
-<li>Looping exercise <a href="../materials/loop_example.do"><code>loop_example.do</code></a></li>
-<li>Sample from class <a href="../materials/lab4_sample.do"><code>lab4_sample.do</code></a></li>
+<li>Do-file template <a href="../materials/labtemplate_f21.do"><code>labtemplate.do</code></a></li>
+<li>Looping exercise <a href="../materials/loop_example.do"><code>loop_example.do</code></a>
+<!-- - Sample from class [`lab4_sample.do`](../materials/lab4_sample.do) --></li>
 </ul>
 </div>
 <div id="objectives" class="section level2 unnumbered">
@@ -186,7 +182,7 @@ regress incwage black_nh hisp other</code></pre>
 </div>
 <div id="reading-regression-tables-reminder" class="section level2">
 <h2>Reading regression tables (reminder!)</h2>
-<p><img src="../regression-label.png" alt="labelled Stata output"></p>
+<p><img src="../regression-label.png" alt="labeled Stata output"></p>
 </div>
 <div id="lab-4-worksheet" class="section level2 unnumbered">
 <h2>Lab 4 Worksheet</h2>
@@ -265,13 +261,14 @@ relationship between <span class="math inline">\(Y\)</span> and <span class="mat
 do the inclusion of these factors affect your estimates of the
 relationship between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>?</p></li>
 </ol>
-</div>
-<div id="video" class="section level2">
-<h2>Video</h2>
-<div id="video-class-recording-07-october-2020" class="section level3">
-<h3><a href="https://youtu.be/c8zSRqkS_SA">Video: Class Recording 07 October 2020</a></h3>
-<p>{{< youtube c8zSRqkS_SA >}}</p>
-<p><!--
+<!--
+## Video 
+    
+
+### [Video: Class Recording 07 October 2020](https://youtu.be/c8zSRqkS_SA)
+`{{< youtube c8zSRqkS_SA >}}`{=html}
+
+
    
 ### A note on "well-behaved"" residuals {#residuals .unnumbered} 
 
@@ -282,8 +279,7 @@ There are three characteristics of "well-behaved" residuals:
 3. No one residual "stands out" from the basic random pattern of residuals. This suggests that there are no outliers.
 
 We don't want to overweight the importance of this, but it can be a helpful diagnostic to look for outliers, strange patterns. 
---></p>
-</div>
+-->
 </div>
 <div class="footnotes">
 <hr />
