@@ -1,43 +1,13 @@
-\documentclass[11pt]{article}
-
-
-
-
-\usepackage[sfdefault]{FiraSans} %% option 'sfdefault' activates Fira Sans as the default text font
-\usepackage[T1]{fontenc}
-\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
-
-\usepackage{natbib}
-\usepackage[french,english]{babel}
-\usepackage{numprint}
-\usepackage{multirow}
-\usepackage{rotating}
-\usepackage{fancyhdr}
-\usepackage{booktabs}
-\usepackage{multicol}
-\usepackage{hyperref}\hypersetup{colorlinks=true}
-
-\usepackage{amsmath,amssymb,amsfonts,textcomp}
-\usepackage{color}
-\usepackage{calc}
- \setlength{\tabcolsep}{8pt}
-\usepackage{setspace}
-\onehalfspacing
-\usepackage{longtable}
-\usepackage{graphicx}
-\usepackage[margin=1in]{geometry}
-\setlength{\parindent}{0pt}
-\usepackage[bottom]{footmisc}
-\pagestyle{fancy}
-\usepackage{titlesec}
-\usepackage{lipsum}
-\usepackage{cancel}
-\usepackage{multicol}
-
-\usepackage{amsmath,amssymb}
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
 \usepackage{lmodern}
-\usepackage{iftex}
-\ifPDFTeX
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -46,39 +16,52 @@
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-
-\titleformat{\section}
-  {\normalfont\Large\scshape\bfseries}{\thesection}{1em}{}
-  \titlespacing{\section}{0pt}{10pt}{0pt}
-\titleformat{\subsection}
-  {\normalfont\bfseries}{\thesection}{1em}{}
-  \titlespacing{\subsection}{0pt}{6pt}{0pt}
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Problem set 4},
+  pdfcreator={LaTeX via pandoc}}
+\usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\newenvironment{itemize*}%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{graphicx}
 
-  
-\lhead{EC200 - Econometrics and Applications}
-\rhead{Version: \today}
-\setlength\parskip{0.10in}
+\title{Problem set 4}
+\author{}
+\date{2020-09-24}
+
 \begin{document}
-\thispagestyle{plain}
-\singlespacing
-
-
-Version: \today \hfill Fall 2021\\
-EC200: Econometrics and Applications
-%\vspace{1.5cm}
-\begin{center}
-\Large{\textbf{Lab 1: Introduction to Stata}}\\
-\end{center}
-\bigskip
-
-
-%{
-%\setcounter{tocdepth}{3}
-%\tableofcontents
-%}
-
+\maketitle
 
 \hypertarget{welcome}{%
 \subsection{Welcome}\label{welcome}}

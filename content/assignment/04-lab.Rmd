@@ -193,6 +193,13 @@ When we include a dummy variable for every value of a categorical variable, like
 
 ## Lab 4 Worksheet {#lab-4-worksheet .unnumbered}
 
+### What do I submit? 
+    Your written up answers to exercise questions (1) - (13). This can be typed or written out then scanned (or photographed), in any reasonable format.
+    The do-file you’ve created that runs this analysis
+    A log file that contains the results from this exercise.
+    
+### Questions
+
  Download the do-file template and data files. Personalize the file paths so that you can run it and open your `cps_2016.dta` file. You can also work with a blank data file if you're more comfortable - just make sure you remember to include commands to start and close your log file. 
  
 *Use robust standard errors in all regressions*
