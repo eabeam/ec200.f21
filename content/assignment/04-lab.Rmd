@@ -194,9 +194,9 @@ When we include a dummy variable for every value of a categorical variable, like
 ## Lab 4 Worksheet {#lab-4-worksheet .unnumbered}
 
 ### What do I submit? 
-    Your written up answers to exercise questions (1) - (13). This can be typed or written out then scanned (or photographed), in any reasonable format.
-    The do-file you’ve created that runs this analysis
-    A log file that contains the results from this exercise.
+- Your written up answers to exercise questions (1) - (13). This can be typed or written out then scanned (or photographed), in any reasonable format.
+- The do-file you’ve created that runs this analysis
+- A log file that contains the results from this exercise.
     
 ### Questions
 
