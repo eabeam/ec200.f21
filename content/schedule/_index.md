@@ -4,6 +4,7 @@ slug: schedule
 ---
 
 <!--{{< figure library="true" src="EC200layout.png" title="" >}}-->
+**NOTE UPDATED 11 OCTOBER (shifting Week 7 and Week 8 schedule and CH4-CH7 exam!)**
 
 ##  [Printer-friendly schedule (pdf)](EC200_Schedule_F21.pdf)
 What's the plan?
@@ -51,22 +52,22 @@ What's the plan?
 |  | 06 Oct | W | [Lab 4: Multiple regression](/assignment/04-lab) |  | [<i class="fas fa-laptop-code"></i> Lab 3 due](/assignment/03-lab)|
 |  | 08 Oct | F |Fall recess|  | |
 | ||||  | |
-| 7|||**MLR: Hypothesis tests (CH7)**   | | |
+| 7|||<i class="fas fa-exclamation"></i> **MLR: Hypothesis tests (CH7)**   | | |
 |  | 11 Oct | M | [MLR: Hypothesis tests](/content/07-content) |[Read CH7 and optional video](/content/07-content/) ||
-|  | 13 Oct | W | [Lab 5: Merging and hypothesis testing](/assignment/05-lab) |  |[<i class="fas fa-laptop-code"></i> Lab 4 due](/assignment/04-lab) |
-|  | 15 Oct | F | [MLR: Hypothesis tests](/content/07-content)  |  |[<i class="fas fa-pencil-alt"></i> PS3 due](/assignment/03-ps)|
+|  | 13 Oct | W |[MLR: Hypothesis tests](/content/07-content) |  |[<i class="fas fa-laptop-code"></i> Lab 4 due](/assignment/04-lab) |
+|  | 15 Oct | F | [Lab 5: Merging and hypothesis testing](/assignment/05-lab)  |  |[<i class="fas fa-pencil-alt"></i> PS3 due](/assignment/03-ps)|
 | ||||  | |
-| 8|||**Non-linear regressions (CH8)**   | | |
-|  | 18 Oct | M | Exam 2: CH 4, 5, 6, 7 |  ||
-|  | 20 Oct | W | [<i class="fas fa-dragon"></i> RP: Writing an annotated bibliography](/assignment/rp-03-annotated) |  |[<i class="fas fa-laptop-code"></i> Lab 5 due](/assignment/05-lab)|
+| 8|||<i class="fas fa-exclamation"></i> **Non-linear regressions (CH8)**   | | |
+|  | 18 Oct | M | Exam 2 review |  ||
+|  | 20 Oct | W | <i class="fas fa-exclamation"></i> Exam 2: CH 4, 5, 6, 7 |  |[<i class="fas fa-laptop-code"></i> Lab 5 due](/assignment/05-lab)|
 |  | 22 Oct | F | [Non-linear regression](/content/08-content) | [Read CH8 and optional video](/content/08-content/)  ||
 | ||||  ||
-| 9|||**Assessing regression validity (CH9)**   | | |
+| 9|||**Non-linear regression (CH8) and assessing regression validity (CH9)**   | | |
 |  | 25 Oct | M | [Non-linear regression](/content/08-content) |||
 |  | 27 Oct | W | [<i class="fas fa-dragon"></i> RP: Writing a paper proposal](/assignment/rp-04-proposal) |  | [<i class="fas fa-dragon"></i> Annotated bibliography due](/assignment/rp-03-annotated)|
 |  | 29 Oct | F |[No in-person meeting](/content/09-content/) |[Read CH9 and watch video](/content/09-content/) | [<i class="fas fa-tv"></i> VQ5 (CH9)](https://bb.uvm.edu)|
 | ||||  ||
-| 10|||**Panel data (CH10)**   | | |
+| 10|||** Assessing regression validity (CH9) and panel data (CH10)**   | | |
 |  | 01 Nov | M | [Assessing regression validity](/content/09-content/)  | ||
 |  | 03 Nov | W | [Lab 6: Diff-in-diff and panel data](/assignment/06-lab) | [Read CH10 and watch video](/content/10-content)| [<i class="fas fa-tv"></i> VQ6 (CH10)](https://bb.uvm.edu)|
 |  | 05 Nov | F | [Panel data methods](/content/10-content)  |  |[<i class="fas fa-pencil-alt"></i> PS4 due](/assignment/04-ps) |

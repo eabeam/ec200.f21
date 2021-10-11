@@ -304,15 +304,15 @@ When we include a dummy variable for every value of a categorical variable, like
     relationship between $Y$ and $X$?
     
     
-<!--
+
 ## Video 
     
 
-### [Video: Class Recording 07 October 2020](https://youtu.be/c8zSRqkS_SA)
-`r htmltools::HTML("{{< youtube c8zSRqkS_SA >}}")`
+### [Video: Class Recording 06 October 2021](https://youtu.be/c8zSRqkS_SA)
+`r htmltools::HTML("{{< youtube I06HBd1Urec >}}")`
 
 
-   
+   <!--
 ### A note on "well-behaved"" residuals {#residuals .unnumbered} 
 
 There are three characteristics of "well-behaved" residuals: 
