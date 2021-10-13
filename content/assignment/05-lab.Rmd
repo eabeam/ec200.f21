@@ -1,7 +1,7 @@
 ---
 title: "Lab 5: Merging and hypothesis tests"
 linktitle: "Lab 5"
-date: "2021-10-13"
+date: "2021-10-12"
 due_date: "2021-10-20"
 due_time: "2:20 PM"
 menu:
@@ -18,7 +18,7 @@ editor_options:
 ## Materials {#materials .unnumbered}
 
 - [`cps_2016.dta`](../materials/cps_2016.dta)
-- Do-file template [`labtemplate.do`](../materials/labtemplate_f20.do) 
+- Do-file template [`labtemplate_f21.do`](../materials/labtemplate_f21.do) 
 
 
 ## Objectives {#objectives .unnumbered}
