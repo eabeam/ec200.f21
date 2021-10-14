@@ -55,10 +55,10 @@ What's the plan?
 | 7|||<i class="fas fa-exclamation"></i> **MLR: Hypothesis tests (CH7)**   | | |
 |  | 11 Oct | M | [MLR: Hypothesis tests](/content/07-content) |[Read CH7 and optional video](/content/07-content/) ||
 |  | 13 Oct | W |[MLR: Hypothesis tests](/content/07-content) |  |[<i class="fas fa-laptop-code"></i> Lab 4 due](/assignment/04-lab) |
-|  | 15 Oct | F | [Lab 5: Merging and hypothesis testing](/assignment/05-lab)  |  |[<i class="fas fa-pencil-alt"></i> PS3 due](/assignment/03-ps)|
+|  | 15 Oct | F | [Lab 5: Merging and hypothesis testing](/assignment/05-lab)  |  ||
 | ||||  | |
 | 8|||<i class="fas fa-exclamation"></i> **Non-linear regressions (CH8)**   | | |
-|  | 18 Oct | M | Exam 2 review |  ||
+|  | 18 Oct | M | Exam 2 review |  |[<i class="fas fa-pencil-alt"></i> PS3 due](/assignment/03-ps)|
 |  | 20 Oct | W | <i class="fas fa-exclamation"></i> Exam 2: CH 4, 5, 6, 7 |  |[<i class="fas fa-laptop-code"></i> Lab 5 due](/assignment/05-lab)|
 |  | 22 Oct | F | [Non-linear regression](/content/08-content) | [Read CH8 and optional video](/content/08-content/)  ||
 | ||||  ||
