@@ -89,8 +89,8 @@ list
 
 ## Class Video 
 
-<iframe src="https://streaming.uvm.edu/media/embed/yA6sJRs/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
 
+`r htmltools::HTML("{{< youtube 8yfXvk8QYy0 >}}")`
 
 ## Lab 5 Worksheet 
 ### What do I submit?
