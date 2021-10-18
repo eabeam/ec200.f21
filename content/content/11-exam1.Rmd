@@ -33,7 +33,7 @@ See the specific chapter guides from [Week 4](../04-content), [Week 5](../05-con
 
 There will not be a Stata component to the exam. 
 
-## I need more practice!
+### I need more practice!
 
 I recommend the following resources: 
 
@@ -63,19 +63,17 @@ What is not allowed?
 
 
 
+
+## In-class practice {#inclass-practice .unnumbered}
+
+We have several sets of in-class practice activities: 
+
+- [CH4 Practice (Week 4) - Single Linear Regression](../practice/W4-02-in-class-exercise.pdf)
+- [CH5 Practice (Week 5) - Inference](../practice/W5-05-03-in-class_inference.pdf)
+- [CH6 Practice (Week 6) - Multiple Linear Regression](../practice/W6-01-in-class-exercise.pdf)
+- [CH7 Practice (Week 7) - Inference with Multiple Linear Regression](../practice/W7-02-in-class-exercise.pdf)
+
 <!--
-### In-class practice 
-
-[Here are the problems](../practice/EC200-03-01practice.pdf) we covered in class.
-
-
-And a video with solutions! I recommend working through the problems on your own **first**. 
-
-`r htmltools::HTML("{{< youtube q_NbBSDWcpI >}}")`
-
-Or, download a [pdf of the solutions](../practice/EC200-03-01practice_solutions.pdf)
-
-
 
 ## Helpful materials {#helpful-materials}
 
@@ -97,4 +95,4 @@ Two things that may be useful to you:
 
 [Spring 2017 Practice Exam](../PracticeExams/Unit1Quiz_spring2017_v1.pdf) - note that this exam asks you to interpret log coefficients, which *we have not yet covered!*
 
-[Spring 2017 Practice Exam Solutions](../Unit1Quiz_spring2017_v1 solution.pdf) (*I strongly recommend doing the practice exam in its entirety before reviewing the solutions*)
+[Spring 2017 Practice Exam Solutions](../PracticeExams/Unit1Quiz_spring2017_v1solution.pdf) (*I strongly recommend doing the practice exam in its entirety before reviewing the solutions*)
