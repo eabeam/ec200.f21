@@ -59,8 +59,8 @@ What's the plan?
 | ||||  | |
 | 8|||<i class="fas fa-exclamation"></i> **Non-linear regressions (CH8)**   | | |
 |  | 18 Oct | M | Exam 2 review |  |[<i class="fas fa-pencil-alt"></i> PS3 due](/assignment/03-ps)|
-|  | 20 Oct | W | <i class="fas fa-exclamation"></i> Exam 2: CH 4, 5, 6, 7 |  |[<i class="fas fa-laptop-code"></i> Lab 5 due](/assignment/05-lab)|
-|  | 22 Oct | F | [Non-linear regression](/content/08-content) | [Read CH8 and optional video](/content/08-content/)  ||
+|  | 20 Oct | W | <i class="fas fa-exclamation"></i> Exam 2: CH 4, 5, 6, 7 |  ||
+|  | 22 Oct | F | [Non-linear regression](/content/08-content) | [Read CH8 and optional video](/content/08-content/)  |[<i class="fas fa-laptop-code"></i> Lab 5 due](/assignment/05-lab)|
 | ||||  ||
 | 9|||**Non-linear regression (CH8) and assessing regression validity (CH9)**   | | |
 |  | 25 Oct | M | [Non-linear regression](/content/08-content) |||
