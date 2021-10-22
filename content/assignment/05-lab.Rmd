@@ -158,11 +158,11 @@ list
 
 16. Now add county-level unemployment rate to the previous equation. What is the interpretation of the coefficient on unemployment? Is it statistically significant?
 
-17. Estimate the same equation by regressing total personal income on     the education binary variables and state-level unemployment,     restricting to those who are currently in the labor force. How does     this change the coefficient on unemployment?
+17. Estimate the same equation by regressing total personal income on     the education binary variables and county-level unemployment,     restricting to those who are currently in the labor force. How does     this change the coefficient on unemployment?
 
 18. Identify three *state-level* variables that are likely to cause     omitted variable bias if you want to know whether unemployment    affects individual wages.
 
 19. For *one* of the variables you listed above, find the data online,    import into Stata, and merge it in.
 
-20. Regress total personal income on the education binary variables,    state-level unemployment, and the new variable you found. Restrict     your sample to those who are currently in the labor force. How does    the inclusion of your new variable affect the coefficient on    unemployment?
+20. Regress total personal income on the education binary variables,    county-level unemployment, and the new variable you found. Restrict     your sample to those who are currently in the labor force. How does    the inclusion of your new variable affect the coefficient on    unemployment?
 
