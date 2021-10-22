@@ -15,6 +15,10 @@ output:
 editor_options: 
   chunk_output_type: console
 ---
+
+
+**[Print-friendly pdf](../05-lab.pdf)**
+
 ## Materials {#materials .unnumbered}
 
 - [`cps_2016.dta`](../materials/cps_2016.dta)
