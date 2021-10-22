@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.25)  5 OCT 2021 19:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.25)  22 OCT 2021 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -667,29 +667,29 @@ Package: inputenc 2020/08/01 v1.3d Input encoding file
 ) (./04-ps.aux)
 \openout1 = `04-ps.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 \c@mv@tabular=\count325
 \c@mv@boldtabular=\count326
-LaTeX Info: Redefining \degres on input line 63.
-LaTeX Info: Redefining \dots on input line 63.
-LaTeX Info: Redefining \up on input line 63.
+LaTeX Info: Redefining \degres on input line 60.
+LaTeX Info: Redefining \dots on input line 60.
+LaTeX Info: Redefining \up on input line 60.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -721,7 +721,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 63.
+Package hyperref Info: Link coloring ON on input line 60.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -735,9 +735,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count333
 )
-LaTeX Info: Redefining \ref on input line 63.
-LaTeX Info: Redefining \pageref on input line 63.
-LaTeX Info: Redefining \nameref on input line 63.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
+ (./04-ps.out) (./04-ps.out)
 \@outlinefile=\write3
 \openout3 = `04-ps.out'.
 
@@ -779,29 +780,29 @@ LaTeX Info: Redefining \nameref on input line 63.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <14.4> not availab
 le
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 72.
+ut line 69.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 72.
+(Font)              scaled to size 14.4pt on input line 69.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <14.4> not availab
 le
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 72.
+line 69.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 72.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10.95> not availa
+(Font)              scaled to size 14.4pt on input line 69.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' in size <14.4> not availa
 ble
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 84.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 84.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10.95> not avail
-able
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on in
-put line 87.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 87.
+(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on in
+put line 75.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
+(Font)              scaled to size 14.4pt on input line 75.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/sc' in size <14.4> not availa
+ble
+(Font)              Font shape `T1/FiraSans-OsF/bold/sc' tried instead on input
+ line 75.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/sc' will be
+(Font)              scaled to size 14.4pt on input line 75.
 LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on inp
-ut line 102.
+ut line 87.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
 File: TS1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSan
 s-OsF.
@@ -809,83 +810,63 @@ s-OsF.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <10.95> not avail
 able
 (Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on in
-put line 102.
+put line 87.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 102.
+(Font)              scaled to size 10.95pt on input line 87.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-19.
+05.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-19.
+05.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-119.
+105.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-119.
+105.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 119.
+(Font)              <10.95> on input line 105.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 119.
+(Font)              <8> on input line 105.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 119.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 119
+(Font)              <6> on input line 105.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 105
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 119
+LaTeX Font Info:    Trying to load font information for U+msb on input line 105
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10.95> not avail
+able
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on in
+put line 139.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 10.95pt on input line 139.
+ [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<materials/sw7-3.png, id=32, 514.92375pt x 518.93875pt>
-File: materials/sw7-3.png Graphic file (type png)
-<use materials/sw7-3.png>
-Package pdftex.def Info: materials/sw7-3.png  used on input line 210.
-(pdftex.def)             Requested size: 257.46124pt x 259.46873pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 22
-6.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [2 <./materials/sw7-3.png>]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 1 on input line 226.
-
-<materials/sw7-1.png, id=46, 604.2575pt x 421.575pt>
-File: materials/sw7-1.png Graphic file (type png)
-<use materials/sw7-1.png>
-Package pdftex.def Info: materials/sw7-1.png  used on input line 250.
-(pdftex.def)             Requested size: 302.128pt x 210.78697pt.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-64.
+32.
+
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -897,55 +878,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3 <./materials/sw7-1.png>]
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[4] (./04-ps.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `04-ps.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `04-ps.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  66220FC0ACD375BD829F6CAC6DD3ACB1;318.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 23
+5.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [2] (./04-ps.aux)
+Package rerunfilecheck Info: File `04-ps.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14167 strings out of 478994
- 214968 string characters out of 5858184
- 706649 words of memory out of 5000000
- 31335 multiletter control sequences out of 15000+600000
- 493955 words of font info for 57 fonts, out of 8000000 for 9000
+ 14144 strings out of 478994
+ 214685 string characters out of 5858184
+ 705649 words of memory out of 5000000
+ 31318 multiletter control sequences out of 15000+600000
+ 504931 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,11n,88p,292b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,11n,88p,242b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2021/t
-exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2021/texmf-dist/
-fonts/enc/dvips/fira/fir_d67aat.enc}{/usr/local/texlive/2021/texmf-dist/fonts/e
-nc/dvips/fira/fir_iln36p.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/pu
-blic/fira/FiraSans-Bold.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
-lic/fira/FiraSans-Italic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
-blic/fira/FiraSans-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
-public/lm/lmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/
-lmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on 04-ps.pdf (4 pages, 427314 bytes).
+texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
+21/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr/local/texlive/2021/texm
+f-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2021/texmf-dist/fon
+ts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/f
+ira/fir_d67aat.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fira/fir
+_2mfh3o.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/fira/FiraSan
+s-Bold.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fira/FiraSans
+-Italic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fira/FiraSan
+s-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/lm/lmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/amsfonts/symbols/msbm10.pfb>
+Output written on 04-ps.pdf (2 pages, 241821 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
- 32 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 24 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

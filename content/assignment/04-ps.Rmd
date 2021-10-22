@@ -1,7 +1,7 @@
 ---
 title: "Problem set 4"
 linktitle: "PS 4"
-date: "2021-10-27"
+date: "2021-10-22"
 due_date: "2021-11-05"
 due_time: "2:20 PM"
 menu:
@@ -18,7 +18,7 @@ editor_options:
 
 Chapter 8 and 9  problems! Enjoy! 
 
-See the exercises below, or you can [download them as a pdf](../05-ps.pdf). 
+See the exercises below, or you can [download them as a pdf](../04-ps.pdf). 
 
 ## What do I submit?
 
@@ -80,7 +80,7 @@ $log(price) = \beta_0 = \beta_1log(nox) + \beta_2rooms + u$
 
  <!-- Stock and Watson 9.3 --> 
  
-4.  Labor economists studying the determinants of women’s earnings discovered a puzzling empirical result. Using randomly selected employed women, they regressed earnings on the women’s number of children and a set of control variables (age, education, occupation, and so forth). They found that women with more children had higher wages, controlling for these other factors. Explain how sample selection might be the cause of this result. (Hint: Notice that women who do not work outside the home are missing from the sample.) [This empirical puzzle motivated James Heckman’s research on sample selec-tion that led to his 2000 Nobel Prize in Economics. See Heckman (1974)]
+4.  Labor economists studying the determinants of women’s earnings discovered a puzzling empirical result. Using randomly selected employed women, they regressed earnings on the women’s number of children and a set of control variables (age, education, occupation, and so forth). They found that women with more children had higher wages, controlling for these other factors. Explain how sample selection might be the cause of this result. (Hint: Notice that women who do not work outside the home are missing from the sample.) [This empirical puzzle motivated James Heckman’s research on sample selection that led to his 2000 Nobel Prize in Economics. See Heckman (1974)]
  
  
  
