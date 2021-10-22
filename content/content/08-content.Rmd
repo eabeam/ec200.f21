@@ -61,18 +61,9 @@ Three types of interactions you should know:
 
 ## Videos
 
-*Warning!* The interactions example I work through is ... uninspired. I clearly should not have taken on baseball. I regret it. :flushed: :grimacing: Also, the reason why there are only 3 race/ethncity categories in the MLB is because in 1993, all players fell into only those three groups!
+*Warning!* The interactions example I work through is ... uninspired. I clearly should not have taken on baseball. I regret it. :flushed: :grimacing: Also, the reason why there are only 3 race/ethnicity categories in the MLB is because in 1993, all players fell into only those three groups!
 
 ### [Video: Nonlinear Reression Functions](https://youtu.be/LAPKh9ib2Tg )
 `r htmltools::HTML("{{< youtube LAPKh9ib2Tg >}}")`
 
-### [Class Video - 09-01](https://streaming.uvm.edu/media/embed/iM9eQzi/) 
 
-*You need to use your netid to log in - let me know if you have issues*
-
-
- <iframe src="https://streaming.uvm.edu/media/embed/iM9eQzi/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
-
-### [Class Video - 09-02](https://streaming.uvm.edu/media/embed/UIrJ4nU/) 
-
-<iframe src="https://streaming.uvm.edu/media/embed/UIrJ4nU/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
