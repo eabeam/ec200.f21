@@ -75,12 +75,12 @@ What's the plan?
 | 11|||**Panel data methods**   | | |
 |  | 08 Nov | M | [Panel data methods](/content/10-content)  |  ||
 |  | 10 Nov | W | [Lab 7: Data problems](/assignment/07-lab) | |[<i class="fas fa-laptop-code"></i> Lab 6 due](/assignment/06-lab)|
-|  | 12 Nov | F | [Panel data methods](/content/10-content)  |   | [<i class="fas fa-dragon"></i> Proposal due](/assignment/rp-04-proposal)|
+|  | 12 Nov | F | [Panel data methods](/content/10-content)  |   | |
 | ||||  | |
 |12 |||**Research Week**   | | |
-|  | 16 Nov | M | [RP: Peer review](/assignment/rp-05-referee) | ||
-|  | 18 Nov | W |  [RP: Presenting and discussing results](/content/11-content)|   |[<i class="fas fa-laptop-code"></i> Lab 7 due](/assignment/06-lab)|
-|  | 20 Nov | F | [RP: Writing an introduction and conclusion](/content/11-content)  |||
+|  | 15 Nov | M | [RP: Peer review](/assignment/rp-05-referee) | |[<i class="fas fa-dragon"></i> Proposal due](/assignment/rp-04-proposal)|
+|  | 17 Nov | W |  [RP: Presenting and discussing results](/content/11-content)|   |[<i class="fas fa-laptop-code"></i> Lab 7 due](/assignment/06-lab)|
+|  | 19 Nov | F | [RP: Writing an introduction and conclusion](/content/11-content)  |||
 | ||||  | |
 | |||**Thanksgiving Break 22-26 Nov**   | | |
 | ||||||

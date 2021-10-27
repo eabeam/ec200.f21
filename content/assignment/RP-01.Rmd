@@ -90,10 +90,7 @@ You'll prepare a [``data abstract''](../data-abstract) that includes your resear
 ### [Research proposal](../rp-04-proposal)  {#research-proposal .unnumbered}
 
 From the list of topics, choose and develop one research idea for your
-[research proposal](../rp-04-proposal). You'll Write up a **four- to six-page** proposal (double
-spaced, excluding tables) for your research paper. This proposal should
-provide as much detail as possible to help me and your classmates assess your
-plan and provide useful feedback.
+[research proposal](../rp-04-proposal). You'll write up research proposal of at least 1000 words. This proposal should provide as much detail as possible to help me and your classmates assess your plan and provide useful feedback.
 
 
 ### [Peer review](../rp-05-referee) {#peer-review .unnumbered}
