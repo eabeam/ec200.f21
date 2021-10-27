@@ -26,7 +26,7 @@ For this assignment, **some basic data work is necessary.** However, you may fin
 ## Components {#components .unnumbered}
 
 
-Your proposal should be **at least 1000 words** (excluding references) and include the following components. While our first two assignments were fairly informal, this is a formal paper - meaning that I will pay close attention to not only what ideas you present, but also *how* you present them.
+Your proposal should be **at least 1200 words** (excluding references) and include the following components. While our first two assignments were fairly informal, this is a formal paper - meaning that I will pay close attention to not only what ideas you present, but also *how* you present them.
 
 1.   Clearly stated research question. What hypotheses are you testing?
 
