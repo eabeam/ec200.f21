@@ -1,7 +1,7 @@
 ---
 title: "Lab 6: Internal validity and LPM"
 linktitle: "Lab 6"
-date: "2021-11-03"
+date: "2021-11-01"
 due_date: "2021-11-10"
 due_time: "2:20 PM"
 menu:
