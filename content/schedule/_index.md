@@ -85,7 +85,7 @@ What's the plan?
 | |||**Thanksgiving Break 22-26 Nov**   | | |
 | ||||||
 |13 |||**Instrumental variables (CH12)**   | | |
-|  | 29 Nov | M | [Instrumental variables](/content/12-content) |  [Read CH12 and watch video](/content/12-content)| [<i class="fas fa-tv"></i> VQ7 (1CH12)](https://bb.uvm.edu)|
+|  | 29 Nov | M | [Instrumental variables](/content/12-content) |  [Read CH12 and watch video](/content/12-content)| [<i class="fas fa-tv"></i> VQ6 (CH12)](https://bb.uvm.edu)|
 |  | 01 Dec | W | [Lab 8: Instrumental variables](/assignment/08-lab) | |[(Optional) Rough draft due](/assignment/rp-06-roughdraft)|
 |  | 03 Dec | F | [Instrumental variables](/content/12-content) | |[<i class="fas fa-pencil-alt"></i> PS 5 due](/assignment/05-ps)|
 | ||||  | |
