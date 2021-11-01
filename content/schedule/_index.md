@@ -69,12 +69,12 @@ What's the plan?
 | ||||  ||
 | 10|||**Assessing regression validity (CH9) and panel data (CH10)**   | | |
 |  | 01 Nov | M | [Assessing regression validity](/content/09-content/)  | ||
-|  | 03 Nov | W | [Lab 6: Diff-in-diff and panel data](/assignment/06-lab) | [Read CH10 and watch video](/content/10-content)| [<i class="fas fa-tv"></i> VQ6 (CH10)](https://bb.uvm.edu)|
+|  | 03 Nov | W | [Lab 6: Internal validity and LPM](/assignment/06-lab) | ||
 |  | 05 Nov | F | [Panel data methods](/content/10-content)  |  |[<i class="fas fa-pencil-alt"></i> PS4 due](/assignment/04-ps) |
 | ||||  | |
 | 11|||**Panel data methods**   | | |
 |  | 08 Nov | M | [Panel data methods](/content/10-content)  |  ||
-|  | 10 Nov | W | [Lab 7: Data problems](/assignment/07-lab) | |[<i class="fas fa-laptop-code"></i> Lab 6 due](/assignment/06-lab)|
+|  | 10 Nov | W | [Lab 7: Diff-in-diff and panel data](/assignment/07-lab) | |[<i class="fas fa-laptop-code"></i> Lab 6 due](/assignment/06-lab)|
 |  | 12 Nov | F | [Panel data methods](/content/10-content)  |   | |
 | ||||  | |
 |12 |||**Research Week**   | | |
