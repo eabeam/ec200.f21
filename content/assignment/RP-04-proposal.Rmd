@@ -26,22 +26,16 @@ For this assignment, **some basic data work is necessary.** However, you may fin
 ## Components {#components .unnumbered}
 
 
-Your proposal should be **at least 1200 words** (excluding references) and include the following components. While our first two assignments were fairly informal, this is a formal paper - meaning that I will pay close attention to not only what ideas you present, but also *how* you present them.
+While our first two assignments were fairly informal, this is a formal paper - meaning that I will pay close attention to not only what ideas you present, but also *how* you present them. Your proposal should be **at least 1200 words** (excluding references) and include the following components:
 
-1.   Clearly stated research question. What hypotheses are you testing?
+1.   Introduction that contains (1) a clearly stated research question. What hypotheses are you testing? (2) Motivation - why is this important/interesting?
 
-1.   Motivation - why is this important/interesting?
+1.   Literature review: discussion of related literature and how your paper fits in
 
-1.   Link to related literature - what do we already know? 
-
-1.   Data set - description of data set - make sure you include the
-    sources!
-
-1.   Empirical specification: You **must** include the empirical
-    specification of the regression(s) you are estimating, along with a
-    clear description of what each variable is.
-
-1.   A "summary statistics" table that includes the basic descriptive
+1.   Data description: Description of data set - make sure you include the
+    sources! 
+    
+1.  A "summary statistics" table that includes the basic descriptive
     statistics that will be relevant to your analysis. Ultimately, this
     table will probably be the first table in your final paper. It
     should be **formatted nicely** (i.e., not copied directly out of Stata)
@@ -56,17 +50,21 @@ Your proposal should be **at least 1200 words** (excluding references) and inclu
       to report means separately for each group.
   -   Any other details that might be relevant to your data (i.e.
       number of states, number of years, number of households, etc.)
-      
-7.   Planned analysis: How will your results answer your research
+
+5.   Empirical specification: You **must** include the empirical
+    specification of the regression(s) you are estimating, along with a
+    clear description of what each variable is.
+
+6.   Planned analysis: How will your results answer your research
     question? What challenges/limitations will you face? This is a good
     place to discuss any omitted variable bias, other possible
     violations of our assumptions
     
 
-8.   Bibliography - for any references cited in your proposal plus any
+7.   Bibliography - for any references cited in your proposal plus any
     data sources
 
-9.   *(Optional)* Outline of tables: In as much detail
+8.   *(Optional)* Outline of tables: In as much detail
     as possible, outline the tables you plan to include (no numbers
     necessary)
 

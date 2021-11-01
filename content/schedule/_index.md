@@ -67,7 +67,7 @@ What's the plan?
 |  | 27 Oct | W | [<i class="fas fa-dragon"></i> RP: Writing a paper proposal](/assignment/rp-04-proposal) |  | [<i class="fas fa-dragon"></i> Annotated bibliography due](/assignment/rp-03-annotated)|
 |  | 29 Oct | F |[No in-person meeting](/content/09-content/) |[Read CH9 and watch video](/content/09-content/) | [<i class="fas fa-tv"></i> VQ5 (CH9)](https://bb.uvm.edu)|
 | ||||  ||
-| 10|||** Assessing regression validity (CH9) and panel data (CH10)**   | | |
+| 10|||**Assessing regression validity (CH9) and panel data (CH10)**   | | |
 |  | 01 Nov | M | [Assessing regression validity](/content/09-content/)  | ||
 |  | 03 Nov | W | [Lab 6: Diff-in-diff and panel data](/assignment/06-lab) | [Read CH10 and watch video](/content/10-content)| [<i class="fas fa-tv"></i> VQ6 (CH10)](https://bb.uvm.edu)|
 |  | 05 Nov | F | [Panel data methods](/content/10-content)  |  |[<i class="fas fa-pencil-alt"></i> PS4 due](/assignment/04-ps) |
