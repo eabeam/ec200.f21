@@ -19,12 +19,12 @@ editor_options:
 
 - [`banks.dta`](../materials/banks.dta)
 - [`nsly_marijuana.dta`](../materials/nsly_marijuana.dta)
-- Do-file template [`labtemplate.do`](../materials/labtemplate_f20.do) 
+- Do-file template [`labtemplate.do`](../materials/labtemplate_f21.do) 
 
 
 ## Objectives {#objectives .unnumbered}
 
-There are two separate parts to this lab - a set of data for working with difference-in-differences models, and another set for workin with fixed-effects models
+There are two separate parts to this lab - a set of data for working with difference-in-differences models, and another set for working with fixed-effects models
 
 By the end of this lab, you should be able to complete the following
 tasks in Stata:
@@ -67,9 +67,7 @@ areg income i.educ,robust abosrb(bpl)
 2. You can exclude the prefix and just do `i.var` to create a bunch of indicator variables so long as your variable is *numeric*
 3. You can use `areg` to "absorb" a set of fixed effects - they will not be reported in your output, but they will be estimated. This method is less efficient than `xtreg` becuase you're using up degrees of freedom.
 
-## Lab Video 
 
-<iframe src="https://streaming.uvm.edu/media/embed/d89ZdcD/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
 
 ## Exercises
 ### Part A: Differences-in-differences

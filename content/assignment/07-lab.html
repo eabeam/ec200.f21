@@ -27,7 +27,6 @@ editor_options:
 <li><a href="#using-xtset-and-xtreg">Using <code>xtset</code> and <code>xtreg</code>:</a></li>
 <li><a href="#adding-other-fixed-effects">Adding other fixed effects:</a></li>
 </ul></li>
-<li><a href="#lab-video">Lab Video</a></li>
 <li><a href="#exercises">Exercises</a>
 <ul>
 <li><a href="#part-a-differences-in-differences">Part A: Differences-in-differences</a></li>
@@ -41,12 +40,12 @@ editor_options:
 <ul>
 <li><a href="../materials/banks.dta"><code>banks.dta</code></a></li>
 <li><a href="../materials/nsly_marijuana.dta"><code>nsly_marijuana.dta</code></a></li>
-<li>Do-file template <a href="../materials/labtemplate_f20.do"><code>labtemplate.do</code></a></li>
+<li>Do-file template <a href="../materials/labtemplate_f21.do"><code>labtemplate.do</code></a></li>
 </ul>
 </div>
 <div id="objectives" class="section level2 unnumbered">
 <h2>Objectives</h2>
-<p>There are two separate parts to this lab - a set of data for working with difference-in-differences models, and another set for workin with fixed-effects models</p>
+<p>There are two separate parts to this lab - a set of data for working with difference-in-differences models, and another set for working with fixed-effects models</p>
 <p>By the end of this lab, you should be able to complete the following
 tasks in Stata:</p>
 <ul>
@@ -81,11 +80,6 @@ areg income i.educ,robust abosrb(bpl)</code></pre>
 <li>You can use <code>areg</code> to “absorb” a set of fixed effects - they will not be reported in your output, but they will be estimated. This method is less efficient than <code>xtreg</code> becuase you’re using up degrees of freedom.</li>
 </ol>
 </div>
-</div>
-<div id="lab-video" class="section level2">
-<h2>Lab Video</h2>
-<iframe src="https://streaming.uvm.edu/media/embed/d89ZdcD/" width="640" height="480" frameborder="0" allowfullscreen>
-</iframe>
 </div>
 <div id="exercises" class="section level2">
 <h2>Exercises</h2>
