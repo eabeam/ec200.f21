@@ -24,6 +24,7 @@ editor_options:
 <li><a href="#objectives">Objectives</a></li>
 <li><a href="#key-commands">Key commands</a></li>
 <li><a href="#lpm">Linear Probability Models</a></li>
+<li><a href="#video-class-recording-03-november-2021"><span>Video: Class Recording 03 November 2021</span></a></li>
 <li><a href="#lab-6-worksheet">Lab 6 Worksheet</a>
 <ul>
 <li><a href="#what-do-i-submit">What do I submit?</a></li>
@@ -32,6 +33,7 @@ editor_options:
 </ul>
 </div>
 
+<p><em>November 4, 2021: Updated text because it was written oddly!</em></p>
 <p><strong><a href="../06-lab.pdf">Print-friendly pdf</a></strong></p>
 <div id="materials" class="section level2 unnumbered">
 <h2>Materials</h2>
@@ -93,6 +95,10 @@ tasks in Stata:</p>
 <p><span class="math inline">\(\beta_1\)</span> means that a 1-year increase in age is associated with a <span class="math inline">\(\beta_1\)</span> <strong>percentage-point change</strong> in the probability of being married.</p>
 <p>For great slides on this (and a deeper dive), check out <a href="https://nickch-k.github.io/EconometricsSlides/Week_08/Week_08_Limited_Dependent_Variables.html">this resource</a>!</p>
 </div>
+<div id="video-class-recording-03-november-2021" class="section level2">
+<h2><a href="https://youtu.be/ljNrBLtfeSc">Video: Class Recording 03 November 2021</a></h2>
+<p>{{< youtube ljNrBLtfeSc >}}</p>
+</div>
 <div id="lab-6-worksheet" class="section level2">
 <h2>Lab 6 Worksheet</h2>
 <div id="what-do-i-submit" class="section level3">
@@ -105,11 +111,12 @@ tasks in Stata:</p>
 </div>
 <div id="exercises" class="section level3">
 <h3>Exercises</h3>
+<p><a href="https://youtu.be/ljNrBLtfeSc" class="uri">https://youtu.be/ljNrBLtfeSc</a></p>
 <ol style="list-style-type: decimal">
 <li><p>Open Stata, start a new do-file (or bring in a template). Make sure
 you add code to start (and end) a log.</p></li>
 <li><p>Open <code>cps_2016.dta</code> and restrict the sample to adults (age 18+) who are married (spouse present or absent). Drop anyone who reports “NIU” (not in universe) for labor force status. Confirm that you have <strong>73,950</strong> observations</p></li>
-<li><p>Check work hours, weeks of work, and wage income for any weird recodes (that is, replace any 999999 values with missing values) generate the following variables, and ensure you have the correct means. You may want to use the <code>codebook</code> command to help (i.e. <code>codebook uhrsworkly</code>)</p></li>
+<li><p>Check work hours, weeks of work, and wage income for any weird recodes (that is, replace any 999999 values with missing values) for the following variables. Ensure you have the correct means and number of observations. You may want to use the <code>codebook</code> command to help (i.e. <code>codebook uhrsworkly</code>)</p></li>
 </ol>
 <pre><code>
     Variable |        Obs        Mean    Std. Dev.       Min        Max
@@ -121,20 +128,20 @@ you add code to start (and end) a log.</p></li>
 
 </code></pre>
 <ol start="4" style="list-style-type: decimal">
-<li><p>Generate a binary variable <code>female</code> equal to one if <code>sex == 2</code>. Estimate the impact of <code>female</code> on wage income among married individuals. What is the interpretaion on the coefficient?</p></li>
-<li><p>If our objective is to measure the impact of gender on wage income among married individuals, is sample selection bias likely to be important? Why? Is measurement error likely to be important, why or why not? If so, what is the likely impact of measurement error on your estimated coefficients?</p></li>
-<li><p>Create a binary variable <code>lf</code> equal to 1 if an individual is in the labor force, and 0 otherwise. Estimate the impact of gedner on labor force status. What is the interpretation of the coefficient? Estimate the impact of</p></li>
-<li><p>What is the impact of being in the labor force on wage income? Based on this and the previous question, what is the implication for the direction of omitted variable bias when you estimated <span class="math inline">\(incwageNZ = \beta_0 + \beta_1 female + u\)</span>? without controlling for it?</p></li>
-<li><p>Re-estimate, including a control for <code>lf</code>: <span class="math inline">\(incwageNZ = \beta_0 + \beta_1 female + \beta_2 lf + u\)</span>. Was your estimate correct?</p></li>
-<li><p>Now, add your cleaned variable for usual hours worked to estimate <span class="math inline">\(incwageNZ = \beta_0 + \beta_1 female + \beta_2 lf + \beta_3 uhrsworkly + u\)</span>. What is the interpretation of each coefficient?</p></li>
+<li><p>Generate a binary variable <code>female</code> equal to one if <code>sex == 2</code>. Estimate the impact of <code>female</code> on wage income (<code>incwage</code>) among your sample of married individuals. What is the interpretaion on the coefficient?</p></li>
+<li><p>If our objective is to measure the impact of gender on wage income among married people, is sample selection bias likely to be important? Why or why not? Is measurement error likely to be important, why or why not? If so, what is the likely impact of measurement error on your estimated coefficients?</p></li>
+<li><p>Create a binary variable <code>lf</code> equal to 1 if an individual is in the labor force, and 0 otherwise. Estimate the impact of gender on labor force status. What is the interpretation of the coefficient?</p></li>
+<li><p>What is the impact of being in the labor force on wage income? Based on this and the previous question, what is the implication for the direction of omitted variable bias when you estimated <span class="math inline">\(incwage = \beta_0 + \beta_1 female + u\)</span>? without controlling for labor force participation status?</p></li>
+<li><p>Re-estimate the previous regression, including a control for <code>lf</code>: <span class="math inline">\(incwage = \beta_0 + \beta_1 female + \beta_2 lf + u\)</span>. Was your prediction in part (7) correct?</p></li>
+<li><p>Now, add your cleaned variable for usual hours worked to estimate <span class="math inline">\(incwage = \beta_0 + \beta_1 female + \beta_2 lf + \beta_3 uhrsworkly + u\)</span>. What is the interpretation of each coefficient?</p></li>
 <li><p>Why does your regression not include all 73,850 people? What type of bias might this introduce?</p></li>
-<li><p>Is measurement error likely to be important, and if so, for which variables? What is the likely impact of measurement error on your estimated coefficients?</p></li>
-<li><p>Generate a new variable <code>uhrsNZ</code> that recodes all missing work hours values as zeros. You can expedite this with the <code>clonevar</code> command. Re-estimate the impact of gender, labor force status and <code>uhrsNZ</code> on wage income. What is the interpretation on <em>each</em> coefficient? Why did it change?</p></li>
-<li><p>Now, re-estimate but exclude <code>lf</code>: <span class="math inline">\(incwageNZ = \beta_0 + \beta_1 female + \beta_3 uhrsworkly + u\)</span>. How do your results change? Conditional on including <code>female</code> and <code>uhrsworkly</code>, does it make sense to include <code>lf</code>?</p></li>
-<li><p>Calculate log wages based on <code>incwageNZ.</code> Estimate the impact of gender on wage income, including a control for <code>uhrsworkly</code>. How does the sample size change, and why? What is the interpretation on each coefficient?</p></li>
-<li><p>Calculate hourly wages, based on the cleaned variables. What is mean hourly wages for men and women?</p></li>
-<li><p>Estimate the impact of gender on hourly wages for those with non-zero hourly wages, controlling for weekly work hours. Repeat then repeat to include all adults (Replace hourly wages with 0 for non-earners) How does the impact of gender on earnings compare?</p></li>
-<li><p>Are there outlier wages? Exclude observations that exceed the 99th percentile in wages and re-estimate both equations. How does this affect your results?</p></li>
+<li><p>Is measurement error likely to be important in the previous regression, and if so, for which variables? What is the likely impact of measurement error on your estimated coefficients?</p></li>
+<li><p>Generate a new variable <code>uhrsNZ</code> that recodes all missing work hours values as zeros. You can expedite this with the <code>clonevar</code> command, which retains variable lables. Re-estimate the impact of gender, labor force status and <code>uhrsNZ</code> on wage income (<code>incwage</code>). That is, you’re replacing <code>uhrsworkly</code> with <code>uhrsNZ</code>. What is the interpretation on <em>each</em> coefficient? Why did it change?</p></li>
+<li><p>Now, re-estimate but exclude <code>lf</code>: <span class="math inline">\(incwage = \beta_0 + \beta_1 female + \beta_3 uhrsNZ + u\)</span>. How do your results change? Conditional on including <code>female</code> and <code>uhrsNZ</code>, does it make sense to include <code>lf</code>?</p></li>
+<li><p>Create a new variable, <code>incwage_cond</code> that is missing if the income/wages equals zero. Then, use that variable to calculate a variable that estimates log wages: <code>l_incwage = log(incwage_cond)</code> Estimate the impact of gender on logged wage income, including a control for <code>uhrsworkly</code>. How does the sample size change, and why? What is the interpretation on each coefficient?</p></li>
+<li><p>Using the cleaned variables, calculate hourly wages, based on <code>incwage</code> and <code>uhoursworkly</code>. What are mean hourly wages for men and women?</p></li>
+<li><p>Estimate the impact of gender on hourly wages for those with non-zero hourly wages, controlling for weekly work hours. Repeat to include all adults by replacing hourly wages with 0 for non-earners) How does the impact of gender on earnings compare between the two regressions?</p></li>
+<li><p>Are there outlier wages? Exclude observations that exceed the 99th percentile in wages based on <code>incwage</code>, and re-estimate both equations. How does this affect your results?</p></li>
 <li><p>Is measurement error likely to affect your dependent variable? Why or why not? If so, what are the implications?</p></li>
 </ol>
 </div>
