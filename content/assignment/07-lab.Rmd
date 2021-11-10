@@ -15,6 +15,10 @@ output:
 editor_options: 
   chunk_output_type: console
 ---
+
+**[Print-friendly pdf](../07-lab.pdf)**
+
+
 ## Materials {#materials .unnumbered}
 
 - [`banks.dta`](../materials/banks.dta)
@@ -106,7 +110,7 @@ What is the difference-in-difference estimator?
 
 8.  State clearly the assumption needed to interpret these    difference-in-difference estimators as causal.
 
-## Part B - Fixed effects
+### Part B - Fixed effects
 
 Next, we're going to look at the relationship between marijuana use and employment based on the National Longitudinal Survey of Youth 1997 Cohort (NSLY97).
 
