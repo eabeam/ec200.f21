@@ -1,31 +1,43 @@
 ---
 title: "Research Paper: Presentation"
 linktitle: "07 Presentation"
-date: "2021-11-22"
-due_date: "2021-12-10"
-due_time: "11:59 PM"
+date: "2021-11-16"
+
 menu:
   assignment:
     parent: Research Paper
     weight: 8
 type: docs
+output:
+  blogdown::html_page:
+    toc: true
 editor_options: 
   chunk_output_type: console
+  
+pdf: /slides/rp-presentation-sample.pdf
+thumb: /slides/rp-presentation-sample.png
+
 ---
 
-<!-- **Because timing is so tight, I'm no longer requiring you to view your classmate's presentations - but I will circulate the links and encourage you to do so!** --> 
+**Due date is rolling: your slides are due the day of your assigned presentation. Because we're running out of class, we can't do extensions!** 
 
 ## Overview 
 
-You'll prepare and deliver a 6-8 minute presentation of your paper, with accompanying slides. This will be one presentation per paper. If you are working with a partner, it should be one set of slides, with both members contributing.
+Let's share our work! You'll prepare and deliver a 6-8 minute presentation of your paper, with accompanying slides. This will be one presentation per paper. If you are working with a partner, it should be one set of slides, with both members contributing to the creation and delivery. 
 
-Here is an example slide deck: [Example Presentation!](../materials/example-f20.pptx)
+
+Our objectives here are the following: 
+
+1. To communicate the key elements off your paper clearly and concisely (which, in turn, will help advance your paper)
+2. To share and receive feedback on areas of improvement before finalizing your papers
+3. To share with your peers and learn what each of you has been working on!
+
+
 
 ## Guidelines for presentation
 
- - You can record yourself giving your presentation in any way you see fit. The lowest-effort way to do this is to setting up a Microsoft Teams/Zoom meeting with yourself, share your screen, and recording that. 
- - You can leave your camera off or on, whichever makes you more comfortable. 
- - You should cover the main elements of your paper: 
+Your presentation should cover the main elements of your paper: 
+
   1. Introduction 
   2. Research questions 
   3. Background/motivation/related literature 
@@ -36,27 +48,23 @@ Here is an example slide deck: [Example Presentation!](../materials/example-f20.
   8. Conclusion
   
 - It doesn't need to be scripted, but you should have practiced, such that your presentation flows smoothly. 
-- Try to avoid reading directly off the slides.
-- It should be between 6 and 8 minutes.
+- Slides should serve as a guide, not a substitute for your narration, so you should avoid reading directly off your slides
+- It should be between 6 and 8 minutes. **I will cut you off at 8 minutes. I will do it.** 
 
-- However you record it, you should upload it to a streaming site like [UVM Streaming](https://streaming.uvm.edu/media/), YouTube, or Microsoft Stream. 
-  - If you use the MS Teams approach, your recording will be automatically uploaded to Microsoft Stream. You may need to double check the settings to make sure I have permission to watch it. 
+## Example 
 
- **On Blackboard:** Submit a copy of your slides and a link to the video
+`r blogdown::shortcode("slides")`
+
+Additional student examples are available on Blackboard (see **Gated Resources**)
+
+## Deliverables and due dates
+
+Your due date is the day you signed up for via Doodle poll: **December 06, 08, or 10 at 2:20pm**
+
+ **On Blackboard:** Submit a copy of your slides **before** your presentation. 
 
 
-## [Presentation Rubric](../materials/Presentation_Rubric_v2.pdf)
+## Presentation rubric
 
-Download the presentation rubric [here](../materials/Presentation_Rubric_v2.pdf)
+[**Printer-friendly PDF**](../materials/RP_presentation_rubric.pdf)
 
-| Total: 48 marks                 | 4 = Excellent                                                                         | 3 =   Satisfactory                                                                                           | 2 = Marginal                                                             | 1 =   Unacceptable                                                                            |
-|---------------------------------|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| Content (32 marks)              |                                                                                       |                                                                                                              |                                                                          |                                                                                               |
-|                                 |                                                                                       |                                                                                                              |                                                                          |                                                                                               |
-| Clarity/Accessibility (8 point) | Prepared   content is easily understandable and accessible                            | Prepared   content is somewhat unclear, key details/explanations omitted                                     | Prepared   content difficult to follow without prior knowledge           | Prepared   content difficult to understand                                                    |
-| Understanding (16 marks)        | Content   reflects understanding of main points of paper                              | Content   reflects understanding of some main points of paper, other points missed or   not quite understood | Content   has major errors or oversights of main points                  | Content   lacks main points of paper, or reflects serious misunderstanding of   ideas/methods |
-| Organization (8 marks)          | Presentation   organized in logical order, easy to follow                             | Presentation   organized, but some portions out of place                                                     | Presentation   jumps from topics, difficult to follow                    | Poor   organization makes it difficult to follow presentation                                 |
-| Presentation   Style (16 marks) |                                                                                       |                                                                                                              |                                                                          |                                                                                               |
-|                                 |                                                                                       |                                                                                                              |                                                                          |                                                                                               |
-| Speaking (8 marks)              | Presenters   speak clearly at a good pace, easy to understand, keep listeners engaged | Presenters   speak clearly, but a bit dry, too fast, or too slow                                             | Presenters   sometimes lose listeners because of poor pacing or delivery | Speaking   style severely impedes understanding                                               |
-| Visuals/handouts (8 marks)      | Prepared   visuals/handouts reflect content, visually appealing, easy to interpret    | Prepared   visuals/handouts wordy or sparse, have minor errors                                               | Prepared   visuals/handouts are limited, add little to presentation      | No   prepared visuals/handouts, or quality is very poor                                       |
