@@ -232,3 +232,1467 @@ dir : seeout
 end of do-file
 
 . seeout using "/Users/ebeam/Dropbox/Labs//outreg.txt", label
+Hit Enter to continue. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD6489
+> 5.000000"
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. 
+. global path "/Users/ebeam/Dropbox/Labs/"
+
+. 
+. use "$path/graduation.dta",clear
+
+. 
+. keep if !missing(fsec1)
+(1 observation deleted)
+
+. 
+. gen female = dem1 == 1
+
+. rename dem2 age
+
+. rename dem12 hhmember
+
+. 
+. 
+. regress fsec1 treat_1 treat_2 treat_3 female age hhmember,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(6, 59)          =       6.36
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0261
+                                                Root MSE          =     2.4184
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5711931   .2123707    -2.69   0.009    -.9961459   -.1462404
+     treat_2 |  -.7119137   .1847252    -3.85   0.000    -1.081548   -.3422793
+     treat_3 |  -.6614946   .2134632    -3.10   0.003    -1.088634   -.2343557
+      female |  -.0472438   .2368281    -0.20   0.843    -.5211357    .4266481
+         age |   .0195617   .0074385     2.63   0.011     .0046772    .0344461
+    hhmember |   .0858722   .0432848     1.98   0.052    -.0007404    .1724848
+       _cons |   .6730205   .3730191     1.80   0.076    -.0733889     1.41943
+------------------------------------------------------------------------------
+
+. 
+end of do-file
+
+. help outreg2
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. 
+. 
+. 
+. global path "/Users/ebeam/Dropbox/Labs/"
+
+. 
+. use "$path/graduation.dta",clear
+
+. 
+. keep if !missing(fsec1)
+(1 observation deleted)
+
+. 
+. gen female = dem1 == 1
+
+. rename dem2 age
+
+. rename dem12 hhmember
+
+. 
+. 
+. regress fsec1 treat_1 treat_2 treat_3 female age hhmember,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(6, 59)          =       6.36
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0261
+                                                Root MSE          =     2.4184
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5711931   .2123707    -2.69   0.009    -.9961459   -.1462404
+     treat_2 |  -.7119137   .1847252    -3.85   0.000    -1.081548   -.3422793
+     treat_3 |  -.6614946   .2134632    -3.10   0.003    -1.088634   -.2343557
+      female |  -.0472438   .2368281    -0.20   0.843    -.5211357    .4266481
+         age |   .0195617   .0074385     2.63   0.011     .0046772    .0344461
+    hhmember |   .0858722   .0432848     1.98   0.052    -.0007404    .1724848
+       _cons |   .6730205   .3730191     1.80   0.076    -.0733889     1.41943
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.39
+            Prob > F =    0.0024
+
+. 
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2            // Install 
+. 
+. outreg2 using "$path/outreg.doc", word replace
+/Users/ebeam/Dropbox/Labs//outreg.doc
+dir : seeout
+
+. outreg2 using "$path/outreg.xls",  replace
+/Users/ebeam/Dropbox/Labs//outreg.xls
+dir : seeout
+
+. 
+. 
+. exit
+
+end of do-file
+
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. 
+. 
+. 
+. global path "/Users/ebeam/Dropbox/Labs"
+
+. 
+. use "$path/graduation.dta",clear
+
+. 
+. keep if !missing(fsec1)
+(1 observation deleted)
+
+. 
+. gen female = dem1 == 1
+
+. rename dem2 age
+
+. rename dem12 hhmember
+
+. 
+. 
+. regress fsec1 treat_1 treat_2 treat_3 female age hhmember,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(6, 59)          =       6.36
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0261
+                                                Root MSE          =     2.4184
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5711931   .2123707    -2.69   0.009    -.9961459   -.1462404
+     treat_2 |  -.7119137   .1847252    -3.85   0.000    -1.081548   -.3422793
+     treat_3 |  -.6614946   .2134632    -3.10   0.003    -1.088634   -.2343557
+      female |  -.0472438   .2368281    -0.20   0.843    -.5211357    .4266481
+         age |   .0195617   .0074385     2.63   0.011     .0046772    .0344461
+    hhmember |   .0858722   .0432848     1.98   0.052    -.0007404    .1724848
+       _cons |   .6730205   .3730191     1.80   0.076    -.0733889     1.41943
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.39
+            Prob > F =    0.0024
+
+. 
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2            // Install 
+. 
+. outreg2 using "$path/outreg.doc", word replace
+/Users/ebeam/Dropbox/Labs/outreg.doc
+dir : seeout
+
+. outreg2 using "$path/outreg.xls",  replace
+/Users/ebeam/Dropbox/Labs/outreg.xls
+dir : seeout
+
+. 
+. 
+. exit
+
+end of do-file
+
+
+. eret list
+
+scalars:
+               e(rank) =  7
+               e(ll_0) =  -2855.827558401073
+                 e(ll) =  -2839.494988040824
+               e(r2_a) =  .0213443266168251
+                e(rss) =  7181.917106805693
+                e(mss) =  192.4926097935013
+               e(rmse) =  2.418360332819154
+                 e(r2) =  .02610278207898
+                  e(F) =  6.356490540942009
+               e(df_r) =  59
+               e(df_m) =  6
+                  e(N) =  1235
+            e(N_clust) =  60
+
+macros:
+            e(cmdline) : "regress fsec1 treat_1 treat_2 treat_3 female age hhme.."
+              e(title) : "Linear regression"
+          e(marginsok) : "XB default"
+                e(vce) : "cluster"
+             e(depvar) : "fsec1"
+                e(cmd) : "regress"
+         e(properties) : "b V"
+            e(predict) : "regres_p"
+              e(model) : "ols"
+          e(estat_cmd) : "regress_estat"
+            e(vcetype) : "Robust"
+           e(clustvar) : "barangay"
+
+matrices:
+                  e(b) :  1 x 7
+                  e(V) :  7 x 7
+       e(V_modelbased) :  7 x 7
+
+functions:
+             e(sample)   
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. outreg2 using "$path/outreg.doc", word replace
+/Users/ebeam/Dropbox/Labs/outreg.doc
+dir : seeout
+
+. 
+end of do-file
+
+. seeout using "/Users/ebeam/Dropbox/Labs/outreg.txt"
+Hit Enter to continue. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD6489
+> 5.000000"
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. outreg2 using "$path/outreg.doc", word replace label
+/Users/ebeam/Dropbox/Labs/outreg.doc
+dir : seeout
+
+. 
+end of do-file
+
+. seeout using "/Users/ebeam/Dropbox/Labs/outreg.txt", label
+Hit Enter to continue. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD6489
+> 5.000000"
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. outreg2 using "$path/outreg.doc", keep(treat_1 treat_2 treat_3) word replace labe
+> l
+/Users/ebeam/Dropbox/Labs/outreg.doc
+dir : seeout
+
+. 
+end of do-file
+
+. seeout using "/Users/ebeam/Dropbox/Labs/outreg.txt", label
+Hit Enter to continue. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD6489
+> 5.000000"
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. 
+. regress fsec1 treat_1 treat_2 treat_3 female age hhmember,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(6, 59)          =       6.36
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0261
+                                                Root MSE          =     2.4184
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5711931   .2123707    -2.69   0.009    -.9961459   -.1462404
+     treat_2 |  -.7119137   .1847252    -3.85   0.000    -1.081548   -.3422793
+     treat_3 |  -.6614946   .2134632    -3.10   0.003    -1.088634   -.2343557
+      female |  -.0472438   .2368281    -0.20   0.843    -.5211357    .4266481
+         age |   .0195617   .0074385     2.63   0.011     .0046772    .0344461
+    hhmember |   .0858722   .0432848     1.98   0.052    -.0007404    .1724848
+       _cons |   .6730205   .3730191     1.80   0.076    -.0733889     1.41943
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.39
+            Prob > F =    0.0024
+
+. 
+. 
+. // Output regressions 
+. 
+end of do-file
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+. 
+end of do-file
+
+. ret list
+
+scalars:
+               r(drop) =  0
+               r(df_r) =  59
+                  r(F) =  .0711305741212992
+                 r(df) =  1
+                  r(p) =  .7906276793854878
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+.         local p2 = `r(p)'
+
+.         
+.         display " `p(2)' "
+  
+
+. 
+end of do-file
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+.         local p2 = `r(p)'
+
+.         
+.         display " `p2' "
+ .7906276793854878 
+
+. 
+end of do-file
+
+. display "`p2'"
+
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. 
+. 
+. 
+. global path "/Users/ebeam/Dropbox/Labs"
+
+. 
+. use "$path/graduation.dta",clear
+
+. 
+. keep if !missing(fsec1)
+(1 observation deleted)
+
+. 
+. gen female = dem1 == 1
+
+. rename dem2 age
+
+. rename dem12 hhmember
+
+. 
+. 
+. regress fsec1 treat_1 treat_2 treat_3 female age hhmember,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(6, 59)          =       6.36
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0261
+                                                Root MSE          =     2.4184
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5711931   .2123707    -2.69   0.009    -.9961459   -.1462404
+     treat_2 |  -.7119137   .1847252    -3.85   0.000    -1.081548   -.3422793
+     treat_3 |  -.6614946   .2134632    -3.10   0.003    -1.088634   -.2343557
+      female |  -.0472438   .2368281    -0.20   0.843    -.5211357    .4266481
+         age |   .0195617   .0074385     2.63   0.011     .0046772    .0344461
+    hhmember |   .0858722   .0432848     1.98   0.052    -.0007404    .1724848
+       _cons |   .6730205   .3730191     1.80   0.076    -.0733889     1.41943
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+.         local p2 = `r(p)'
+
+.         
+.         display " `p2' "
+ .7906276793854878 
+
+.         
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.39
+            Prob > F =    0.0024
+
+. 
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2            // Install 
+. 
+. outreg2 using "$path/outreg.doc", word replace addstat("T2=T3", `p2')
+/Users/ebeam/Dropbox/Labs/outreg.doc
+dir : seeout
+
+. outreg2 using "$path/outreg.xls",  replace
+/Users/ebeam/Dropbox/Labs/outreg.xls
+dir : seeout
+
+. 
+. 
+. exit
+
+end of do-file
+
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. 
+. 
+. 
+. global path "/Users/ebeam/Dropbox/Labs"
+
+. 
+. use "$path/graduation.dta",clear
+
+. 
+. keep if !missing(fsec1)
+(1 observation deleted)
+
+. 
+. gen female = dem1 == 1
+
+. rename dem2 age
+
+. rename dem12 hhmember
+
+. 
+. 
+. regress fsec1 treat_1 treat_2 treat_3 female age hhmember,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(6, 59)          =       6.36
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0261
+                                                Root MSE          =     2.4184
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5711931   .2123707    -2.69   0.009    -.9961459   -.1462404
+     treat_2 |  -.7119137   .1847252    -3.85   0.000    -1.081548   -.3422793
+     treat_3 |  -.6614946   .2134632    -3.10   0.003    -1.088634   -.2343557
+      female |  -.0472438   .2368281    -0.20   0.843    -.5211357    .4266481
+         age |   .0195617   .0074385     2.63   0.011     .0046772    .0344461
+    hhmember |   .0858722   .0432848     1.98   0.052    -.0007404    .1724848
+       _cons |   .6730205   .3730191     1.80   0.076    -.0733889     1.41943
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+.         local p2 = `r(p)'
+
+.         
+.         display " `p2' "
+ .7906276793854878 
+
+.         
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.39
+            Prob > F =    0.0024
+
+. 
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2            // Install 
+. 
+. outreg2 using "$path/outreg.doc", word replace addstat("T2=T3", `p2')
+/Users/ebeam/Dropbox/Labs/outreg.doc
+dir : seeout
+
+. *outreg2 using "$path/outreg.xls",  replace
+. 
+. 
+. exit
+
+end of do-file
+
+
+. seeout using "/Users/ebeam/Dropbox/Labs/outreg.txt"
+Hit Enter to continue. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD6489
+> 5.000000"
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. 
+. 
+. 
+. global path "/Users/ebeam/Dropbox/Labs"
+
+. 
+. use "$path/graduation.dta",clear
+
+. 
+. keep if !missing(fsec1)
+(1 observation deleted)
+
+. 
+. gen female = dem1 == 1
+
+. rename dem2 age
+
+. rename dem12 hhmember
+
+. 
+. 
+. regress fsec1 treat_1 treat_2 treat_3 female age hhmember,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(6, 59)          =       6.36
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0261
+                                                Root MSE          =     2.4184
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5711931   .2123707    -2.69   0.009    -.9961459   -.1462404
+     treat_2 |  -.7119137   .1847252    -3.85   0.000    -1.081548   -.3422793
+     treat_3 |  -.6614946   .2134632    -3.10   0.003    -1.088634   -.2343557
+      female |  -.0472438   .2368281    -0.20   0.843    -.5211357    .4266481
+         age |   .0195617   .0074385     2.63   0.011     .0046772    .0344461
+    hhmember |   .0858722   .0432848     1.98   0.052    -.0007404    .1724848
+       _cons |   .6730205   .3730191     1.80   0.076    -.0733889     1.41943
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+.         local p2 = `r(p)'
+
+.         
+.         display " `p2' "
+ .7906276793854878 
+
+.         
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.39
+            Prob > F =    0.0024
+
+.         local pjoint = `r(p)'
+
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2            // Install 
+. 
+. outreg2 using "$path/outreg.doc", word replace addstat("T2=T3", `p2', "Joint p-va
+> lue", `pjoint')
+/Users/ebeam/Dropbox/Labs/outreg.doc
+dir : seeout
+
+. *outreg2 using "$path/outreg.xls",  replace
+. 
+. 
+. exit
+
+end of do-file
+
+
+. seeout using "/Users/ebeam/Dropbox/Labs/outreg.txt"
+Hit Enter to continue. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD6489
+> 5.000000"
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. 
+. 
+. 
+. global path "/Users/ebeam/Dropbox/Labs"
+
+. 
+. use "$path/graduation.dta",clear
+
+. 
+. keep if !missing(fsec1)
+(1 observation deleted)
+
+. 
+. gen female = dem1 == 1
+
+. rename dem2 age
+
+. rename dem12 hhmember
+
+. 
+. 
+. regress fsec1 treat_1 treat_2 treat_3 female age hhmember,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(6, 59)          =       6.36
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0261
+                                                Root MSE          =     2.4184
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5711931   .2123707    -2.69   0.009    -.9961459   -.1462404
+     treat_2 |  -.7119137   .1847252    -3.85   0.000    -1.081548   -.3422793
+     treat_3 |  -.6614946   .2134632    -3.10   0.003    -1.088634   -.2343557
+      female |  -.0472438   .2368281    -0.20   0.843    -.5211357    .4266481
+         age |   .0195617   .0074385     2.63   0.011     .0046772    .0344461
+    hhmember |   .0858722   .0432848     1.98   0.052    -.0007404    .1724848
+       _cons |   .6730205   .3730191     1.80   0.076    -.0733889     1.41943
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+.         local p2 = `r(p)'
+
+.         
+.         display " `p2' "
+ .7906276793854878 
+
+.         
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.39
+            Prob > F =    0.0024
+
+.         local pjoint = `r(p)'
+
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2            // Install 
+. 
+. outreg2 using "$path/outreg.doc", word replace addstat("T2=T3", `p2', "Joint p-va
+> lue", `pjoint') addtext("Covariates", "Yes")
+/Users/ebeam/Dropbox/Labs/outreg.doc
+dir : seeout
+
+. *outreg2 using "$path/outreg.xls",  replace
+. 
+. 
+. exit
+
+end of do-file
+
+
+. seeout using "/Users/ebeam/Dropbox/Labs/outreg.txt"
+Hit Enter to continue. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD6489
+> 5.000000"
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. 
+. 
+. 
+. global path "/Users/ebeam/Dropbox/Labs"
+
+. 
+. use "$path/graduation.dta",clear
+
+. 
+. keep if !missing(fsec1)
+(1 observation deleted)
+
+. 
+. gen female = dem1 == 1
+
+. rename dem2 age
+
+. rename dem12 hhmember
+
+. 
+. 
+. // without covariates 
+. 
+. 
+. regress fsec1 treat_1 treat_2 treat_3 ,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(3, 59)          =       5.21
+                                                Prob > F          =     0.0029
+                                                R-squared         =     0.0132
+                                                Root MSE          =     2.4314
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5511912   .2142894    -2.57   0.013    -.9799832   -.1223992
+     treat_2 |  -.7196018   .1844658    -3.90   0.000    -1.088717   -.3504866
+     treat_3 |  -.6085798   .2180861    -2.79   0.007    -1.044969   -.1721906
+       _cons |   1.981191   .1604051    12.35   0.000     1.660221    2.302161
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.36
+            Prob > F =    0.5530
+
+.         local p2 = `r(p)'
+
+.         
+.         display " `p2' "
+ .5530077529133042 
+
+.         
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.21
+            Prob > F =    0.0029
+
+.         local pjoint = `r(p)'
+
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2            // Install 
+. 
+. outreg2 using "$path/outreg.doc", word replace addstat("T2=T3", `p2', "Joint p-va
+> lue", `pjoint') addtext("Covariates", "Yes")
+/Users/ebeam/Dropbox/Labs/outreg.doc
+dir : seeout
+
+. *outreg2 using "$path/outreg.xls",  replace
+. 
+. 
+. /// with covariates
+> 
+. regress fsec1 treat_1 treat_2 treat_3 female age hhmember,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(6, 59)          =       6.36
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0261
+                                                Root MSE          =     2.4184
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5711931   .2123707    -2.69   0.009    -.9961459   -.1462404
+     treat_2 |  -.7119137   .1847252    -3.85   0.000    -1.081548   -.3422793
+     treat_3 |  -.6614946   .2134632    -3.10   0.003    -1.088634   -.2343557
+      female |  -.0472438   .2368281    -0.20   0.843    -.5211357    .4266481
+         age |   .0195617   .0074385     2.63   0.011     .0046772    .0344461
+    hhmember |   .0858722   .0432848     1.98   0.052    -.0007404    .1724848
+       _cons |   .6730205   .3730191     1.80   0.076    -.0733889     1.41943
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+.         local p2 = `r(p)'
+
+.         
+.         display " `p2' "
+ .7906276793854878 
+
+.         
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.39
+            Prob > F =    0.0024
+
+.         local pjoint = `r(p)'
+
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2            // Install 
+. 
+. outreg2 using "$path/outreg.doc", word append addstat("T2=T3", `p2', "Joint p-val
+> ue", `pjoint') addtext("Covariates", "Yes")
+/Users/ebeam/Dropbox/Labs/outreg.doc
+dir : seeout
+
+. *outreg2 using "$path/outreg.xls",  replace
+. 
+. 
+. exit
+
+end of do-file
+
+
+. seeout using "/Users/ebeam/Dropbox/Labs/outreg.txt"
+Hit Enter to continue. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD6489
+> 5.000000"
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. 
+. 
+. 
+. global path "/Users/ebeam/Dropbox/Labs"
+
+. 
+. use "$path/graduation.dta",clear
+
+. 
+. keep if !missing(fsec1)
+(1 observation deleted)
+
+. 
+. gen female = dem1 == 1
+
+. rename dem2 age
+
+. rename dem12 hhmember
+
+. 
+. 
+. // without covariates 
+. 
+. 
+. regress fsec1 treat_1 treat_2 treat_3 ,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(3, 59)          =       5.21
+                                                Prob > F          =     0.0029
+                                                R-squared         =     0.0132
+                                                Root MSE          =     2.4314
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5511912   .2142894    -2.57   0.013    -.9799832   -.1223992
+     treat_2 |  -.7196018   .1844658    -3.90   0.000    -1.088717   -.3504866
+     treat_3 |  -.6085798   .2180861    -2.79   0.007    -1.044969   -.1721906
+       _cons |   1.981191   .1604051    12.35   0.000     1.660221    2.302161
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.36
+            Prob > F =    0.5530
+
+.         local p2 = `r(p)'
+
+.         
+.         display " `p2' "
+ .5530077529133042 
+
+.         
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.21
+            Prob > F =    0.0029
+
+.         local pjoint = `r(p)'
+
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2            // Install 
+. 
+. outreg2 using "$path/outreg.doc", word replace addstat("T2=T3", `p2', "Joint p-va
+> lue", `pjoint') addtext("Covariates", "Yes") keep(treat_1 treat_2 treat_3) label
+/Users/ebeam/Dropbox/Labs/outreg.doc
+dir : seeout
+
+. *outreg2 using "$path/outreg.xls",  replace
+. 
+. 
+. /// with covariates
+> 
+. regress fsec1 treat_1 treat_2 treat_3 female age hhmember,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(6, 59)          =       6.36
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0261
+                                                Root MSE          =     2.4184
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5711931   .2123707    -2.69   0.009    -.9961459   -.1462404
+     treat_2 |  -.7119137   .1847252    -3.85   0.000    -1.081548   -.3422793
+     treat_3 |  -.6614946   .2134632    -3.10   0.003    -1.088634   -.2343557
+      female |  -.0472438   .2368281    -0.20   0.843    -.5211357    .4266481
+         age |   .0195617   .0074385     2.63   0.011     .0046772    .0344461
+    hhmember |   .0858722   .0432848     1.98   0.052    -.0007404    .1724848
+       _cons |   .6730205   .3730191     1.80   0.076    -.0733889     1.41943
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+.         local p2 = `r(p)'
+
+.         
+.         display " `p2' "
+ .7906276793854878 
+
+.         
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.39
+            Prob > F =    0.0024
+
+.         local pjoint = `r(p)'
+
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2            // Install 
+. 
+. outreg2 using "$path/outreg.doc", word append addstat("T2=T3", `p2', "Joint p-val
+> ue", `pjoint') addtext("Covariates", "Yes") keep(treat_1 treat_2 treat_3) label
+/Users/ebeam/Dropbox/Labs/outreg.doc
+dir : seeout
+
+. *outreg2 using "$path/outreg.xls",  replace
+. 
+. 
+. exit
+
+end of do-file
+
+
+. seeout using "/Users/ebeam/Dropbox/Labs/outreg.txt", label
+Hit Enter to continue. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD6489
+> 5.000000"
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. 
+. 
+. 
+. global path "/Users/ebeam/Dropbox/Labs"
+
+. 
+. use "$path/graduation.dta",clear
+
+. 
+. keep if !missing(fsec1)
+(1 observation deleted)
+
+. 
+. gen female = dem1 == 1
+
+. rename dem2 age
+
+. rename dem12 hhmember
+
+. 
+. 
+. // without covariates 
+. 
+. 
+. regress fsec1 treat_1 treat_2 treat_3 ,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(3, 59)          =       5.21
+                                                Prob > F          =     0.0029
+                                                R-squared         =     0.0132
+                                                Root MSE          =     2.4314
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5511912   .2142894    -2.57   0.013    -.9799832   -.1223992
+     treat_2 |  -.7196018   .1844658    -3.90   0.000    -1.088717   -.3504866
+     treat_3 |  -.6085798   .2180861    -2.79   0.007    -1.044969   -.1721906
+       _cons |   1.981191   .1604051    12.35   0.000     1.660221    2.302161
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.36
+            Prob > F =    0.5530
+
+.         local p2 = `r(p)'
+
+.         
+.         display " `p2' "
+ .5530077529133042 
+
+.         
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.21
+            Prob > F =    0.0029
+
+.         local pjoint = `r(p)'
+
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2            // Install 
+. 
+. outreg2 using "$path/outreg.xls", replace addstat("T2=T3", `p2', "Joint p-value",
+>  `pjoint') addtext("Covariates", "Yes") keep(treat_1 treat_2 treat_3) label
+/Users/ebeam/Dropbox/Labs/outreg.xls
+dir : seeout
+
+. *outreg2 using "$path/outreg.xls",  replace
+. 
+. 
+. /// with covariates
+> 
+. regress fsec1 treat_1 treat_2 treat_3 female age hhmember,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(6, 59)          =       6.36
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0261
+                                                Root MSE          =     2.4184
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5711931   .2123707    -2.69   0.009    -.9961459   -.1462404
+     treat_2 |  -.7119137   .1847252    -3.85   0.000    -1.081548   -.3422793
+     treat_3 |  -.6614946   .2134632    -3.10   0.003    -1.088634   -.2343557
+      female |  -.0472438   .2368281    -0.20   0.843    -.5211357    .4266481
+         age |   .0195617   .0074385     2.63   0.011     .0046772    .0344461
+    hhmember |   .0858722   .0432848     1.98   0.052    -.0007404    .1724848
+       _cons |   .6730205   .3730191     1.80   0.076    -.0733889     1.41943
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+.         local p2 = `r(p)'
+
+.         
+.         display " `p2' "
+ .7906276793854878 
+
+.         
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.39
+            Prob > F =    0.0024
+
+.         local pjoint = `r(p)'
+
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2            // Install 
+. 
+. outreg2 using "$path/outreg.xls",  append addstat("T2=T3", `p2', "Joint p-value",
+>  `pjoint') addtext("Covariates", "Yes") keep(treat_1 treat_2 treat_3) label
+/Users/ebeam/Dropbox/Labs/outreg.xls
+dir : seeout
+
+. *outreg2 using "$path/outreg.xls",  replace
+. 
+. 
+. exit
+
+end of do-file
+
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. 
+. regress fsec1 treat_1 treat_2 treat_3 ,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(3, 59)          =       5.21
+                                                Prob > F          =     0.0029
+                                                R-squared         =     0.0132
+                                                Root MSE          =     2.4314
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5511912   .2142894    -2.57   0.013    -.9799832   -.1223992
+     treat_2 |  -.7196018   .1844658    -3.90   0.000    -1.088717   -.3504866
+     treat_3 |  -.6085798   .2180861    -2.79   0.007    -1.044969   -.1721906
+       _cons |   1.981191   .1604051    12.35   0.000     1.660221    2.302161
+------------------------------------------------------------------------------
+
+. 
+end of do-file
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. sum fsec1
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+       fsec1 |      1,235    1.516599     2.44459          0          7
+
+. 
+end of do-file
+
+. ret list
+
+scalars:
+                  r(N) =  1235
+              r(sum_w) =  1235
+               r(mean) =  1.516599190283401
+                r(Var) =  5.976020840031758
+                 r(sd) =  2.444590116979073
+                r(min) =  0
+                r(max) =  7
+                r(sum) =  1873
+
+. do "/var/folders/jc/qkfny95s1j78shjvwcgl1qm00000gq/T//SD64895.000000"
+
+. 
+. 
+. 
+. global path "/Users/ebeam/Dropbox/Labs"
+
+. 
+. use "$path/graduation.dta",clear
+
+. 
+. keep if !missing(fsec1)
+(1 observation deleted)
+
+. 
+. gen female = dem1 == 1
+
+. rename dem2 age
+
+. rename dem12 hhmember
+
+. 
+. 
+. // without covariates 
+. 
+. 
+. regress fsec1 treat_1 treat_2 treat_3 ,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(3, 59)          =       5.21
+                                                Prob > F          =     0.0029
+                                                R-squared         =     0.0132
+                                                Root MSE          =     2.4314
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5511912   .2142894    -2.57   0.013    -.9799832   -.1223992
+     treat_2 |  -.7196018   .1844658    -3.90   0.000    -1.088717   -.3504866
+     treat_3 |  -.6085798   .2180861    -2.79   0.007    -1.044969   -.1721906
+       _cons |   1.981191   .1604051    12.35   0.000     1.660221    2.302161
+------------------------------------------------------------------------------
+
+. 
+. sum fsec1
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+       fsec1 |      1,235    1.516599     2.44459          0          7
+
+. // ret list 
+. 
+.         local dvmean = `r(mean)'
+
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.36
+            Prob > F =    0.5530
+
+.         local p2 = `r(p)'
+
+.         
+.         display " `p2' "
+ .5530077529133044 
+
+.         
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.21
+            Prob > F =    0.0029
+
+.         local pjoint = `r(p)'
+
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2            // Install 
+. 
+. outreg2 using "$path/outreg.xls", replace addstat("DV Mean", `dvmean', "T2=T3", `
+> p2', "Joint p-value", `pjoint') addtext("Covariates", "Yes") keep(treat_1 treat_2
+>  treat_3) label
+/Users/ebeam/Dropbox/Labs/outreg.xls
+dir : seeout
+
+. *outreg2 using "$path/outreg.xls",  replace
+. 
+. 
+. /// with covariates
+> 
+. regress fsec1 treat_1 treat_2 treat_3 female age hhmember,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(6, 59)          =       6.36
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0261
+                                                Root MSE          =     2.4184
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5711931   .2123707    -2.69   0.009    -.9961459   -.1462404
+     treat_2 |  -.7119137   .1847252    -3.85   0.000    -1.081548   -.3422793
+     treat_3 |  -.6614946   .2134632    -3.10   0.003    -1.088634   -.2343557
+      female |  -.0472438   .2368281    -0.20   0.843    -.5211357    .4266481
+         age |   .0195617   .0074385     2.63   0.011     .0046772    .0344461
+    hhmember |   .0858722   .0432848     1.98   0.052    -.0007404    .1724848
+       _cons |   .6730205   .3730191     1.80   0.076    -.0733889     1.41943
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+.         local p2 = `r(p)'
+
+.         
+.         display " `p2' "
+ .7906276793854878 
+
+.         
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.39
+            Prob > F =    0.0024
+
+.         local pjoint = `r(p)'
+
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2            // Install 
+. 
+. outreg2 using "$path/outreg.xls",  append addstat("T2=T3", `p2', "Joint p-value",
+>  `pjoint') addtext("Covariates", "Yes") keep(treat_1 treat_2 treat_3) label
+/Users/ebeam/Dropbox/Labs/outreg.xls
+dir : seeout
+
+. *outreg2 using "$path/outreg.xls",  replace
+. 
+. 
+. exit
+
+end of do-file
+
+
+. seeout using "/Users/ebeam/Dropbox/Labs/outreg.txt", label
+Hit Enter to continue. outreg2 using myfile, eform cti(odds ratio) see
+
