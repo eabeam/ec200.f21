@@ -1,0 +1,234 @@
+-----------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/ebeam/Dropbox/ec200.f21/content/assignment/materials/EC200-12-0
+> 2-example.log
+  log type:  text
+ opened on:  17 Nov 2021, 12:40:38
+
+. global path "/Users/ebeam/Dropbox/Labs/"
+
+. 
+. use "$path/graduation.dta",clear
+
+. 
+. keep if !missing(fsec1)
+(1 observation deleted)
+
+. 
+. gen female = dem1 == 1
+
+. rename dem2 age
+
+. rename dem12 hhmember
+
+. 
+. 
+. regress fsec1 treat_1 treat_2 treat_3 female age hhmember,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(6, 59)          =       6.36
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0261
+                                                Root MSE          =     2.4184
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5711931   .2123707    -2.69   0.009    -.9961459   -.1462404
+     treat_2 |  -.7119137   .1847252    -3.85   0.000    -1.081548   -.3422793
+     treat_3 |  -.6614946   .2134632    -3.10   0.003    -1.088634   -.2343557
+      female |  -.0472438   .2368281    -0.20   0.843    -.5211357    .4266481
+         age |   .0195617   .0074385     2.63   0.011     .0046772    .0344461
+    hhmember |   .0858722   .0432848     1.98   0.052    -.0007404    .1724848
+       _cons |   .6730205   .3730191     1.80   0.076    -.0733889     1.41943
+------------------------------------------------------------------------------
+
+. 
+. 
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.39
+            Prob > F =    0.0024
+
+. 
+. 
+. // Output regressions 
+. 
+. *ssc install outreg2
+. 
+. outreg2 using "$path/outreg.doc", word replace
+/Users/ebeam/Dropbox/Labs//outreg.doc
+dir : seeout
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. // Fix 
+. 
+. lab var treat_1 "Group Livelihood / Group Coacing"
+
+. lab var treat_2 "Individual Livelihood / Group Coaching"
+
+. lab var treat_3 "Individual Livelihood / Individual Coaching"
+
+. 
+. 
+. 
+. // No Covariates 
+. 
+. regress fsec1 treat_1 treat_2 treat_3 ,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(3, 59)          =       5.21
+                                                Prob > F          =     0.0029
+                                                R-squared         =     0.0132
+                                                Root MSE          =     2.4314
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5511912   .2142894    -2.57   0.013    -.9799832   -.1223992
+     treat_2 |  -.7196018   .1844658    -3.90   0.000    -1.088717   -.3504866
+     treat_3 |  -.6085798   .2180861    -2.79   0.007    -1.044969   -.1721906
+       _cons |   1.981191   .1604051    12.35   0.000     1.660221    2.302161
+------------------------------------------------------------------------------
+
+. 
+. sum fsec1 if treat_1 == 0 & treat_2 == 0 & treat_3 == 0 
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+       fsec1 |        319    1.981191     2.74027          0          7
+
+. local dvmean = `r(mean)'
+
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.36
+            Prob > F =    0.5530
+
+. loc p1 = `r(p)'
+
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.21
+            Prob > F =    0.0029
+
+. loc pjoint = `r(p)'
+
+. 
+. 
+. 
+. outreg2 using "$path/outreg.doc", replace keep(treat_1 treat_2 treat_3) addstat("
+> DV Mean", `dvmean', "Group vs Individual coaching", `p1', "Joint significance p-v
+> alue", `pjoint') addtext("Covariates", "No") label bracket word 
+/Users/ebeam/Dropbox/Labs//outreg.doc
+dir : seeout
+
+. 
+. 
+. // With covariates 
+. 
+. regress fsec1 treat_1 treat_2 treat_3 female age hhmember,cluster(barangay)
+
+Linear regression                               Number of obs     =      1,235
+                                                F(6, 59)          =       6.36
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0261
+                                                Root MSE          =     2.4184
+
+                              (Std. err. adjusted for 60 clusters in barangay)
+------------------------------------------------------------------------------
+             |               Robust
+       fsec1 | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+     treat_1 |  -.5711931   .2123707    -2.69   0.009    -.9961459   -.1462404
+     treat_2 |  -.7119137   .1847252    -3.85   0.000    -1.081548   -.3422793
+     treat_3 |  -.6614946   .2134632    -3.10   0.003    -1.088634   -.2343557
+      female |  -.0472438   .2368281    -0.20   0.843    -.5211357    .4266481
+         age |   .0195617   .0074385     2.63   0.011     .0046772    .0344461
+    hhmember |   .0858722   .0432848     1.98   0.052    -.0007404    .1724848
+       _cons |   .6730205   .3730191     1.80   0.076    -.0733889     1.41943
+------------------------------------------------------------------------------
+
+. 
+. sum fsec1 if treat_1 == 0 & treat_2 == 0 & treat_3 == 0 
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+       fsec1 |        319    1.981191     2.74027          0          7
+
+. local dvmean = `r(mean)'
+
+. test treat_2 = treat_3
+
+ ( 1)  treat_2 - treat_3 = 0
+
+       F(  1,    59) =    0.07
+            Prob > F =    0.7906
+
+. loc p1 = `r(p)'
+
+. testparm treat_1 treat_2 treat_3
+
+ ( 1)  treat_1 = 0
+ ( 2)  treat_2 = 0
+ ( 3)  treat_3 = 0
+
+       F(  3,    59) =    5.39
+            Prob > F =    0.0024
+
+. loc pjoint = `r(p)'
+
+. 
+. 
+. 
+. outreg2 using "$path/outreg.doc", append keep(treat_1 treat_2 treat_3) addstat("D
+> V Mean", `dvmean', "Group vs Individual coaching", `p1', "Joint significance p-va
+> lue", `pjoint') addtext("Covariates", "Yes") label bracket word 
+/Users/ebeam/Dropbox/Labs//outreg.doc
+dir : seeout
+
+. 
+. 
+. 
+end of do-file
+
+. seeout using "/Users/ebeam/Dropbox/Labs//outreg.txt", label
