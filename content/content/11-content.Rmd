@@ -28,15 +28,16 @@ thumb: /slides/rweek-slides.png
 
 ---
 
-
-
-# Presenting results
+# Writing Papers
 
 ## Slides
 
 `r blogdown::shortcode("slides")`
 
-## Empirical specification template
+## Presenting results
+
+
+### Empirical specification template
 
 *A helpful, five-step template!*[^1]
 
@@ -81,26 +82,26 @@ If you are using multiple specifications, then you have two options:
 - If it's a matter of adding additional controls, then mention that you will also add them in a second model in part (3). 
 - If it's a fundamentally different population model, then include a second model, and define any terms that were not previously defined. Make sure to discuss how the interpretation of results would differ. 
 
-## Working with `outreg2`
+### Working with `outreg2`
 
 Download sample [code](../practice/EC200-12-02-example1.do), which uses [`graduation.dta`](../practice/graduation.dta)
 
 
-## Video 
+### Video 
 `r htmltools::HTML("{{< youtube 0BBETxa-2Jw >}}")`
 
 
 
-# Introductions and conclusions 
+## Introductions and conclusions 
 
-## The introduction formula 
+### The introduction formula 
 Listen to Keith Head and follow ["The Introduction Formula"](http://blogs.ubc.ca/khead/research/research-advice/formula)
 
 
 
-## Links
+### Links
 
-### Introductions
+#### Introductions
 
 - [The Introduction Formula](http://blogs.ubc.ca/khead/research/research-advice/formula), Keith Head
 - [Writing Tips for Ph.D. Students](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5f62a398731cc06411b39f48/1600299928487/phd_paper_writing.pdf), John Cochrane
@@ -108,11 +109,10 @@ Listen to Keith Head and follow ["The Introduction Formula"](http://blogs.ubc.ca
 - [How to write the introduction of your development economics paper](https://www.cgdev.org/blog/how-write-introduction-your-development-economics-paper), Dave Evans surveys the structure of published papers
 
 
-### Conclusions
+#### Conclusions
 - [The Conclusion Formula](http://marcfbellemare.com/wordpress/12060), Marc Bellemare
 
-
-# General guidance for paper writing 
+## General guidance for paper writing 
 - [Four steps to an applied micro paper](https://www.brown.edu/Research/Shapiro/pdfs/foursteps.pdf), Jesse Shapiro
 - [How to write applied papers in economics](http://marcfbellemare.com/wordpress/wp-content/uploads/2020/09/BellemareHowToPaperSeptember2020.pdf), Marc Bellemare
 - [*Economical Writing*](http://www.deirdremccloskey.com/docs/pdf/Article_86.pdf), Deidre McCloskey
