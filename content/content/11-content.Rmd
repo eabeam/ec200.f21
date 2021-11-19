@@ -28,6 +28,8 @@ thumb: /slides/rweek-slides.png
 
 ---
 
+
+
 # Presenting results
 
 ## Slides
@@ -86,3 +88,34 @@ Download sample [code](../practice/EC200-12-02-example1.do), which uses [`gradua
 
 ## Video 
 `r htmltools::HTML("{{< youtube 0BBETxa-2Jw >}}")`
+
+
+
+# Introductions and conclusions 
+
+## The introduction formula 
+Listen to Keith Head and follow ["The Introduction Formula"](http://blogs.ubc.ca/khead/research/research-advice/formula)
+
+
+
+## Links
+
+### Introductions
+
+- [The Introduction Formula](http://blogs.ubc.ca/khead/research/research-advice/formula), Keith Head
+- [Writing Tips for Ph.D. Students](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5f62a398731cc06411b39f48/1600299928487/phd_paper_writing.pdf), John Cochrane
+- [We need to talk MORE](https://macromomblog.com/2019/09/29/we-need-to-talk-more/) Claudia Sahm (general paper writing guidance), with special attention to introductions
+- [How to write the introduction of your development economics paper](https://www.cgdev.org/blog/how-write-introduction-your-development-economics-paper), Dave Evans surveys the structure of published papers
+
+
+### Conclusions
+- [The Conclusion Formula](http://marcfbellemare.com/wordpress/12060), Marc Bellemare
+
+
+# General guidance for paper writing 
+- [Four steps to an applied micro paper](https://www.brown.edu/Research/Shapiro/pdfs/foursteps.pdf), Jesse Shapiro
+- [How to write applied papers in economics](http://marcfbellemare.com/wordpress/wp-content/uploads/2020/09/BellemareHowToPaperSeptember2020.pdf), Marc Bellemare
+- [*Economical Writing*](http://www.deirdremccloskey.com/docs/pdf/Article_86.pdf), Deidre McCloskey
+- [Writing papers: a checklist](https://static1.squarespace.com/static/55c143d9e4b0cb07521c6d17/t/5910bd1246c3c4fdbdf9976a/1494269202424/Kremer+on+writing+papers.pdf), Michael Kremer
+
+

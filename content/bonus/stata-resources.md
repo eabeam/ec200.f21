@@ -48,6 +48,8 @@ Our Stata labs will get you started with Stata, but at some point you'll want to
 ## General Resources
 
 - [Library of Statistical Techniques (LOST)](https://lost-stats.github.io/)	 - Start with what you want to do and you'll find walkthroughs in Stata and R! 
+- Masayuki Kudamatsu's [Compendium of Stata advice](https://sites.google.com/site/mkudamatsu/stata)
+- [Code and Data for the Social Sciences: A Practitioner's Guide](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf): Matthew Gentzkow and Jesse Shapiro
 
 
 _If you come across something else, let me know and I'll pass along the recommendation!_
