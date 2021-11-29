@@ -30,7 +30,7 @@ thumb: /slides/ch12-slides.png
 
 ## Overview
 
-Let's wrap up with a final hurrah - one more empirical tool to help us identify *causal impacts*  
+Let's wrap up with a final hurrah - one more empirical tool to help us identify *causal impacts*.  
 
 ## Reading Guide
 
