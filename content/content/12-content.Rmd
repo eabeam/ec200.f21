@@ -73,10 +73,8 @@ Getting your head around IV can be tricky! Here are a few resources if you want 
 
 `r blogdown::shortcode("slides")`
 
-## Videos
+##  [Video: Introduction to IV](https://youtu.be/MeHHe303JuI )
 
-
-### [Video: Introduction to IV](https://youtu.be/MeHHe303JuI )
 `r htmltools::HTML("{{< youtube MeHHe303JuI >}}")`
 
 
