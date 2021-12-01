@@ -1,7 +1,7 @@
 ---
 title: "Lab 8: Instrumental variables"
 linktitle: "Lab 8"
-date: "2021-12-01"
+date: "2021-11-30"
 due_date: "2021-12-08"
 due_time: "2:20 PM"
 menu:
@@ -15,6 +15,7 @@ output:
 editor_options: 
   chunk_output_type: console
 ---
+**[Print-friendly pdf](../08-lab.pdf)**
 
 It's our final lab of the semester! :raised_hands: :trophy: :dancer: :clap:
 
@@ -22,7 +23,7 @@ It's our final lab of the semester! :raised_hands: :trophy: :dancer: :clap:
 
 - [`voucher.dta`](../materials/voucher.dta)
 
-- Do-file template [`labtemplate.do`](../materials/labtemplate_f20.do) 
+- Do-file template [`labtemplate_f21.do`](../materials/labtemplate_f21.do) 
 
 
 ## Objectives {#objectives .unnumbered}
@@ -216,8 +217,5 @@ References: Rouse, Cecilia Elena (1998), "Private School Vouchers and
 Student Achievement: An Evaluation of the Milwaukee Parental Choice
 Program," *The Quarterly Journal of Economics* 113(2), 553-602.
 
-## Class Recording 
 
-
-<iframe src="https://streaming.uvm.edu/media/embed/85lXjkW/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
 
