@@ -100,7 +100,7 @@ Two things that may be useful to you:
 `r blogdown::shortcode("slides")`
 
 
-#### Fall 2020 in-class review
+## Fall 2020 in-class review
 
 **Start around 22-minute mark ** 
 
